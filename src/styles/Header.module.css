@@ -1,0 +1,286 @@
+.border{
+    border-right: 1px solid white;
+}
+
+
+.align_menu{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: unset;
+    
+}
+.menulinks{
+    padding: 11px 0 13px 22px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: none; 
+    font-family: 'Inter', sans-serif;
+}
+.navlinks{
+    list-style: none;
+}
+
+.headertel{
+    font-size: 16px;
+    padding: 12px 18px;
+    border-radius: 0;
+    background-color: #16467d;
+    border: 0;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+.headerbtncolor { color: #fff; text-decoration: none; text-transform: uppercase;  }
+
+.navalign{     justify-content: flex-end;   }
+
+.headertel:hover {
+    background-color: black;
+    color: white;
+}
+.headerbtncolor:hover {
+    background-color: black;
+    color: white;
+}
+.megamenu.active{
+
+}
+.megamenu ul{
+    padding: 0;
+    margin: 0;
+}
+
+.megamenu ul li a{
+    color: #fff;
+}
+
+
+
+.megamenu{
+    visibility: hidden;
+    position: absolute;
+    border-radius: 4px;
+    border: 0;
+    box-shadow: 0 0 5px 0 #292929;
+    background-color: #16467d;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 56.5%;
+    margin-top: .5%;
+   
+}
+
+.serviceshover:hover .megamenu {
+    display: flex;
+    position: absolute;
+    visibility: visible;
+    
+}
+
+.headerbtnspacing{
+    position: relative;
+    left: 10px;
+}
+
+.headericon{
+    display: flex;
+    align-items: center;
+}
+
+/* .bigIcon1 {
+    position: relative;
+    left: -4px;
+} */
+
+.headerhome{
+  
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.megamenu ul li a {
+    margin: 10px 0 0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 2em;
+}
+@media (max-width:1920px)  {
+
+    .serviceshover:hover .megamenu {
+        display: flex;
+        position: absolute;
+        visibility: visible;
+        width: 48.5%;
+    }
+
+    
+}
+
+@media (max-width:1440px)  {
+
+    .serviceshover:hover .megamenu {
+        display: flex;
+        position: absolute;
+        visibility: visible;
+        width: 56%;
+    }
+
+
+}
+@media (max-width:1280px)  {
+
+    .megamenu{
+        width: 41%;
+    }
+    .serviceshover:hover .megamenu {
+        display: flex;
+        position: absolute;
+        visibility: visible;
+        width: 41%;
+    }
+
+    .megamenu ul li a {
+
+        font-size: 10px;
+        font-weight: 500;
+
+    }
+
+
+    .menulinks {
+        padding: 11px 0 13px 17px;
+        font-size: 12px;
+      
+    }
+    .headertel{
+        font-size: 12px;
+        padding: 12px 7px;
+ 
+    }
+   
+
+}
+
+
+@media (max-width:1215px)  {
+
+    .serviceshover:hover .megamenu {
+        display: flex;
+        position: absolute;
+        visibility: visible;
+        width: 51%;
+    }
+
+}
+@media (max-width:1024px)  { 
+    .megamenu ul li a {
+        font-size: 9px;
+    }
+}
+@media (max-width:991px)  {
+
+    .headertel {
+        width: 30%;
+    }
+
+    .align_menu {
+        width: 100%;
+    }
+
+    .serviceshover:hover .megamenu {
+        display: unset;
+        position: unset;
+        visibility: unset!important;
+        
+    }
+
+   .headerhome .megamenu {
+        visibility: visible;
+        position: unset;
+        display: none!important;
+        width: 100%;
+        background-color: unset;
+        color: #000;
+        box-shadow:unset;
+        
+    }
+
+.headerhome .megamenu.active{
+    display: block!important;
+}
+
+ 
+    .megamenu ul li a {
+        color: black;
+        
+    }
+    .megamenu ul li  {
+        width: max-content;
+        
+    }
+.headerhome .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    background-color: #16467d;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.align_menu {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: unset;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 4%;
+}
+
+
+.headerhome {
+    position: unset; 
+    top: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.headerbtnspacing{
+    position: relative;
+    left: unset;
+}
+.headericon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+
+}
+.headertel{
+    
+margin-top: 1%;
+text-align: center;
+
+}
+
+
+
+}
+
+@media (max-width:480px)  {
+
+.align_menu {
+ 
+    width: 50%;
+
+}
+
+.headertel{
+    width: 80%;
+}
+}

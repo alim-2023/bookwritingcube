@@ -1,0 +1,87 @@
+.banner{
+  background-image: url(/images/bannerimages/homebanner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 170px;
+  padding-bottom: 70px;
+  background-position: center;
+  font-family: 'inter';
+
+}
+
+.discuss{
+
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 30px;
+    border: 2px solid #16467d;
+    color: #000;
+    text-decoration: unset;
+    font-family: 'Inter';
+}
+.homenumer:hover{
+    color:white;
+}
+.homenumer{
+    border: 0;
+    padding: 12px 30px;
+    border-radius: 0;
+    background-color: #16467d;
+    color: #fff;
+    text-decoration: unset;
+    margin-left: 10px;
+    border: 1px solid #16467d;
+    font-family: 'Inter';
+}
+
+.homebannerlogo{
+    margin-top: 40px;
+}
+
+
+@media (max-width:991px)  {
+
+.banner {
+ 
+    padding-top: 70px;
+ 
+}
+}
+@media (max-width:767px)  {
+
+.banner {
+    background-image: unset;
+    background-color: #f1f1f1;
+}
+
+}
+
+
+@media (max-width:480px)  {
+
+
+    .discuss{
+        font-size: 11px;
+        padding: 12px 14px;
+        
+    }
+
+    .homenumer {
+        font-size: 11px;
+        padding: 12px 14px;
+    }
+    .homelogoimgnone{
+        display: none;
+    }
+    
+
+    .banner {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+    .formalign{
+        padding-top: 2%;
+        margin-bottom: 9%;
+    }
+}
