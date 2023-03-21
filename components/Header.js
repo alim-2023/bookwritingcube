@@ -11,7 +11,7 @@ import logo from '../public/images/logo.png';
 
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { IoMdArrowDropdown } from 'react-icons/io';
-import Sticky from './sticky';
+import Sticky from '../components/Sticky';
 
 
 
