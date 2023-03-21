@@ -44,7 +44,7 @@ const Header = () => {
             <Navbar.Collapse id="basic-navbar-nav" className={styles.navalign}>
               <ul className={styles.align_menu}>
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="/">Home</Link></li>
-                <li className={styles.navlinks}><Link className={styles.menulinks} href="">About us</Link></li>
+                <li className={styles.navlinks}><Link className={styles.menulinks} href="/About">About us</Link></li>
                 <li onClick={toggle} className={`${styles.navlinks} ${styles.serviceshover}`}><Link className={styles.menulinks} href="">Services <IoMdArrowDropdown size={12} /></Link>
 
                   <Row className={click ? `${styles.megamenu} ${styles.active}` : `${styles.megamenu}`}>

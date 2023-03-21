@@ -8,6 +8,16 @@
   font-family: 'inter';
 
 }
+.aboutbanner{
+  background-image: url(/images/bannerimages/aboutbanner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 170px;
+  padding-bottom: 70px;
+  background-position: center;
+  font-family: 'inter';
+
+}
 
 .discuss{
 
