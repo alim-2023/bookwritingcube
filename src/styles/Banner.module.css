@@ -51,6 +51,11 @@
 
 @media (max-width:991px)  {
 
+
+    .aboutbanner{
+        padding-top: 70px;
+    }
+
 .banner {
  
     padding-top: 70px;

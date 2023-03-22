@@ -33,3 +33,27 @@
 .imgshowdow{
     box-shadow: 0 0 21px 3px #ddd;
 }
+
+@media (max-width:991px)  {
+
+   
+    .asnumber {
+        display: block;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 1%;
+    }
+    .asdiscuss {
+        display: block;
+        text-align: center;
+    }
+
+}
+@media (max-width:767px)  {
+
+   
+    .imgshowdow{
+        margin-top: 5%;
+    }
+
+}

@@ -11,9 +11,8 @@ import Image from 'next/image'
 import howdoimg from '/public/images/howdowecomeintobeing/howdowecomeintobeing.png'
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import whychoosebookritingcube from '/public/images/whychoosebookritingcube/whychoosebookritingcube.png'
-
-
 import Dowecome from '../../components/Dowecome'
+import Aspiring from '../../components/Aspiring'
 
 
 const About = () => {
@@ -140,8 +139,17 @@ discuss="LET'S DISCUSS"
 {/* Talk To Our Whatourclients! */}
 <Whatourclients/>
 
+{/* Aspiring */}
+<Aspiring
+ title='Over to you, all the courageous aspiring authors!'
+ text="“A book is all about the verbal artificiality of reality and how well you convey your idea through this—and this is what we aim to bring out. We respect the efforts of every client, as we know what it takes to write a book. That’s why we try not to disrupt the original idea but make it sound convincing.” – A message from teams of The Bookwriting Cube."
+ number="+1-302-883-8877"
+ discuss="LET'S DISCUSS"
 
 
+
+
+/>
 
 
 

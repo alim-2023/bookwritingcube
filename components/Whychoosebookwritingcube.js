@@ -26,6 +26,7 @@ const Whychoosebookwritingcube = (props) => {
 
                 <Col md={6}>
 
+<div className={styles.cube}>
                
                     <h3 className="fw900 font40 color-blue font-f mb-2">{props.title}</h3>
                      <p className='font15 fw500 font-f'>{props.text}</p>
@@ -41,6 +42,8 @@ const Whychoosebookwritingcube = (props) => {
                         <Link className={styles.asdiscuss} href="#">{props.discuss}</Link>
                         <Link className={styles.asnumber} href="tel:+1-302-883-8877"> {props.number}</Link>
                         
+                    </div>
+
                     </div>
 
                     

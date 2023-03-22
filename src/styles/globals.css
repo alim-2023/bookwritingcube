@@ -82,6 +82,13 @@ body{ font-family: 'Inter'; }
 
 @media (max-width:991px)  {
 
+  .font40 {
+    font-size: 23px;
+}
+.font15 {
+    font-size: 14px;
+}
+
   .font17 {
     font-size: 15px;
 }
@@ -97,6 +104,9 @@ body{ font-family: 'Inter'; }
 
   font-size: 13px;
 
+}
+.font30 {
+  font-size: 21px;
 }
 
 
