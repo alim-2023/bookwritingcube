@@ -80,8 +80,8 @@ const Makestories = () => {
         <div className={styles.makestories}>
       
       <Container>
-        <h2 class="fw900 font48 color-blue font-f t-center">We make stories… happen!</h2>
-        <h4 class="font18 fw500 font-f t-center">Let us help you tell it.</h4>
+        <h2 className="fw900 font48 color-blue font-f t-center">We make stories… happen!</h2>
+        <h4 className="font18 fw500 font-f t-center">Let us help you tell it.</h4>
 
         <Slider {...makestories}>
                      

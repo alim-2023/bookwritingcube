@@ -1,0 +1,35 @@
+.Dowecome{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #f1f1f1;
+}
+.Dowecome .middle{
+    align-items: center;
+}
+
+.asnumber{
+    border: 0;
+    padding: 12px 30px;
+    border-radius: 0;
+    background-color: #16467d;
+    color: #fff;
+    text-decoration: unset;
+    margin-left: 10px;
+    border: 1px solid #16467d;
+    font-family: 'Inter';
+}
+.asnumber:hover{
+    color:white;
+}
+.asdiscuss{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 30px;
+    border: 2px solid #16467d;
+    color: #000;
+    text-decoration: unset;
+    font-family: 'Inter';
+}
+.imgshowdow{
+    box-shadow: 0 0 21px 3px #ddd;
+}

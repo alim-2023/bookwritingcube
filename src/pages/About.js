@@ -6,9 +6,18 @@ import Experts from '../../components/Experts'
 import Whatourclients from '../../components/Whatourclients'
 import Head from 'next/head'
 import Makestories from '../../components/Makestories'
+import Lululogos from '../../components/Lululogos'
+import Image from 'next/image'
+import howdoimg from '/public/images/howdowecomeintobeing/howdowecomeintobeing.png'
+import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
+import whychoosebookritingcube from '/public/images/whychoosebookritingcube/whychoosebookritingcube.png'
+
+
+import Dowecome from '../../components/Dowecome'
 
 
 const About = () => {
+
 
     const bannertext=[
         {
@@ -23,6 +32,14 @@ const About = () => {
     
         }
       ]
+
+
+
+    
+
+
+
+
   return (
     <>
 
@@ -78,9 +95,35 @@ const About = () => {
 {/* Makestories */}
 <Makestories/>
 
+{/* Dowecome */}
+<Dowecome
+ title='How Do We Come Into Being?'
+ text="It calls for storytime! At first, it was just an idea to escape the daily 9 to 5 frustration and explore the storyteller hiding within. So after attempting multiple book writing projects, it convinced me of my storytelling destiny. Relaxing and solving the rubic’s cube, I came up with the name and booked the domain. It was my eureka moment!"
+ subtext="So it is our story of inspiration and courage to do what we want. If you are inspired to write and put the courage to pen down a story, we are pretty sure you want it to be a bestseller? Why not let us be your guide in the journey from a writer to a bestseller?"
+ number="+1-302-883-8877"
+ discuss="LET'S DISCUSS"
+ image={howdoimg}
+ Dowecome= "Dowecome"
+ 
 
-{/* partners components */}
-<Partners/>  
+
+/>
+
+
+{/* Lululogos components */}
+<Lululogos/>
+
+
+{/* Whychoosebookwritingcube */}
+<Whychoosebookwritingcube
+ title='Why Choose Book Writing Cube?'
+ text="Started as a small online organization, expanded the team from a few to a handful of people, and set the office. We put our skills, experience, and everything we knew of book writing, editing, publishing, and marketing to acquire a significant clientele. Soon, we got partnerships with publications houses, reputable editors, and experienced marketers—it was my dream come true!"
+ number="+1-302-883-8877"
+ discuss="LET'S DISCUSS"
+ image={whychoosebookritingcube}
+ whychooseclass= "whychoosebookwritingcube"
+
+/>
 
 
 
@@ -96,9 +139,15 @@ discuss="LET'S DISCUSS"
 
 {/* Talk To Our Whatourclients! */}
 <Whatourclients/>
+
+
+
+
+
+
     
     </>
-  )
+  ) 
 }
 
 export default About

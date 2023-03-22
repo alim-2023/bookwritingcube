@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import whychoose from '/public/images/whychoosebooks/whychoosebook.png'
 import Comprehensive from '../../components/Comprehensive'
-
+import Lululogos from '../../components/Lululogos'
 
 
 
@@ -17,6 +17,7 @@ import Gotastory from '../../components/Gotastory'
 import Experts from '../../components/Experts'
 import Whatourclients from '../../components/Whatourclients'
 import Requestafreequote from '../../components/Requestafreequote'
+import Link from 'next/link'
 
 
 
@@ -105,8 +106,8 @@ text="Let us help you tell it."
 {/*  Comprehensive */}
 <Comprehensive />
 
-{/* partners components */}
-<Partners/>
+{/* Lululogos components */}
+<Lululogos/>
 
 
 {/* Why Choose Book Writing Cube? */}
