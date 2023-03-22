@@ -19,6 +19,17 @@
 
 }
 
+
+.faqs{
+    background-image: url(/images/bannerimages/faqsbanner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    background-position: center;
+    font-family: 'inter';
+}
+
 .discuss{
 
     font-size: 15px;

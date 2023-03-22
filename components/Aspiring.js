@@ -33,7 +33,7 @@ const Aspiring = (props) => {
                     </Col>
                     <Col md={4}>
 <div className={styles.formsaspire}>
-<h4 class="t-center font30 fw900 color-black">
+<h4 className="t-center font30 fw900 color-black">
                                 Get A Free Quote
                             </h4>
 

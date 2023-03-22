@@ -90,7 +90,7 @@ const Header = () => {
 
                 </li>
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="">Pricing</Link></li>
-                <li className={styles.navlinks}><Link className={styles.menulinks} href="">Faqs</Link></li>
+                <li className={styles.navlinks}><Link className={styles.menulinks} href="/Faqs">Faqs</Link></li>
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="">Blogs</Link></li>
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="">Contact us</Link></li>
               </ul>
