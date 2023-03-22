@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Banner from '../../components/Banner'
 import Aspiring from '../../components/Aspiring'
 import Partners from '../../components/Partners'
+import Faqslist from '../../components/Faqslist'
 
 
 
@@ -73,6 +74,10 @@ const Faqs = () => {
 
 {/* partners components */}
 <Partners/> 
+
+
+{/* Faqslist */}
+<Faqslist />
 
 
 
