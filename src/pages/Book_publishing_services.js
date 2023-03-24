@@ -14,13 +14,12 @@ import publishmybook from '/public/images/selfpublishingservices/publishmybook.p
 import typeofbooks from '/public/images/selfpublishingservices/typeofbooks.png'
 import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
 import copy from '/public/images/selfpublishingservices/copy.png'
-
-
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Link from 'next/link'
 import { Container,Row,Col } from 'react-bootstrap'
-
-
+import Bookpublishingservices from '../../components/Bookpublishingservices'
+import Whybookpublishing from '../../components/Whybookpublishing'
+import styles from '@/styles/whybookpublishing.module.css'
 
 const Book_publishing_services = () => {
 
@@ -44,6 +43,37 @@ const text = <span>We write, edit, publish and market all genres of books. Also,
 const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
 
 const  kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="#" className='textdocationnone'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
+
+
+const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="#">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
+
+
+const whybookpublishingdata = [
+
+{
+  title: 'How can I publish my book?',
+  text:  'The first thing you need to do after making up your mind about publishing a book is to find a publishing house. There are several types of publications including online publication, paperback or hardcopy publishing as well as self Publication. You need to select the kind of publication you want and then work with the publisher company to assist you with the process.',
+  col6: '6',
+},
+{
+  title: 'What’s different about Self Publishing?',
+  text: 'By self publishing a book, you get full authority of your work including the management and other processes of publishing like editing, cover design and even marketing strategies. You have to pay a certain amount as fee and you get to call the shots! At Book Writing Cube, different teams designated for different kinds of publications.',
+  col6: '6',
+},
+{
+title:'How much does it cost to have a book published?',
+text:'If you’re worried about the initial investment you have to put in order to get your book published, don’t fret too much! There are various packages available from which you can select the one that works for you. We work with every kind of budget to give your clients the best experience and help them publish their work for the world to read!',
+col6: '6',
+},
+{
+title:'Can I publish on different publishing platforms?',
+text: datapost,
+col6: '6',
+},
+
+]
+
+
 
 
   return (
@@ -77,6 +107,9 @@ const  kindledirectpublishing = <span>Providing the Highest quality and cost-eff
 
    </Head>
    
+
+
+   
    {/* banner components */}
 
    {bannertext.map((item, i) =>
@@ -101,7 +134,29 @@ para='Let Our Book Publishing Team Help You'
 />
 
 
+{/* Whybookpublishing */}
+<div className={styles.whybookpublishing}>
+  <Container>
 
+  <Row>
+    <h2 className='font48 fw900 color-blue t-center'>Why Book Publishing?</h2>
+    <p className='font15 fw500 color-black t-center pb-5'>
+                        Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!
+                    </p>
+
+  </Row>
+
+    <Row>
+      {whybookpublishingdata.map((item, i) =>
+        <Whybookpublishing  key={i}
+          title={item.title}
+          text={item.text}
+          col6={item.col6}
+        />
+      )}
+    </Row>            
+  </Container>   
+</div>
 
 {/* Lululogos components */}
 <Lululogos/>
@@ -151,8 +206,6 @@ image={publishmybook}
  discuss="LET'S DISCUSS"
 Dowecome= "publishmybook"
 image={copy}
-
-
 />
 
 
@@ -172,10 +225,14 @@ whychooseclass= "marketyourbook"
  <Customersatisfaction/>
 
 
+ {/* Bookpublishingservices */}
+ <Bookpublishingservices/>
+
+
 {/* Why Choose Book Writing Cube? */}
 <Whychoosebook
-   title="Here’s How We Buckle up To Drive the Book Promotion Engine!"
-  text="We have a team of marketing maestros who maximize the marketing channels and make your book the talk of the town. Here is a recipe of how their marketing is cooked to perfection:"
+   title="What Is Our Book Publishing Process?"
+  text="We have devised an elaborate workflow process to maximize transparency while also making sure that the final product's quality does not suffer. We do this through an extensive process of asking for approvals and updating our customers at every project stage. This helps a customer understand where we're coming from and be aware of what's going on. Our self publishing process follows these six stages, as listed below."
   whychoose= {drivethebook1}
  />
 
@@ -186,11 +243,14 @@ whychooseclass= "marketyourbook"
  text="Design is the most important aspect when it comes to selling books. We know that might sound like an old cliché, but designing your cover will deliver layout and build intrigue for potential readers; they’ll want more after seeing what’s in store within these pages! So don’t settle on anything less than perfection – let us help make sure every manuscript looks exactly how you envisioned through Book Writing Cube."
  number="+1-302-883-8877"
  discuss="LET'S DISCUSS"
-
-
-
-
 />
+
+
+
+
+
+
+
 
    </>
   )
