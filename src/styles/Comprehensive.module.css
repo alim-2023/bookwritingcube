@@ -51,7 +51,7 @@
     padding: 5%;
 
   }
-  .flipcardback h1{
+  .flipcardback h3{
     color:black;
     font-weight: 900;
     font-size: 20px;
@@ -63,7 +63,7 @@
     font-weight: 500;
   }
 
-  .flipcardfront h1{
+  .flipcardfront h3{
     font-size: 25px;
     font-weight: 500;
     color: #16467d;

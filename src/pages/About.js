@@ -13,6 +13,7 @@ import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import whychoosebookritingcube from '/public/images/whychoosebookritingcube/whychoosebookritingcube.png'
 import Dowecome from '../../components/Dowecome'
 import Aspiring from '../../components/Aspiring'
+import Link from 'next/link'
 
 
 const About = () => {
@@ -32,8 +33,11 @@ const About = () => {
         }
       ]
 
-
-
+      const greeting1 = 'Welcome to React';
+      const greeting = {
+        title:  <p> Providing the Highest quality and cost-effective <Link href="/posts/first-post">kindle direct publishing</Link>  and printing services to our clients, with shipping and handling across the state.</p>,
+        description: 'Your component library for ...',
+      };
     
 
 
@@ -75,7 +79,6 @@ const About = () => {
 
 </Head>    
 {/* banner components */}
-
 {bannertext.map((item, i) =>
         <Banner key={i}
           title={item.title}
@@ -92,7 +95,10 @@ const About = () => {
 <Partners/>   
 
 {/* Makestories */}
-<Makestories/>
+<Makestories
+title='We make stories… happen!'
+para='Let us help you tell it.'
+/>
 
 {/* Dowecome */}
 <Dowecome
@@ -141,7 +147,8 @@ discuss="LET'S DISCUSS"
 
 {/* Aspiring */}
 <Aspiring
- title='Over to you, all the courageous aspiring authors!'
+ title= 'Over to you, all the courageous aspiring authors!'
+//  title= 'Over to you, all the courageous aspiring authors!' {...greeting}
  text="“A book is all about the verbal artificiality of reality and how well you convey your idea through this—and this is what we aim to bring out. We respect the efforts of every client, as we know what it takes to write a book. That’s why we try not to disrupt the original idea but make it sound convincing.” – A message from teams of The Bookwriting Cube."
  number="+1-302-883-8877"
  discuss="LET'S DISCUSS"

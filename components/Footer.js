@@ -97,8 +97,8 @@ const Footer = () => {
             {
               breakpoint: 1024,
               settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
+                slidesToShow: 2,
+                slidesToScroll: 2,
                 infinite: true,
                
               }
@@ -133,7 +133,7 @@ const Footer = () => {
             {
               breakpoint: 1024,
               settings: {
-                slidesToShow: 1,
+                slidesToShow: 2,
                 slidesToScroll: 1,
                 infinite: true,
                

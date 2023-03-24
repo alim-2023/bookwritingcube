@@ -12,7 +12,15 @@ const Dowecome = (props) => {
         <Container>
             <Row className={styles.middle}>
                 <Col md={6}>
-                            <h3 className="fw900 font40 color-blue font-f mb-2">{props.title}</h3>
+
+                  <div className={styles.dowemargin}> 
+                     <h3 className="fw900 font40 color-blue font-f mb-2">{props.title}</h3>
+
+                     { props.subheading ?
+                        <h4 className={`${styles.subheading} font17 fw500 color-black font-f`}>{props.subheading}</h4>
+                     :
+''
+}
 
                         <p className='font15 fw500 font-f'>{props.text}</p>
 
@@ -29,7 +37,7 @@ const Dowecome = (props) => {
                             <Link className={styles.asnumber} href="tel:+1-302-883-8877"> {props.number}</Link>
                             
                         </div>
-       
+                        </div> 
                     
                 </Col>    
                 <Col md={6}>

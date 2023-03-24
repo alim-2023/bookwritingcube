@@ -67,7 +67,7 @@ const Whatourclients = () => {
   return (
    <>
     <div className={styles.ourclients}>
-      <Container>
+      <Container className='testtimonials'>
        <h2 className='fw900 font48 color-blue font-f t-center'>What Our Clients Says About Us</h2>
 
 

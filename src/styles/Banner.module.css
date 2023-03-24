@@ -19,7 +19,34 @@
 
 }
 
+.pricing{
+    background-image: url(/images/bannerimages/pricing.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    background-position: center;
+    font-family: 'inter';
+    text-align: center;
+}
+.bookpublishingservices{
+    background-image: url(/images/bannerimages/bookpublishingservices.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    background-position: center;
+    font-family: 'inter';
+}
 
+.homenumer:hover {
+
+    background-color: black;
+}
+.alignclass{
+    width: 69%;
+    margin: 0 auto;
+  }
 .faqs{
     background-image: url(/images/bannerimages/faqsbanner.jpg);
     background-size: cover;
@@ -61,6 +88,10 @@
 
 
 @media (max-width:991px)  {
+
+    .bookpublishingservices{
+        padding-top: 70px;
+    }
 
     .faqs {
        

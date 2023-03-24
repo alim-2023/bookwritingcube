@@ -20,7 +20,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
 
-const Makestories = () => {
+const Makestories = (props) => {
 
 
     const makestoriesimg =
@@ -80,8 +80,8 @@ const Makestories = () => {
         <div className={styles.makestories}>
       
       <Container>
-        <h2 className="fw900 font48 color-blue font-f t-center">We make stories… happen!</h2>
-        <h4 className="font18 fw500 font-f t-center">Let us help you tell it.</h4>
+        <h2 className="fw900 font48 color-blue font-f t-center">{props.title} </h2>
+        <h2 className="font18 fw500 font-f t-center"> {props.para}</h2>
 
         <Slider {...makestories}>
                      

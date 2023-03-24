@@ -1,0 +1,56 @@
+.formfree{
+    padding: 10px 0;
+    border: none;
+    border-radius: 0;
+    outline: 0;
+    margin: 0;
+    background: rgba(0,0,0,0);
+    border-bottom: 1px solid #a6a6a6;
+    width: 100%;
+   
+}
+.formsaspire{
+    background-color: #fff;
+    box-shadow: 0 0 20px 1px #ddd;
+    padding: 7%;
+}
+
+
+
+.label {
+    color: #000;
+    margin-top: 12px;
+    font-size: 14px;
+
+}
+
+.formfree::placeholder{
+    font-size: 14px;
+    font-weight: 500;
+    color: #a6a6a6;
+}
+
+.freebtn{
+    font-size: 16px;
+    padding: 12px 30px;
+    border-radius: 0;
+    background-color: #16467d;
+    border: 0;
+    color: #fff;
+    width: 100%;
+    margin-top: 3%;
+    text-transform: uppercase;
+    font-family: 'Inter';
+}
+.middle{
+    align-items: center;
+}
+
+@media (max-width:767px)  {
+
+    .formsaspire{
+        margin-top: 9%;
+    }
+
+
+}

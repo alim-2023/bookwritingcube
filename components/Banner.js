@@ -72,25 +72,47 @@ const Banner = (props) => {
 
       <Container>
          <Row>
-              <Col md={7}>
+              <Col md={7} className={styles[props.alignclass]}>
 
                 <div className={styles.homebannertext}>
 
-                    <h1 className='font48 fw900 color-blue font-f'> {props.title} </h1>
-                    <p className='fw500 font18 color-black font-f mt-4'>{props.text}</p>
+                  { props.title ?
+                  <h1 className='font48 fw900 color-blue font-f'> {props.title} </h1>
+                  : 
+                  ''
+                  }
 
+                  { props.text ?
+
+                  <p className='fw500 font18 color-black font-f mt-4'>{props.text}</p>
+                  : 
+                  ''
+                  }
+
+                { props.subtext ?
+
+                <p className='fw500 font18 color-black font-f mt-4'> <strong>{props.publishers }</strong> {props.subtext}</p>
+                : 
+                ''
+                }
+
+                    
+
+                  { props.discuss ? 
                   <div className='mt-5'>
                     <Link className={styles.discuss} href="#">{props.discuss}</Link>  
                     <Link className={styles.homenumer} href="tel:(302) 883-8877"> {props.homebannernum}</Link>
                   </div>
+                  : 
+                  ''
+                  }
 
+{ props.homebanlogos ?  
                   <div className={styles.homebannerlogo}>
                       <Image className={`${styles.homelogoimgnone} img-fluid`} src={props.homebanlogos} alt='homebanlogos' ></Image>
 
 
                    <Slider {...bannerslider} className='mt-5'>
-                     
-
                    {bannerlogo.map((item, i) => {
                                   return(  
                       <div key={i}>
@@ -98,18 +120,14 @@ const Banner = (props) => {
                       </div>
                     )
                   })}
-                   
-                    
-
-
-                  
-                     
                    </Slider>
 
 
 
                   </div>
-
+: 
+''
+}
                 </div>
 
               </Col>

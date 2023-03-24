@@ -10,7 +10,9 @@ body{ font-family: 'Inter'; }
   .color-white{ color: #fff;}
 
 
-
+.textdocationnone{
+  text-decoration: none;
+}
 
 /* fontsizes */
 .font48 {  font-size: 48px;  }
@@ -61,8 +63,8 @@ body{ font-family: 'Inter'; }
 }
 
 
-.slick-dots li button:before {
-  font-size: 16px!important;
+.testtimonials .slick-dots li button:before {
+  font-size: 16px;
   
 }
 .faqheading.accordion-header .accordion-button{
@@ -103,6 +105,31 @@ body{ font-family: 'Inter'; }
   border: 1px solid #000000;
 }
 
+
+/* .testtimonials .slick-prev, .slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: white;
+  border: none;
+  outline: none;
+  background: #262525;
+  border-radius: 50px;
+} */
+
+.servicetitle{
+  padding-top: 55px;
+}
+
+
+
 @media (max-width:1280px)  {
 
   .font48 {
@@ -115,6 +142,9 @@ body{ font-family: 'Inter'; }
 }
 
 @media (max-width:991px)  {
+  .font16 {
+    font-size: 13px;
+}
 
   .font40 {
     font-size: 23px;

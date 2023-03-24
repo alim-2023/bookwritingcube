@@ -31,7 +31,7 @@
 }
 
 .sticky li p {
-    padding-left: 15px;
+    padding-left: 8px;
     margin: 0;
     line-height: 16px;
     font-size: 11px;
@@ -39,7 +39,7 @@
 .sticky li p a {
     text-decoration: none;
     color: #fff;
-    padding-left: 0!important;
+ 
 }
 .sticky li p a {
     font-size: 15px;

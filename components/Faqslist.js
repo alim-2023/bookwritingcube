@@ -14,7 +14,7 @@ const Faqslist = () => {
         <Container>
 <Row>
 <Col md={12}>
-<h2 class="fw800 font40 color-blue font-f t-center mb-4">FAQ'S</h2>
+<h2 className="fw800 font40 color-blue font-f t-center mb-4">FAQ'S</h2>
 
 <Accordion defaultActiveKey="0">
         <Accordion.Item eventKey="0" className='team'>

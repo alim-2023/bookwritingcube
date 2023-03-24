@@ -1,3 +1,7 @@
+.subheading{
+    text-decoration: underline;
+}
+
 .Dowecome{
     padding-top: 70px;
     padding-bottom: 70px;
@@ -5,6 +9,21 @@
 }
 .Dowecome .middle{
     align-items: center;
+}
+.publishmybook .middle{
+    align-items: center;
+}
+.publishmybook{
+    padding-top: 70px;
+  
+}
+.asnumber:hover{
+    background-color: #000;
+}
+.asdiscuss:hover{
+ 
+    background-color: #16467d;
+    color: #fff;
 }
 
 .asnumber{
@@ -55,5 +74,15 @@
     .imgshowdow{
         margin-top: 5%;
     }
+    .publishmybook {
+        padding-top: 20px;
+    }
+    .publishmybook .middle {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
 
+    .dowemargin{
+        margin-top: 5%;
+    }
 }

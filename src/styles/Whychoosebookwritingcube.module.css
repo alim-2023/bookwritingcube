@@ -5,7 +5,20 @@
 .whychoosebookwritingcube .middle{
     align-items: center;
 }
-
+.marketyourbook .middle{
+    align-items: center;
+}
+.marketyourbook{
+    padding-top: 70px;
+}
+.asnumber:hover{
+    background-color: #000;
+}
+.asdiscuss:hover{
+ 
+    background-color: #16467d;
+    color: #fff;
+}
 .asnumber{
     border: 0;
     padding: 12px 30px;
@@ -53,6 +66,9 @@
    
     .cube{
         margin-top: 5%;
+    }
+    .marketyourbook {
+        padding-top: 50px;
     }
 
 }

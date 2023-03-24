@@ -50,7 +50,7 @@ const Header = () => {
                   <Row className={click ? `${styles.megamenu} ${styles.active}` : `${styles.megamenu}`}>
                     <Col md={4}>
                       <ul className={styles.border}>
-                        <li className={styles.navlinks}><Link className={styles.menulinks} href="/">Book Publishing</Link></li>
+                        <li className={styles.navlinks}><Link className={styles.menulinks} href="/Book_publishing_services">Book Publishing</Link></li>
                         <li className={styles.navlinks}><Link className={styles.menulinks} href="">Book Promotion</Link></li>
                         <li className={styles.navlinks}><Link className={styles.menulinks} href="">Book Writing</Link></li>
                         <li className={styles.navlinks}><Link className={styles.menulinks} href="">Book Editing</Link></li>
@@ -89,7 +89,7 @@ const Header = () => {
 
 
                 </li>
-                <li className={styles.navlinks}><Link className={styles.menulinks} href="">Pricing</Link></li>
+                <li className={styles.navlinks}><Link className={styles.menulinks} href="#">Pricing</Link></li>
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="/Faqs">Faqs</Link></li>
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="">Blogs</Link></li>
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="">Contact us</Link></li>

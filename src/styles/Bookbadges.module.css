@@ -1,0 +1,55 @@
+.bookcontent{
+    box-shadow: 0 0 21px 3px #ddd;
+    padding: 6% 3% 10%;
+    align-items: center;
+}
+
+.bookbadges{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.quote{
+    font-size: 16px;
+    padding: 12px 30px;
+    border-radius: 0;
+    background-color: #16467d;
+    border: 0;
+    color: #fff;
+    font-family: 'Inter';
+    text-decoration: none;
+}
+.quote:hover{
+    color:white
+}
+
+.bookbadges .formsaspire{
+    box-shadow:unset;
+    
+}
+
+.cross {
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-family: 'Inter';
+    cursor: pointer;
+ 
+}
+
+.marketing{
+    text-decoration: underline;
+}
+
+
+
