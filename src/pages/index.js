@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
-import whychoose from '/public/images/whychoosebooks/whychoosebook.png'
+import whychoose from '/public/images/whychoosebooks/whychoosebook.webp'
 import Comprehensive from '../../components/Comprehensive'
 import Lululogos from '../../components/Lululogos'
 
