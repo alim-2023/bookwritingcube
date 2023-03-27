@@ -44,7 +44,7 @@ const Header = () => {
             <Navbar.Collapse id="basic-navbar-nav" className={styles.navalign}>
               <ul className={styles.align_menu}>
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="/">Home</Link></li>
-                <li className={styles.navlinks}><Link className={styles.menulinks} href="/about">About us</Link></li>
+                <li className={styles.navlinks}><Link className={styles.menulinks} href="/About">About us</Link></li>
                 <li onClick={toggle} className={`${styles.navlinks} ${styles.serviceshover}`}><Link className={styles.menulinks} href="">Services <IoMdArrowDropdown size={12} /></Link>
 
                   <Row className={click ? `${styles.megamenu} ${styles.active}` : `${styles.megamenu}`}>
@@ -90,7 +90,7 @@ const Header = () => {
 
                 </li>
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="#">Pricing</Link></li>
-                <li className={styles.navlinks}><Link className={styles.menulinks} href="/faqs">Faq's</Link></li>
+                <li className={styles.navlinks}><Link className={styles.menulinks} href="/Faqs">Faq's</Link></li>
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="">Blogs</Link></li>
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="">Contact us</Link></li>
               </ul>
