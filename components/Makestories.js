@@ -14,6 +14,7 @@ import makestories5 from '../public/images/makestories/makestories5.png'
 import makestories6 from '../public/images/makestories/makestories6.png'
 
 
+
 // slick css
 
 import "slick-carousel/slick/slick.css";
