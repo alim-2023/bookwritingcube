@@ -78,7 +78,7 @@ const Partners = () => {
 
   return (
     <>
-   <div className={styles.partners}>
+   <div className={`${styles.partners} part`}>
 
     <Container>
        

@@ -106,6 +106,14 @@ body{ font-family: 'Inter'; }
 }
 
 
+ .part  .slick-track{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 90px;
+}
+
 /* .testtimonials .slick-prev, .slick-next {
   font-size: 0;
   line-height: 0;
