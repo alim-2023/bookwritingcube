@@ -7,7 +7,7 @@ import Makestories from '../../components/Makestories'
 import Lululogos from '../../components/Lululogos'
 import Aspiring from '../../components/Aspiring'
 import Whychoosebook from '../../components/Whychoosebook'
-import drivethebook1 from '/public/images/drivethebook/1.png'
+import efficientarticlewriting from '/public/images/whychoosebooks/efficientarticlewriting.png'
 import Dowecome from '../../components/Dowecome'
 import Customersatisfaction from '../../components/Customersatisfaction'
 import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
@@ -27,47 +27,41 @@ const Articlewritingservices = () => {
   const bannertext=[
     {
       title: 'Bridging Success by Providing Professional Article Writing Services!',
-      pra: 'As an author, the only wish you long for is to make an unbeatable name for yourself. Here at Book Writing Cube, we offer book marketing services that help authors reach a larger audience, boost visibility, and get more ratings and sales for their books.',
+      pra: 'Our proficient and top-rated article writing services ensure your business gets the recognition it deserves!',
       discuss:'LET S DISCUSS',
       homebannernum:'(302) 883-8877',
       banlogo:homebannerlogos,
-      banners:'bookpublishingservices',
+      banners:'aboutbanner',
      
        
 
     }
   ]
 
-const text = <span>We write, edit, publish and market all genres of books. Also, we provide similar services to <Link className='textdocationnone' href="#">self publish ebooks</Link>. So, we can also help you with <Link className='textdocationnone' href="#">self publishing</Link> .</span>;
-
-const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
-
-const  kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="#" className='textdocationnone'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
 
 
-const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="#">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
 
 
 const whybookpublishingdata = [
 
 {
-  title: 'How can I publish my book?',
-  text:  'The first thing you need to do after making up your mind about publishing a book is to find a publishing house. There are several types of publications including online publication, paperback or hardcopy publishing as well as self Publication. You need to select the kind of publication you want and then work with the publisher company to assist you with the process.',
+  title: 'What is article writing services?',
+  text:  'Article writing services are a great way to get high-quality, well-written articles for your website or blog. By outsourcing your writing needs to a professional service, you may rest assured that you’ll be getting content that is both informative and engaging. Additionally, article writing services can help you build up your online presence by increasing your website’s or blog’s search engine ranking.',
   col6: '6',
 },
 {
-  title: 'What’s different about Self Publishing?',
-  text: 'By self publishing a book, you get full authority of your work including the management and other processes of publishing like editing, cover design and even marketing strategies. You have to pay a certain amount as fee and you get to call the shots! At Book Writing Cube, different teams designated for different kinds of publications.',
+  title: 'How does an article writing service work?',
+  text: 'Most high-quality article writing services work with a team of writers who create the content for their clients. The client will provide the topic or keywords that they want the content to be about, and the writers will create articles based on those topics.',
   col6: '6',
 },
 {
-title:'How much does it cost to have a book published?',
-text:'If you’re worried about the initial investment you have to put in order to get your book published, don’t fret too much! There are various packages available from which you can select the one that works for you. We work with every kind of budget to give your clients the best experience and help them publish their work for the world to read!',
+title:'What are the benefits of using an article writing service?',
+text:'There are several benefits to using our best article writing services. First, it can save you a lot of time. If you were to write the articles yourself, it would take up a lot of your time that could be used for other things. Second, it can help you get high-quality content. The writers who work for these services are professionals who know how to write good quality articles. Finally, it can help you build up your online presence. By having good quality content on your website or blog, you will attract more visitors, which can lead to more customers or clients.',
 col6: '6',
 },
 {
-title:'Can I publish on different publishing platforms?',
-text: datapost,
+title:'How do professional article writing services benefit businesses?',
+text: 'There are several ways that businesses can benefit from using a professional article writing service. First, it can help you save time. Second, it can help you get high-quality content. The writers who work for these services are professionals who know how to write good quality articles. Finally, it can help you build up your online presence.',
 col6: '6',
 },
 
@@ -127,11 +121,7 @@ col6: '6',
    {/* partners components */}
 <Partners/>
 
-{/* Makestories */}
-<Makestories
-title='Our Latest Book Publishing Projects'
-para='Let Our Book Publishing Team Help You'
-/>
+
 
 
 {/* Whybookpublishing */}
@@ -139,9 +129,9 @@ para='Let Our Book Publishing Team Help You'
   <Container>
 
   <Row>
-    <h2 className='font48 fw900 color-blue t-center'>Why Book Publishing?</h2>
+    <h2 className='font48 fw900 color-blue t-center'>High-Quality Article Writing Services To Expand Your Reach And Join The Big Leagues!</h2>
     <p className='font15 fw500 color-black t-center pb-5'>
-                        Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!
+    Expanding your reach with professional article writing services can be a great way to get your business in front of more potential customers. By having engaging and well-written content on your website, you can attract more visitors and keep them engaged with what you have to offer. Professional research article writing services can help you create content that is both informative and engaging, helping you to connect with more potential customers and grow your business.
                     </p>
 
   </Row>
@@ -162,85 +152,32 @@ para='Let Our Book Publishing Team Help You'
 <Lululogos/>
 
 
-<Container className='servicetitle'>
-  <Row>
-    <Col>
-      <h2 className='color-blue fw900 font48 font-f t-center'>Why Choose Our Self Publishing Services?</h2>
-    </Col>
-  </Row>
-</Container>
-
-{/* Dowecome */}
-<Dowecome
- title='How Do "I Publish My Book?"'
- text="Our experience enables us to craft captivating stories. Short or long – your manuscript gets the attention it deserves! Every word we polish is prepared for the impact on the readers and infused with care. From beginning to end, our book publishers and book editing experts take on every project, because no task is too big or difficult when you have people like us working together as part of such a one-stop solution."
- subtext="We ensure everything from page-turners to nail-biting finishes feels masterfully controlled so each reader can find a perfect read. Our book editing team eagerly waits for their next project to be proofread and edited."
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
-Dowecome= "publishmybook"
-image={publishmybook}
-
-
-/>
-
-
-{/* Whychoosebookwritingcube */}
-<Whychoosebookwritingcube
- title='What Type Of Books Do We Publish?'
- text= {text}
- subtext={subtext}
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
- image={typeofbooks}
- whychooseclass= "marketyourbook"
- />
 
 
 
- {/* Dowecome */}
-<Dowecome
- title='How Many Copies Of Your Book Will Be Published?'
- text="We publish/print books on demand. We set up your account with Amazon and other places, which allows us to have no set values for the minimum amount of copies that can be published/printed. We will print as many and as little as you want."
- subtext={kindledirectpublishing}
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
-Dowecome= "publishmybook"
-image={copy}
-/>
 
 
-{/* Whychoosebookwritingcube */}
-<Whychoosebookwritingcube
- title='How Will We Help You Market Your Book?'
- text= 'Our team of marketing experts are willing to provide their services to you. If you choose us for marketing, we ensure that you and your book gets maximum exposure. Our marketing professionals will assist your book and brand in reaching the success it deserves.'
- subtext= 'Our book marketing professionals will help your book and brand reach the success it deserves.'
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
-image={marketyourbook}
-whychooseclass= "marketyourbook"
- />
 
 
-{/* Customersatisfaction */}
- <Customersatisfaction/>
 
 
- {/* Bookpublishingservices */}
- <Bookpublishingservices/>
+
+
+
 
 
 {/* Why Choose Book Writing Cube? */}
 <Whychoosebook
-   title="What Is Our Book Publishing Process?"
-  text="We have devised an elaborate workflow process to maximize transparency while also making sure that the final product's quality does not suffer. We do this through an extensive process of asking for approvals and updating our customers at every project stage. This helps a customer understand where we're coming from and be aware of what's going on. Our self publishing process follows these six stages, as listed below."
-  whychoose= {drivethebook1}
+   title="Efficient Article Writing Process Curated For Optimal Results"
+  text="Book Writing Cube offers professional and custom article writing services to help businesses reach new heights of success! Here's a closer look at our streamlined process:"
+  whychoose= {efficientarticlewriting}
  />
 
 
 {/* Aspiring */}
 <Aspiring
- title= 'Whether Bookshelf or Amazon Self Publishing – Our Designs Makes You Stand Out'
- text="Design is the most important aspect when it comes to selling books. We know that might sound like an old cliché, but designing your cover will deliver layout and build intrigue for potential readers; they’ll want more after seeing what’s in store within these pages! So don’t settle on anything less than perfection – let us help make sure every manuscript looks exactly how you envisioned through Book Writing Cube."
+ title= 'Get High-Quality and Effective Article Writing Services for Affordable Prices at Book Writing Cube!'
+ text="Get in touch with one of our industry experts for more information about our online article writing services and pricing details by leaving your email or phone number below!"
  number="+1-302-883-8877"
  discuss="LET'S DISCUSS"
 />

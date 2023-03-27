@@ -7,13 +7,15 @@ import Makestories from '../../components/Makestories'
 import Lululogos from '../../components/Lululogos'
 import Aspiring from '../../components/Aspiring'
 import Whychoosebook from '../../components/Whychoosebook'
-import drivethebook1 from '/public/images/drivethebook/1.png'
+import drivethebook1 from '/public/images/whychoosebooks/bookeditingprocess.png'
 import Dowecome from '../../components/Dowecome'
 import Customersatisfaction from '../../components/Customersatisfaction'
-import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
-import typeofbooks from '/public/images/selfpublishingservices/typeofbooks.png'
-import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
-import copy from '/public/images/selfpublishingservices/copy.png'
+
+import whychooseourbookeditingservices1 from '/public/images/whychooseourbookeditingservices/1.png'
+import whychooseourbookeditingservices2 from '/public/images/whychooseourbookeditingservices/2.png'
+import whychooseourbookeditingservices3 from '/public/images/whychooseourbookeditingservices/3.png'
+import whychooseourbookeditingservices4 from '/public/images/whychooseourbookeditingservices/4.png'
+
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Link from 'next/link'
 import { Container,Row,Col } from 'react-bootstrap'
@@ -27,47 +29,43 @@ const Bookeditingservices = () => {
   const bannertext=[
     {
       title: 'Book Editing Services That Turns Your Content Piece From Drab To Fab!',
-      pra: 'As an author, the only wish you long for is to make an unbeatable name for yourself. Here at Book Writing Cube, we offer book marketing services that help authors reach a larger audience, boost visibility, and get more ratings and sales for their books.',
+      pra: 'Professional book editors: the pros to fix the literary flaws.Top ranked book editing company in US.',
+      
       discuss:'LET S DISCUSS',
       homebannernum:'(302) 883-8877',
       banlogo:homebannerlogos,
-      banners:'bookpublishingservices',
+      banners:'bookeditingservices',
      
        
 
     }
   ]
 
-const text = <span>We write, edit, publish and market all genres of books. Also, we provide similar services to <Link className='textdocationnone' href="#">self publish ebooks</Link>. So, we can also help you with <Link className='textdocationnone' href="#">self publishing</Link> .</span>;
-
-const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
-
-const  kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="#" className='textdocationnone'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
+const text = <span>This type of <Link className='textdocationnone' href="/book-editing-services"> ebook editing service </Link>  is also called Mechanical Editing and sometimes referred to as Line Editing. The editor's singular job is to make sure the story has a more "professional" approach and fill any gaps in the original plot.</span>;
 
 
-const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="#">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
 
 
 const whybookpublishingdata = [
 
 {
-  title: 'How can I publish my book?',
-  text:  'The first thing you need to do after making up your mind about publishing a book is to find a publishing house. There are several types of publications including online publication, paperback or hardcopy publishing as well as self Publication. You need to select the kind of publication you want and then work with the publisher company to assist you with the process.',
+  title: 'The predetermined prerequisite:',
+  text:  'Once your novel is completed, thorough read and content assessment are of crucial importance. From fixing grammar errors to pinpointing the structural improvements, our online book editor ensures the manuscript is finalized to perfection.',
   col6: '6',
 },
 {
-  title: 'What’s different about Self Publishing?',
-  text: 'By self publishing a book, you get full authority of your work including the management and other processes of publishing like editing, cover design and even marketing strategies. You have to pay a certain amount as fee and you get to call the shots! At Book Writing Cube, different teams designated for different kinds of publications.',
+  title: 'The much-needed assistance:',
+  text: 'Reading and re-reading every line and pondering over each comma and semi-colon are surely mind-numbing aspects of book writing. The professional book editors have the right skills and prowess to correct, improve, and fine-tune the content.',
   col6: '6',
 },
 {
-title:'How much does it cost to have a book published?',
-text:'If you’re worried about the initial investment you have to put in order to get your book published, don’t fret too much! There are various packages available from which you can select the one that works for you. We work with every kind of budget to give your clients the best experience and help them publish their work for the world to read!',
+title:'The must-have consultation:',
+text:'We know you take great pride in your work; we respect and value that. However, an expert’s advice does make all the difference. Our book writing editor helps you figure out the why’s and how’s of giving your work a professional touch.',
 col6: '6',
 },
 {
-title:'Can I publish on different publishing platforms?',
-text: datapost,
+title:'The proven technique:',
+text: 'Editing requires constant work. Hiring book editing and formatting services can save you the hassle of time and effort investment. Besides, when you know the best-in-town has your manuscript taken care of, you can give up worrying about if it would be a bestseller—because that’s one thing we don’t get wrong!',
 col6: '6',
 },
 
@@ -129,8 +127,8 @@ col6: '6',
 
 {/* Makestories */}
 <Makestories
-title='Our Latest Book Publishing Projects'
-para='Let Our Book Publishing Team Help You'
+title='Our Book Editing Projects'
+para='Let Our Book Editing Team Help You.'
 />
 
 
@@ -139,9 +137,9 @@ para='Let Our Book Publishing Team Help You'
   <Container>
 
   <Row>
-    <h2 className='font48 fw900 color-blue t-center'>Why Book Publishing?</h2>
+    <h2 className='font48 fw900 color-blue t-center'>Why Do You Need Professional Book Editing Services?</h2>
     <p className='font15 fw500 color-black t-center pb-5'>
-                        Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!
+    Editing is a meticulous process, one that requires severely dedicated efforts and time to accomplish. Finishing a novel is a job well done, so why not relax back and have someone take the load off.
                     </p>
 
   </Row>
@@ -165,20 +163,19 @@ para='Let Our Book Publishing Team Help You'
 <Container className='servicetitle'>
   <Row>
     <Col>
-      <h2 className='color-blue fw900 font48 font-f t-center'>Why Choose Our Self Publishing Services?</h2>
+      <h2 className='color-blue fw900 font48 font-f t-center'>Why Choose Our Book Editing Services?</h2>
     </Col>
   </Row>
 </Container>
 
 {/* Dowecome */}
 <Dowecome
- title='How Do "I Publish My Book?"'
- text="Our experience enables us to craft captivating stories. Short or long – your manuscript gets the attention it deserves! Every word we polish is prepared for the impact on the readers and infused with care. From beginning to end, our book publishers and book editing experts take on every project, because no task is too big or difficult when you have people like us working together as part of such a one-stop solution."
- subtext="We ensure everything from page-turners to nail-biting finishes feels masterfully controlled so each reader can find a perfect read. Our book editing team eagerly waits for their next project to be proofread and edited."
+ title='Developmental Editing'
+ text="We know that every word counts, so we're committed to crafting captivating stories for any length and style. Our talented teams of book writing editor will take on your project from start to finish because no task is too big when you have people like us working together as part of such fantastic Book Editing & formatting services."
  number="+1-302-883-8877"
  discuss="LET'S DISCUSS"
 Dowecome= "publishmybook"
-image={publishmybook}
+image={whychooseourbookeditingservices1}
 
 
 />
@@ -186,12 +183,11 @@ image={publishmybook}
 
 {/* Whychoosebookwritingcube */}
 <Whychoosebookwritingcube
- title='What Type Of Books Do We Publish?'
- text= {text}
- subtext={subtext}
+ title='Editorial Assessment'
+ text= 'Proofreading is essential to the success of every project taken up by book editing services. It’s an integral part of finishing your manuscript. Online book editor and proofreader look for errors, so you know that all text was correct before sending or releasing documents published by third parties like publishers.'
  number="+1-302-883-8877"
  discuss="LET'S DISCUSS"
- image={typeofbooks}
+ image={whychooseourbookeditingservices2}
  whychooseclass= "marketyourbook"
  />
 
@@ -199,48 +195,40 @@ image={publishmybook}
 
  {/* Dowecome */}
 <Dowecome
- title='How Many Copies Of Your Book Will Be Published?'
- text="We publish/print books on demand. We set up your account with Amazon and other places, which allows us to have no set values for the minimum amount of copies that can be published/printed. We will print as many and as little as you want."
- subtext={kindledirectpublishing}
+ title='Structural Editing'
+ text="In a world where so much information is available, it's essential to make sure what you're putting out there represents your best work. The process of our book editing services includes exploiting the complexities of this process and turning them into success possibilities. It is also an opportunity for professional book editors and publishers who want help perfecting their craftsmanship with every word they type or publish."
  number="+1-302-883-8877"
  discuss="LET'S DISCUSS"
 Dowecome= "publishmybook"
-image={copy}
+image={whychooseourbookeditingservices3}
 />
 
 
 {/* Whychoosebookwritingcube */}
 <Whychoosebookwritingcube
- title='How Will We Help You Market Your Book?'
- text= 'Our team of marketing experts are willing to provide their services to you. If you choose us for marketing, we ensure that you and your book gets maximum exposure. Our marketing professionals will assist your book and brand in reaching the success it deserves.'
- subtext= 'Our book marketing professionals will help your book and brand reach the success it deserves.'
+ title='Copy Editing'
+ text= {text}
  number="+1-302-883-8877"
  discuss="LET'S DISCUSS"
-image={marketyourbook}
+image={whychooseourbookeditingservices4}
 whychooseclass= "marketyourbook"
  />
 
 
-{/* Customersatisfaction */}
- <Customersatisfaction/>
 
-
- {/* Bookpublishingservices */}
- <Bookpublishingservices/>
 
 
 {/* Why Choose Book Writing Cube? */}
 <Whychoosebook
-   title="What Is Our Book Publishing Process?"
-  text="We have devised an elaborate workflow process to maximize transparency while also making sure that the final product's quality does not suffer. We do this through an extensive process of asking for approvals and updating our customers at every project stage. This helps a customer understand where we're coming from and be aware of what's going on. Our self publishing process follows these six stages, as listed below."
+   title="Our Book Editing Process"
   whychoose= {drivethebook1}
  />
 
 
 {/* Aspiring */}
 <Aspiring
- title= 'Whether Bookshelf or Amazon Self Publishing – Our Designs Makes You Stand Out'
- text="Design is the most important aspect when it comes to selling books. We know that might sound like an old cliché, but designing your cover will deliver layout and build intrigue for potential readers; they’ll want more after seeing what’s in store within these pages! So don’t settle on anything less than perfection – let us help make sure every manuscript looks exactly how you envisioned through Book Writing Cube."
+ title= 'So, About That Story, Ready To Publish? Get Book Editing Done Today!'
+ text="Editing, proofreading, publishing--all that form the criticalities of the book writing process. We know the effort it takes, the perseverance it needs, and the struggle it brings, so why not hire a helping hand? We are only a call, message, or email away! Let’s collaborate."
  number="+1-302-883-8877"
  discuss="LET'S DISCUSS"
 />

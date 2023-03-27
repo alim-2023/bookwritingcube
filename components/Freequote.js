@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from '@/styles/Freequote.module.css'
 
-const Freequote = () => {
+const Freequote = (props) => {
   return (
    <>
    
-   <div className={styles.formsaspire}>
+   <div className={styles[props.formsaspire]}>
                  <h4 className="t-center font30 fw900 color-black">Get A Free Quote</h4>
 
                     <form className={styles.formalign}>

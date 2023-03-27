@@ -7,13 +7,12 @@ import Makestories from '../../components/Makestories'
 import Lululogos from '../../components/Lululogos'
 import Aspiring from '../../components/Aspiring'
 import Whychoosebook from '../../components/Whychoosebook'
-import drivethebook1 from '/public/images/drivethebook/1.png'
+import stepsthatwe from '/public/images/whychoosebooks/stepsthatwe.png'
 import Dowecome from '../../components/Dowecome'
 import Customersatisfaction from '../../components/Customersatisfaction'
-import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
-import typeofbooks from '/public/images/selfpublishingservices/typeofbooks.png'
-import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
-import copy from '/public/images/selfpublishingservices/copy.png'
+
+
+
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Link from 'next/link'
 import { Container,Row,Col } from 'react-bootstrap'
@@ -26,48 +25,46 @@ const Booktrailerservices = () => {
 
   const bannertext=[
     {
-      title: 'Bridging Success by Providing Professional Article Writing Services!',
-      pra: 'As an author, the only wish you long for is to make an unbeatable name for yourself. Here at Book Writing Cube, we offer book marketing services that help authors reach a larger audience, boost visibility, and get more ratings and sales for their books.',
+      title: 'Build Excitement For Your Forthcoming Book With Our Book Trailer Services!',
+      pra: 'Don’t you want to generate interest in your book? Book trailers can fit the bill.Without the shadow of a doubt, they give potential customers a taste of what your book is about, and it can also help build buzz around your book.',
+      subtext1:'By creating a short video that showcases your book, you can give potential readers a flavor of what your writing is like and help them decide if they’d like to check out your work.',
+      subtext2:'Are you about to launch your book, or do you want to bring your published book to the limelight? If yes, confide in our book video trailer services. Rest assured, while working with us, you will have a delightful exit with a quality product in your hands!',
       discuss:'LET S DISCUSS',
       homebannernum:'(302) 883-8877',
       banlogo:homebannerlogos,
-      banners:'bookpublishingservices',
+      banners:'buildexcitement',
      
        
 
     }
   ]
 
-const text = <span>We write, edit, publish and market all genres of books. Also, we provide similar services to <Link className='textdocationnone' href="#">self publish ebooks</Link>. So, we can also help you with <Link className='textdocationnone' href="#">self publishing</Link> .</span>;
-
-const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
-
-const  kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="#" className='textdocationnone'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
 
 
-const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="#">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
+const datapost = <ul className={styles.keepit}> <li>Keep it short and sweet</li> <li>Make sure the audio is clear and easy to hear</li> <li>Include engaging visuals</li> <li>Tell a story</li> <li>Highlight the key points of your book</li>  </ul>
 
 
 const whybookpublishingdata = [
 
 {
-  title: 'How can I publish my book?',
-  text:  'The first thing you need to do after making up your mind about publishing a book is to find a publishing house. There are several types of publications including online publication, paperback or hardcopy publishing as well as self Publication. You need to select the kind of publication you want and then work with the publisher company to assist you with the process.',
+  title: 'Can I Use Copyrighted Music In My Book Trailer?',
+  text:  'You can use copyrighted music in your book trailer as long as you have obtained the appropriate permissions and licenses.',
   col6: '6',
 },
 {
-  title: 'What’s different about Self Publishing?',
-  text: 'By self publishing a book, you get full authority of your work including the management and other processes of publishing like editing, cover design and even marketing strategies. You have to pay a certain amount as fee and you get to call the shots! At Book Writing Cube, different teams designated for different kinds of publications.',
+  title: 'What Are Some Tips For Making A Great Book Trailer?',
+  text: 'Some tips for making a great book trailer include:',
+  subtext: datapost,
   col6: '6',
 },
 {
-title:'How much does it cost to have a book published?',
-text:'If you’re worried about the initial investment you have to put in order to get your book published, don’t fret too much! There are various packages available from which you can select the one that works for you. We work with every kind of budget to give your clients the best experience and help them publish their work for the world to read!',
+title:'How Do I Promote My Book Trailer?',
+text:'There are several ways to promote your book trailer. You can post it on social media, include it on your website or blog, and submit it to online directories and book-related websites. You can also embed the trailer on other websites and share it via email or word-of-mouth.',
 col6: '6',
 },
 {
-title:'Can I publish on different publishing platforms?',
-text: datapost,
+title:'How Do Book Trailers Help Authors?',
+text: 'Book trailers are a relatively new phenomenon, and they are becoming increasingly popular as a way for authors to promote their books. A book trailer is a short film or video that gives viewers a taste of what the book is about and tries to generate interest in it. They can be used to reach out to potential readers who might not otherwise be aware of the book. Moreover, book trailers can help create a buzz around a book and generate word-of-mouth interest. Lastly, book trailers can also serve as a reminder to people who have already read the book and enjoyed it, encouraging them to recommend it to others. Overall, book trailers can be a very effective marketing tool for authors, and they are definitely worth considering if you are looking for ways to promote your book.',
 col6: '6',
 },
 
@@ -116,6 +113,8 @@ col6: '6',
         <Banner key={i}
           title={item.title}
           text={item.pra}
+          subtext1={item.subtext1}
+          subtext2={item.subtext2}
           discuss={item.discuss}
           homebannernum={item.homebannernum}
           homebanlogos={item.banlogo}
@@ -129,8 +128,8 @@ col6: '6',
 
 {/* Makestories */}
 <Makestories
-title='Our Latest Book Publishing Projects'
-para='Let Our Book Publishing Team Help You'
+title='Our Recent Book Trailer Projects That Roar For Our Sound Expertise!'
+para='Here’s a list of our done-and-dusted projects that we completed with utmost excellence and received rave reviews from our clients.'
 />
 
 
@@ -139,9 +138,9 @@ para='Let Our Book Publishing Team Help You'
   <Container>
 
   <Row>
-    <h2 className='font48 fw900 color-blue t-center'>Why Book Publishing?</h2>
+    <h2 className='font48 fw900 color-blue t-center'>Untangle The Complexity Of Your Manuscript Selling With Our Book Marketing Services!</h2>
     <p className='font15 fw500 color-black t-center pb-5'>
-                        Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!
+    A picture speaks a thousand words, but a moving picture narrates a thousand episodes. With our book video trailer services, you can hit the chord with your target audience and make them go GAGA for your publication.
                     </p>
 
   </Row>
@@ -151,6 +150,7 @@ para='Let Our Book Publishing Team Help You'
         <Whybookpublishing  key={i}
           title={item.title}
           text={item.text}
+          subtext={item.subtext}
           col6={item.col6}
         />
       )}
@@ -162,85 +162,28 @@ para='Let Our Book Publishing Team Help You'
 <Lululogos/>
 
 
-<Container className='servicetitle'>
-  <Row>
-    <Col>
-      <h2 className='color-blue fw900 font48 font-f t-center'>Why Choose Our Self Publishing Services?</h2>
-    </Col>
-  </Row>
-</Container>
-
-{/* Dowecome */}
-<Dowecome
- title='How Do "I Publish My Book?"'
- text="Our experience enables us to craft captivating stories. Short or long – your manuscript gets the attention it deserves! Every word we polish is prepared for the impact on the readers and infused with care. From beginning to end, our book publishers and book editing experts take on every project, because no task is too big or difficult when you have people like us working together as part of such a one-stop solution."
- subtext="We ensure everything from page-turners to nail-biting finishes feels masterfully controlled so each reader can find a perfect read. Our book editing team eagerly waits for their next project to be proofread and edited."
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
-Dowecome= "publishmybook"
-image={publishmybook}
-
-
-/>
-
-
-{/* Whychoosebookwritingcube */}
-<Whychoosebookwritingcube
- title='What Type Of Books Do We Publish?'
- text= {text}
- subtext={subtext}
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
- image={typeofbooks}
- whychooseclass= "marketyourbook"
- />
 
 
 
- {/* Dowecome */}
-<Dowecome
- title='How Many Copies Of Your Book Will Be Published?'
- text="We publish/print books on demand. We set up your account with Amazon and other places, which allows us to have no set values for the minimum amount of copies that can be published/printed. We will print as many and as little as you want."
- subtext={kindledirectpublishing}
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
-Dowecome= "publishmybook"
-image={copy}
-/>
 
 
-{/* Whychoosebookwritingcube */}
-<Whychoosebookwritingcube
- title='How Will We Help You Market Your Book?'
- text= 'Our team of marketing experts are willing to provide their services to you. If you choose us for marketing, we ensure that you and your book gets maximum exposure. Our marketing professionals will assist your book and brand in reaching the success it deserves.'
- subtext= 'Our book marketing professionals will help your book and brand reach the success it deserves.'
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
-image={marketyourbook}
-whychooseclass= "marketyourbook"
- />
 
 
-{/* Customersatisfaction */}
- <Customersatisfaction/>
 
-
- {/* Bookpublishingservices */}
- <Bookpublishingservices/>
 
 
 {/* Why Choose Book Writing Cube? */}
 <Whychoosebook
-   title="What Is Our Book Publishing Process?"
-  text="We have devised an elaborate workflow process to maximize transparency while also making sure that the final product's quality does not suffer. We do this through an extensive process of asking for approvals and updating our customers at every project stage. This helps a customer understand where we're coming from and be aware of what's going on. Our self publishing process follows these six stages, as listed below."
-  whychoose= {drivethebook1}
+   title="Steps That We Follow To Create an Enthralling Book Trailer for You!"
+  text="We throw creativity and innovation into the process so that your book doesn't get lost in the mix. We don't start until we have all the necessary information and requirements gathered from you."
+  whychoose= {stepsthatwe}
  />
 
 
 {/* Aspiring */}
 <Aspiring
- title= 'Whether Bookshelf or Amazon Self Publishing – Our Designs Makes You Stand Out'
- text="Design is the most important aspect when it comes to selling books. We know that might sound like an old cliché, but designing your cover will deliver layout and build intrigue for potential readers; they’ll want more after seeing what’s in store within these pages! So don’t settle on anything less than perfection – let us help make sure every manuscript looks exactly how you envisioned through Book Writing Cube."
+ title= 'Strengthen Your Marketing Efforts and Ensure Crazy Sales Of Your Publication With Us!'
+ text="At Book Writing Cube, we specialize in creating engaging and visually appealing book trailers for authors and businesses. Our team of skilled professionals has years of experience in video production and graphic design, so you can be confident that your book trailer will be of the highest quality. We understand that a book trailer is one of the most important marketing tools an author has, so we work closely with our clients to ensure their vision is brought to life. We also offer a variety of customization options, i.e., custom comic book video trailer, to make sure that your book trailer is truly unique. Call us to make your book happen with our book trailer services."
  number="+1-302-883-8877"
  discuss="LET'S DISCUSS"
 />

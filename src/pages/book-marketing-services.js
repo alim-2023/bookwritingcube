@@ -7,13 +7,18 @@ import Makestories from '../../components/Makestories'
 import Lululogos from '../../components/Lululogos'
 import Aspiring from '../../components/Aspiring'
 import Whychoosebook from '../../components/Whychoosebook'
-import drivethebook1 from '/public/images/drivethebook/1.png'
+
+import bookmarketingprocess from '/public/images/whychoosebooks/bookmarketingprocess.png'
+
 import Dowecome from '../../components/Dowecome'
 import Customersatisfaction from '../../components/Customersatisfaction'
-import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
-import typeofbooks from '/public/images/selfpublishingservices/typeofbooks.png'
-import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
-import copy from '/public/images/selfpublishingservices/copy.png'
+
+import bookmarketingservices1 from '/public/images/bookmarketingservices/1.png'
+import bookmarketingservices2 from '/public/images/bookmarketingservices/2.png'
+import bookmarketingservices3 from '/public/images/bookmarketingservices/3.png'
+import bookmarketingservices4 from '/public/images/bookmarketingservices/4.png'
+
+
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Link from 'next/link'
 import { Container,Row,Col } from 'react-bootstrap'
@@ -27,11 +32,11 @@ const Bookmarketingservices = () => {
   const bannertext=[
     {
       title: 'Untangle The Complexity Of Your Manuscript Selling With Our Book Marketing Services!',
-      pra: 'As an author, the only wish you long for is to make an unbeatable name for yourself. Here at Book Writing Cube, we offer book marketing services that help authors reach a larger audience, boost visibility, and get more ratings and sales for their books.',
+      pra: 'Consistency. Cost-effectiveness. Consumer-centric—the crudity of book marketing, delivered! Simplifying the harsh process of book marketing.',
       discuss:'LET S DISCUSS',
       homebannernum:'(302) 883-8877',
       banlogo:homebannerlogos,
-      banners:'bookpublishingservices',
+      banners:'bookmarketingservices',
      
        
 
@@ -45,29 +50,28 @@ const subtext = <span>Benefit from our wide-ranging array of book publication fo
 const  kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="#" className='textdocationnone'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
 
 
-const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="#">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
 
 
 const whybookpublishingdata = [
 
 {
-  title: 'How can I publish my book?',
-  text:  'The first thing you need to do after making up your mind about publishing a book is to find a publishing house. There are several types of publications including online publication, paperback or hardcopy publishing as well as self Publication. You need to select the kind of publication you want and then work with the publisher company to assist you with the process.',
+  title: 'The awareness & trust capture:',
+  text:  'The key is to make your work known before you make it available. We keep them eager to earn their trust, all while making sure your marketing content aligns with what they seek.',
   col6: '6',
 },
 {
-  title: 'What’s different about Self Publishing?',
-  text: 'By self publishing a book, you get full authority of your work including the management and other processes of publishing like editing, cover design and even marketing strategies. You have to pay a certain amount as fee and you get to call the shots! At Book Writing Cube, different teams designated for different kinds of publications.',
+  title: 'The socially responsive bond',
+  text: 'There’s nothing more value-adding in book marketing than social media engagement. The seal-the-deal tip here is to know what they expect. The readers are on the constant quest for good literature; keep them hooked on your work with posts, comments, and tags.',
   col6: '6',
 },
 {
-title:'How much does it cost to have a book published?',
-text:'If you’re worried about the initial investment you have to put in order to get your book published, don’t fret too much! There are various packages available from which you can select the one that works for you. We work with every kind of budget to give your clients the best experience and help them publish their work for the world to read!',
+title:'The authenticity deal',
+text:'Of course, it doesn’t mean your book should have a distinctive idea, just the marketing strategy. The trick here is to utilize the digital marketing strategies effectively for reputation building—audience-focused and platform-oriented content.',
 col6: '6',
 },
 {
-title:'Can I publish on different publishing platforms?',
-text: datapost,
+title:'The profit-generating finale',
+text: 'Readers are quick and harsh assessors; they want to know why your work is worthy. Creating a focused book promotion plan is fundamental to a book’s success. Make the traction of your work the trump card for sales and profits amplification.',
 col6: '6',
 },
 
@@ -127,11 +131,6 @@ col6: '6',
    {/* partners components */}
 <Partners/>
 
-{/* Makestories */}
-<Makestories
-title='Our Latest Book Publishing Projects'
-para='Let Our Book Publishing Team Help You'
-/>
 
 
 {/* Whybookpublishing */}
@@ -139,9 +138,9 @@ para='Let Our Book Publishing Team Help You'
   <Container>
 
   <Row>
-    <h2 className='font48 fw900 color-blue t-center'>Why Book Publishing?</h2>
+    <h2 className='font48 fw900 color-blue t-center'>Why Book Marketing?</h2>
     <p className='font15 fw500 color-black t-center pb-5'>
-                        Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!
+    It is a toolset tailored to your requirements and approaches. Adjusting it to your budget, fine-tuning it to fit your audience preferences, and preparing it for maximized exposure. Unlike other book marketing companies, we capitalize on commercialization, ensuring the highest book sales & profits.
                     </p>
 
   </Row>
@@ -165,20 +164,20 @@ para='Let Our Book Publishing Team Help You'
 <Container className='servicetitle'>
   <Row>
     <Col>
-      <h2 className='color-blue fw900 font48 font-f t-center'>Why Choose Our Self Publishing Services?</h2>
+      <h2 className='color-blue fw900 font48 font-f t-center'>Why Choose Our Book Marketing Services?</h2>
     </Col>
   </Row>
 </Container>
 
 {/* Dowecome */}
 <Dowecome
- title='How Do "I Publish My Book?"'
- text="Our experience enables us to craft captivating stories. Short or long – your manuscript gets the attention it deserves! Every word we polish is prepared for the impact on the readers and infused with care. From beginning to end, our book publishers and book editing experts take on every project, because no task is too big or difficult when you have people like us working together as part of such a one-stop solution."
- subtext="We ensure everything from page-turners to nail-biting finishes feels masterfully controlled so each reader can find a perfect read. Our book editing team eagerly waits for their next project to be proofread and edited."
+ title='We Appreciate Our Clients Who Put Their Faith In Us.'
+ text="Our experience enables us to craft captivating stories. Short or long – your manuscript gets the attention it deserves! Every word we polish is prepared for the impact on the readers and infused with care. From beginning to end, our affordable book marketing services guarantee excellence-- because no task is too big or difficult when you have people like us working together as part of such a one-stop solution."
+ subtext="Good branding will amplify all your marketing efforts. But it takes professionalism and industry insight to make a trustworthy brand. To add to that, it takes much effort to find experienced professionals to get this job done—something only the best book marketing services can offer!"
  number="+1-302-883-8877"
  discuss="LET'S DISCUSS"
 Dowecome= "publishmybook"
-image={publishmybook}
+image={bookmarketingservices1}
 
 
 />
@@ -186,12 +185,12 @@ image={publishmybook}
 
 {/* Whychoosebookwritingcube */}
 <Whychoosebookwritingcube
- title='What Type Of Books Do We Publish?'
- text= {text}
- subtext={subtext}
+ title='Through Collaboration'
+ text= 'Our book marketing services and packages include comprehensive publishing assistance and guidance. We will design a budget for you, covering the designing, publishing, printing, and editing needs of the book.'
+ subtext= 'Our book marketers formulate online and offline strategies to make your work a recognized read. Unlike other book marketing companies, our job isn’t done till your reputation is established as a renowned name in the industry.'
  number="+1-302-883-8877"
  discuss="LET'S DISCUSS"
- image={typeofbooks}
+ image={bookmarketingservices2}
  whychooseclass= "marketyourbook"
  />
 
@@ -199,48 +198,43 @@ image={publishmybook}
 
  {/* Dowecome */}
 <Dowecome
- title='How Many Copies Of Your Book Will Be Published?'
- text="We publish/print books on demand. We set up your account with Amazon and other places, which allows us to have no set values for the minimum amount of copies that can be published/printed. We will print as many and as little as you want."
- subtext={kindledirectpublishing}
+ title='Impeccable Customer Support'
+ text="For us, our customer’s needs are the top priority. Regardless of the different profiles or the website updates and revisions, our book marketing services aim to make your work a stellar addition to the literature world."
+ subtext= 'From keeping up with marketing trends to revamping the strategies, the best book marketing services providers go the extra mile to make the bestselling title a reality.'
  number="+1-302-883-8877"
  discuss="LET'S DISCUSS"
 Dowecome= "publishmybook"
-image={copy}
+image={bookmarketingservices3}
 />
 
 
 {/* Whychoosebookwritingcube */}
 <Whychoosebookwritingcube
- title='How Will We Help You Market Your Book?'
- text= 'Our team of marketing experts are willing to provide their services to you. If you choose us for marketing, we ensure that you and your book gets maximum exposure. Our marketing professionals will assist your book and brand in reaching the success it deserves.'
- subtext= 'Our book marketing professionals will help your book and brand reach the success it deserves.'
+ title='Impressive Strategic Implementation'
+ text= 'Every marketing approach, platform, and product requires a well-tailored strategy and plan of execution. Since every book has a different audience, our affordable book marketing services make sure the needs and preferences of the target readers are met.'
+ subtext= 'Our experts provide thorough guidance about different types and strategies of marketing to gain complete customer satisfaction. The packages we offer regarding book marketing services include social media platforms, blogging, guest posting, and email marketing.'
  number="+1-302-883-8877"
  discuss="LET'S DISCUSS"
-image={marketyourbook}
+image={bookmarketingservices4}
 whychooseclass= "marketyourbook"
  />
 
 
-{/* Customersatisfaction */}
- <Customersatisfaction/>
 
-
- {/* Bookpublishingservices */}
- <Bookpublishingservices/>
 
 
 {/* Why Choose Book Writing Cube? */}
 <Whychoosebook
-   title="What Is Our Book Publishing Process?"
-  text="We have devised an elaborate workflow process to maximize transparency while also making sure that the final product's quality does not suffer. We do this through an extensive process of asking for approvals and updating our customers at every project stage. This helps a customer understand where we're coming from and be aware of what's going on. Our self publishing process follows these six stages, as listed below."
-  whychoose= {drivethebook1}
+   title="What Is Our Book Marketing Process?"
+  text="The best book marketing services come with an elaborate process of guaranteeing transparency and communication. We do this through an extensive process of updating our customers at every project stage. This helps the customer understand where we're coming from and be aware of what's going on."
+  whychoose= {bookmarketingprocess}
  />
 
 
 {/* Aspiring */}
 <Aspiring
- title= 'Whether Bookshelf or Amazon Self Publishing – Our Designs Makes You Stand Out'
- text="Design is the most important aspect when it comes to selling books. We know that might sound like an old cliché, but designing your cover will deliver layout and build intrigue for potential readers; they’ll want more after seeing what’s in store within these pages! So don’t settle on anything less than perfection – let us help make sure every manuscript looks exactly how you envisioned through Book Writing Cube."
+ title= 'Ready To Make It Big With Our Book Marketing Services?'
+ text="You are the ambassador of your own book—but that doesn’t mean it is a singly endeavor. It is an ever-changing, seriously challenging, and quite honestly, commercially competitive industry. The right book marketing plan, calculated milestones, and extended exposure—the all’s and must-haves of making your work a chart-topper! Let’s collaborate!"
  number="+1-302-883-8877"
  discuss="LET'S DISCUSS"
 />

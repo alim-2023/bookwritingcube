@@ -22,6 +22,21 @@
     padding-left: 10%;
 }
 
+
+.whybookpublishing h2{
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+
+.keepit{
+    padding: 0;
+    margin: 0;
+}
+.keepit li{
+    list-style: none;
+}
+
 @media (max-width:991px)  {
 
     .posttitle {

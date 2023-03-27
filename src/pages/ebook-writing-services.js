@@ -7,13 +7,12 @@ import Makestories from '../../components/Makestories'
 import Lululogos from '../../components/Lululogos'
 import Aspiring from '../../components/Aspiring'
 import Whychoosebook from '../../components/Whychoosebook'
-import drivethebook1 from '/public/images/drivethebook/1.png'
+import bookwritingprocess from '/public/images/whychoosebooks/bookwritingprocess.png'
 import Dowecome from '../../components/Dowecome'
 import Customersatisfaction from '../../components/Customersatisfaction'
-import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
-import typeofbooks from '/public/images/selfpublishingservices/typeofbooks.png'
-import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
-import copy from '/public/images/selfpublishingservices/copy.png'
+import andnohiring from '/public/images/andnohiring/andnohiring.png'
+
+
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Link from 'next/link'
 import { Container,Row,Col } from 'react-bootstrap'
@@ -27,11 +26,11 @@ const Ebookwritingservices = () => {
   const bannertext=[
     {
       title: 'Become The Next Best Book-seller With Our Impeccable Ebook Writing Services!',
-      pra: 'As an author, the only wish you long for is to make an unbeatable name for yourself. Here at Book Writing Cube, we offer book marketing services that help authors reach a larger audience, boost visibility, and get more ratings and sales for their books.',
+      pra: 'We are the experts of designing, illustrating, and compiling your eBooks for a successful publication.',
       discuss:'LET S DISCUSS',
       homebannernum:'(302) 883-8877',
       banlogo:homebannerlogos,
-      banners:'bookpublishingservices',
+      banners:'bookwritingservices',
      
        
 
@@ -51,23 +50,23 @@ const datapost = <span>Yes, you can. The Book Writing Cube team will assist you 
 const whybookpublishingdata = [
 
 {
-  title: 'How can I publish my book?',
-  text:  'The first thing you need to do after making up your mind about publishing a book is to find a publishing house. There are several types of publications including online publication, paperback or hardcopy publishing as well as self Publication. You need to select the kind of publication you want and then work with the publisher company to assist you with the process.',
+  title: 'Why a book writer when I can write a book myself?',
+  text:  'Of course, you can write your book on your own, and we are sure that you would do a stellar job with it. But are you sure that you wouldn’t appreciate an extra helping hand? A helping hand from a professional eBook writer who has been doing this for longer than you had the idea of writing your own book. Our book writing services are a collaborative process between the client and our team where we merely help our client write the book that would sell well and is up to the industry’s standards. So I ask you again, won’t a professional know how to do this better?',
   col6: '6',
 },
 {
-  title: 'What’s different about Self Publishing?',
-  text: 'By self publishing a book, you get full authority of your work including the management and other processes of publishing like editing, cover design and even marketing strategies. You have to pay a certain amount as fee and you get to call the shots! At Book Writing Cube, different teams designated for different kinds of publications.',
+  title: 'How strict are you with your confidentiality?',
+  text: 'We are very strict and thorough when it comes to protecting the identity of our clients and our ghostwriters. We make our eBook ghostwriters sign an NDA where they aren’t allowed to take any material out of the office premises or tell anyone anything about the kind of project they are working on to protect our client’s identity. So many years in book writing services, and we have never had a scandal when it comes to protecting the anonymity of our client. As professional writing services, we maintain a very ethical decorum and play by the rules of the literary world.',
   col6: '6',
 },
 {
-title:'How much does it cost to have a book published?',
-text:'If you’re worried about the initial investment you have to put in order to get your book published, don’t fret too much! There are various packages available from which you can select the one that works for you. We work with every kind of budget to give your clients the best experience and help them publish their work for the world to read!',
+title:'Such book editing services, are they very expensive?',
+text:'It doesn’t have to be! We have various packages, depending upon the nature of your project and what kind of package would suit it better. And don’t worry, we have a very flexible mode of payment that wouldn’t cost you an arm and a leg.',
 col6: '6',
 },
 {
-title:'Can I publish on different publishing platforms?',
-text: datapost,
+title:'What genres do you cover?',
+text: 'All! We cover all genres from fiction to autobiographies, fantasy thrillers, to children’s literature. Our book writing services cover all genres and all types of work f literature. We have an arsenal of teams dedicated to numerous genres, and all of them are tremendous at their job.',
 col6: '6',
 },
 
@@ -129,8 +128,8 @@ col6: '6',
 
 {/* Makestories */}
 <Makestories
-title='Our Latest Book Publishing Projects'
-para='Let Our Book Publishing Team Help You'
+title='Our E-Book Writing Projects'
+para='Let Our E-Book Writing Team Help You.'
 />
 
 
@@ -139,9 +138,9 @@ para='Let Our Book Publishing Team Help You'
   <Container>
 
   <Row>
-    <h2 className='font48 fw900 color-blue t-center'>Why Book Publishing?</h2>
+    <h2 className='font48 fw900 color-blue t-center'>Why Does One Need Professional Book Writing Services?</h2>
     <p className='font15 fw500 color-black t-center pb-5'>
-                        Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!
+    Our book writing team is composed of the industry's elite who know the ins and outs of the writing industry better than any of us. If you have any more questions about signing up for the professional book writing services, we may have your answers listed below!
                     </p>
 
   </Row>
@@ -158,89 +157,44 @@ para='Let Our Book Publishing Team Help You'
   </Container>   
 </div>
 
-{/* Lululogos components */}
-<Lululogos/>
 
 
-<Container className='servicetitle'>
-  <Row>
-    <Col>
-      <h2 className='color-blue fw900 font48 font-f t-center'>Why Choose Our Self Publishing Services?</h2>
-    </Col>
-  </Row>
-</Container>
+
+
 
 {/* Dowecome */}
 <Dowecome
- title='How Do "I Publish My Book?"'
- text="Our experience enables us to craft captivating stories. Short or long – your manuscript gets the attention it deserves! Every word we polish is prepared for the impact on the readers and infused with care. From beginning to end, our book publishers and book editing experts take on every project, because no task is too big or difficult when you have people like us working together as part of such a one-stop solution."
- subtext="We ensure everything from page-turners to nail-biting finishes feels masterfully controlled so each reader can find a perfect read. Our book editing team eagerly waits for their next project to be proofread and edited."
+ title='Planning >> Writing >> Designing = eBook Customization Formula'
+ text="We want to help you shine your eBook and make it compelling for readers, so we'll work with the most important ideas. You have an option of doing a one-hour interview where any challenging or confusing topics will be bouncing off us before they're even published."
  number="+1-302-883-8877"
  discuss="LET'S DISCUSS"
 Dowecome= "publishmybook"
-image={publishmybook}
+image={andnohiring}
 
 
 />
 
 
-{/* Whychoosebookwritingcube */}
-<Whychoosebookwritingcube
- title='What Type Of Books Do We Publish?'
- text= {text}
- subtext={subtext}
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
- image={typeofbooks}
- whychooseclass= "marketyourbook"
- />
+{/* Lululogos components */}
+<div className='mt-5'>
+<Lululogos/>
+</div>
 
 
-
- {/* Dowecome */}
-<Dowecome
- title='How Many Copies Of Your Book Will Be Published?'
- text="We publish/print books on demand. We set up your account with Amazon and other places, which allows us to have no set values for the minimum amount of copies that can be published/printed. We will print as many and as little as you want."
- subtext={kindledirectpublishing}
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
-Dowecome= "publishmybook"
-image={copy}
-/>
-
-
-{/* Whychoosebookwritingcube */}
-<Whychoosebookwritingcube
- title='How Will We Help You Market Your Book?'
- text= 'Our team of marketing experts are willing to provide their services to you. If you choose us for marketing, we ensure that you and your book gets maximum exposure. Our marketing professionals will assist your book and brand in reaching the success it deserves.'
- subtext= 'Our book marketing professionals will help your book and brand reach the success it deserves.'
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
-image={marketyourbook}
-whychooseclass= "marketyourbook"
- />
-
-
-{/* Customersatisfaction */}
- <Customersatisfaction/>
-
-
- {/* Bookpublishingservices */}
- <Bookpublishingservices/>
 
 
 {/* Why Choose Book Writing Cube? */}
 <Whychoosebook
-   title="What Is Our Book Publishing Process?"
-  text="We have devised an elaborate workflow process to maximize transparency while also making sure that the final product's quality does not suffer. We do this through an extensive process of asking for approvals and updating our customers at every project stage. This helps a customer understand where we're coming from and be aware of what's going on. Our self publishing process follows these six stages, as listed below."
-  whychoose= {drivethebook1}
+   title="Ultimate Place for eBook Illustration and Designing"
+  text="Book Writing Cube has a team of professional illustrators and designers ready to breathe life into your idea. Our ebook editing service specialization lies in various genres that include:"
+  whychoose= {bookwritingprocess}
  />
 
 
 {/* Aspiring */}
 <Aspiring
- title= 'Whether Bookshelf or Amazon Self Publishing – Our Designs Makes You Stand Out'
- text="Design is the most important aspect when it comes to selling books. We know that might sound like an old cliché, but designing your cover will deliver layout and build intrigue for potential readers; they’ll want more after seeing what’s in store within these pages! So don’t settle on anything less than perfection – let us help make sure every manuscript looks exactly how you envisioned through Book Writing Cube."
+ title= 'Professional eBook Writing and Publishing We Give New Life To Your Words'
+ text="Your idea is unique, and you need a company that will take it from start to finish. We are here for all the steps, so your legacy can live in words."
  number="+1-302-883-8877"
  discuss="LET'S DISCUSS"
 />

@@ -12,14 +12,11 @@ import Slider from 'react-slick'
 
 import partnerslogo1 from '../public/images/partnerslogo/partnerslogo1.png'
 import partnerslogo2 from '../public/images/partnerslogo/partnerslogo2.png'
-import partnerslogo3 from '../public/images/partnerslogo/partnerslogo3.png'
-import partnerslogo4 from '../public/images/partnerslogo/partnerslogo4.png'
-import partnerslogo5 from '../public/images/partnerslogo/partnerslogo5.png'
-import partnerslogo6 from '../public/images/partnerslogo/partnerslogo6.png'
-import partnerslogo7 from '../public/images/partnerslogo/partnerslogo7.png'
 import partnerslogo8 from '../public/images/partnerslogo/partnerslogo8.png'
 import partnerslogo9 from '../public/images/partnerslogo/partnerslogo9.png'
 import partnerslogo10 from '../public/images/partnerslogo/partnerslogo10.png'
+import partnerslogo11 from '../public/images/partnerslogo/partnerslogo11.png'
+import partnerslogo12 from '../public/images/partnerslogo/partnerslogo12.png'
 
 
 const partnerdata =
@@ -27,14 +24,11 @@ const partnerdata =
 
   { img1:partnerslogo1 },
   { img1:partnerslogo2 },
-  { img1:partnerslogo3 },
-  { img1:partnerslogo4 },
-  { img1:partnerslogo5 },
-  { img1:partnerslogo6 },
-  { img1:partnerslogo7 },
   { img1:partnerslogo8 },
   { img1:partnerslogo9 },
   { img1:partnerslogo10 },
+  { img1:partnerslogo11 },
+  { img1:partnerslogo12 },
 
 ];
 

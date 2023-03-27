@@ -7,13 +7,9 @@ import Makestories from '../../components/Makestories'
 import Lululogos from '../../components/Lululogos'
 import Aspiring from '../../components/Aspiring'
 import Whychoosebook from '../../components/Whychoosebook'
-import drivethebook1 from '/public/images/drivethebook/1.png'
+import ourprosperousblog from '/public/images/whychoosebooks/ourprosperousblog.png'
 import Dowecome from '../../components/Dowecome'
 import Customersatisfaction from '../../components/Customersatisfaction'
-import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
-import typeofbooks from '/public/images/selfpublishingservices/typeofbooks.png'
-import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
-import copy from '/public/images/selfpublishingservices/copy.png'
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Link from 'next/link'
 import { Container,Row,Col } from 'react-bootstrap'
@@ -27,11 +23,11 @@ const Blogwritingservices = () => {
   const bannertext=[
     {
       title: 'First-Class Blog Writing Services to Bring Your Business Up!',
-      pra: 'As an author, the only wish you long for is to make an unbeatable name for yourself. Here at Book Writing Cube, we offer book marketing services that help authors reach a larger audience, boost visibility, and get more ratings and sales for their books.',
+      pra: 'Our professional blog writing services are designed to help you achieve your business objectives at every turn!',
       discuss:'LET S DISCUSS',
       homebannernum:'(302) 883-8877',
       banlogo:homebannerlogos,
-      banners:'bookpublishingservices',
+      banners:'blogwritingservices',
      
        
 
@@ -51,23 +47,23 @@ const datapost = <span>Yes, you can. The Book Writing Cube team will assist you 
 const whybookpublishingdata = [
 
 {
-  title: 'How can I publish my book?',
-  text:  'The first thing you need to do after making up your mind about publishing a book is to find a publishing house. There are several types of publications including online publication, paperback or hardcopy publishing as well as self Publication. You need to select the kind of publication you want and then work with the publisher company to assist you with the process.',
+  title: 'What is blog writing services?',
+  text:  'Businesses need content that engages their audience and drives conversions. A blog is a great way to accomplish this, but many businesses don’t have the time or resources to produce high-quality blog content on a regular basis. This is where our content blog writing services and guest blog writing services come in.',
   col6: '6',
 },
 {
-  title: 'What’s different about Self Publishing?',
-  text: 'By self publishing a book, you get full authority of your work including the management and other processes of publishing like editing, cover design and even marketing strategies. You have to pay a certain amount as fee and you get to call the shots! At Book Writing Cube, different teams designated for different kinds of publications.',
+  title: 'What is the importance of blog writing for businesses?',
+  text: 'Blog writing services can help businesses by providing high-quality, engaging content that helps to achieve their marketing and business goals. Services vary, but most will provide articles on a specific topic or niche, customized to the client’s needs. There are many benefits of using a blog writing service. Perhaps the most obvious is that it frees up time for businesses to focus on other aspects of their operations.',
   col6: '6',
 },
 {
-title:'How much does it cost to have a book published?',
-text:'If you’re worried about the initial investment you have to put in order to get your book published, don’t fret too much! There are various packages available from which you can select the one that works for you. We work with every kind of budget to give your clients the best experience and help them publish their work for the world to read!',
+title:'How can blog writing help you become successful?',
+text:'There’s no doubt that a successful blog can be a powerful tool. It can help you build your brand, connect with customers, and even drive sales. But what if you don’t have the time or expertise to write compelling content? That’s where business blog writing services come in. Best blog writing services can provide high-quality, engaging content that will help you achieve your business goals. Whether you need help developing ideas, crafting headlines, or writing entire posts, these services can take the burden off of your shoulders so you can focus on other aspects of your business.',
 col6: '6',
 },
 {
-title:'Can I publish on different publishing platforms?',
-text: datapost,
+title:'What is the cost of blog writing services?',
+text: 'Blogging is a popular way to share your thoughts and ideas with the world. The cost of blog writing services can vary depending on the quality and experience of the writer, as well as the length and complexity of the project. Our team of talented writers has experience working on numerous projects. At Book Writing Cube, our blog writing services packages’ prices vary for the success and ease of our valued clients.',
 col6: '6',
 },
 
@@ -129,8 +125,8 @@ col6: '6',
 
 {/* Makestories */}
 <Makestories
-title='Our Latest Book Publishing Projects'
-para='Let Our Book Publishing Team Help You'
+title='A Quick Look At Our Successful Blog Writing Projects'
+para='Our team of brilliant blog writers has years’ worth of experience.'
 />
 
 
@@ -139,9 +135,9 @@ para='Let Our Book Publishing Team Help You'
   <Container>
 
   <Row>
-    <h2 className='font48 fw900 color-blue t-center'>Why Book Publishing?</h2>
+    <h2 className='font48 fw900 color-blue t-center'>The Importance Of Blog Writing In Today's Digitally-Driven Era</h2>
     <p className='font15 fw500 color-black t-center pb-5'>
-                        Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!
+    Blog writing is a great way to promote a book or a business. In addition, blogging can be a great way to connect with others who share your interests. Professional blog writing services can also be a great marketing tool. If you can write well and provide valuable information, people will be more likely to visit your blog. Our professional blog writers help you with that. This can lead to more traffic for your website or blog, which can, in turn, lead to more customers or clients.
                     </p>
 
   </Row>
@@ -162,85 +158,25 @@ para='Let Our Book Publishing Team Help You'
 <Lululogos/>
 
 
-<Container className='servicetitle'>
-  <Row>
-    <Col>
-      <h2 className='color-blue fw900 font48 font-f t-center'>Why Choose Our Self Publishing Services?</h2>
-    </Col>
-  </Row>
-</Container>
-
-{/* Dowecome */}
-<Dowecome
- title='How Do "I Publish My Book?"'
- text="Our experience enables us to craft captivating stories. Short or long – your manuscript gets the attention it deserves! Every word we polish is prepared for the impact on the readers and infused with care. From beginning to end, our book publishers and book editing experts take on every project, because no task is too big or difficult when you have people like us working together as part of such a one-stop solution."
- subtext="We ensure everything from page-turners to nail-biting finishes feels masterfully controlled so each reader can find a perfect read. Our book editing team eagerly waits for their next project to be proofread and edited."
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
-Dowecome= "publishmybook"
-image={publishmybook}
-
-
-/>
-
-
-{/* Whychoosebookwritingcube */}
-<Whychoosebookwritingcube
- title='What Type Of Books Do We Publish?'
- text= {text}
- subtext={subtext}
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
- image={typeofbooks}
- whychooseclass= "marketyourbook"
- />
 
 
 
- {/* Dowecome */}
-<Dowecome
- title='How Many Copies Of Your Book Will Be Published?'
- text="We publish/print books on demand. We set up your account with Amazon and other places, which allows us to have no set values for the minimum amount of copies that can be published/printed. We will print as many and as little as you want."
- subtext={kindledirectpublishing}
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
-Dowecome= "publishmybook"
-image={copy}
-/>
 
 
-{/* Whychoosebookwritingcube */}
-<Whychoosebookwritingcube
- title='How Will We Help You Market Your Book?'
- text= 'Our team of marketing experts are willing to provide their services to you. If you choose us for marketing, we ensure that you and your book gets maximum exposure. Our marketing professionals will assist your book and brand in reaching the success it deserves.'
- subtext= 'Our book marketing professionals will help your book and brand reach the success it deserves.'
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
-image={marketyourbook}
-whychooseclass= "marketyourbook"
- />
-
-
-{/* Customersatisfaction */}
- <Customersatisfaction/>
-
-
- {/* Bookpublishingservices */}
- <Bookpublishingservices/>
 
 
 {/* Why Choose Book Writing Cube? */}
 <Whychoosebook
-   title="What Is Our Book Publishing Process?"
-  text="We have devised an elaborate workflow process to maximize transparency while also making sure that the final product's quality does not suffer. We do this through an extensive process of asking for approvals and updating our customers at every project stage. This helps a customer understand where we're coming from and be aware of what's going on. Our self publishing process follows these six stages, as listed below."
-  whychoose= {drivethebook1}
+   title="Our Prosperous Blog Writing Process Crafted For Your Success"
+  text="Book Writing Cube's professional and affordable blog writing services offer custom-tailored solutions designed for your success."
+  whychoose= {ourprosperousblog}
  />
 
 
 {/* Aspiring */}
 <Aspiring
- title= 'Whether Bookshelf or Amazon Self Publishing – Our Designs Makes You Stand Out'
- text="Design is the most important aspect when it comes to selling books. We know that might sound like an old cliché, but designing your cover will deliver layout and build intrigue for potential readers; they’ll want more after seeing what’s in store within these pages! So don’t settle on anything less than perfection – let us help make sure every manuscript looks exactly how you envisioned through Book Writing Cube."
+ title= 'For Blog Writing Services That Expedite Your Journey Towards Success, Contact Book Writing Cube Today!'
+ text="Get in touch with one of our industry experts for more information about our online blog writing services and pricing details by leaving your email or phone number below!"
  number="+1-302-883-8877"
  discuss="LET'S DISCUSS"
 />

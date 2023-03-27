@@ -34,7 +34,9 @@ const Aspiring = (props) => {
                     </Col>
                     <Col md={4}>
 
-                            <Freequote/>
+                            <Freequote 
+                              formsaspire='formsaspire'
+                            />
 
                     </Col>
                 </Row>

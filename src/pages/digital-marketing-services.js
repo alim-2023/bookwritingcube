@@ -10,10 +10,9 @@ import Whychoosebook from '../../components/Whychoosebook'
 import drivethebook1 from '/public/images/drivethebook/1.png'
 import Dowecome from '../../components/Dowecome'
 import Customersatisfaction from '../../components/Customersatisfaction'
-import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
-import typeofbooks from '/public/images/selfpublishingservices/typeofbooks.png'
-import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
-import copy from '/public/images/selfpublishingservices/copy.png'
+import youareonestepcloserto from '/public/images/youareonestepcloserto/youareonestepcloserto.png'
+
+
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Link from 'next/link'
 import { Container,Row,Col } from 'react-bootstrap'
@@ -27,11 +26,11 @@ const Digitalmarketingservices = () => {
   const bannertext=[
     {
       title: 'Digital Marketing Services Offering Your Manuscript the Maximum Exposure!',
-      pra: 'As an author, the only wish you long for is to make an unbeatable name for yourself. Here at Book Writing Cube, we offer book marketing services that help authors reach a larger audience, boost visibility, and get more ratings and sales for their books.',
+      pra: 'Our aim is to provide a constant stream of marketing plans to cater and build a solid foundation and establish a name for you!',
       discuss:'LET S DISCUSS',
       homebannernum:'(302) 883-8877',
       banlogo:homebannerlogos,
-      banners:'bookpublishingservices',
+      banners:'digitalmarketingservices',
      
        
 
@@ -129,112 +128,39 @@ col6: '6',
 
 {/* Makestories */}
 <Makestories
-title='Our Latest Book Publishing Projects'
-para='Let Our Book Publishing Team Help You'
+title='Our Latest Digital Marketing Projects'
+para='Let Our Digital Marketing Team Help You'
 />
 
 
-{/* Whybookpublishing */}
-<div className={styles.whybookpublishing}>
-  <Container>
-
-  <Row>
-    <h2 className='font48 fw900 color-blue t-center'>Why Book Publishing?</h2>
-    <p className='font15 fw500 color-black t-center pb-5'>
-                        Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!
-                    </p>
-
-  </Row>
-
-    <Row>
-      {whybookpublishingdata.map((item, i) =>
-        <Whybookpublishing  key={i}
-          title={item.title}
-          text={item.text}
-          col6={item.col6}
-        />
-      )}
-    </Row>            
-  </Container>   
-</div>
-
-{/* Lululogos components */}
-<Lululogos/>
 
 
-<Container className='servicetitle'>
-  <Row>
-    <Col>
-      <h2 className='color-blue fw900 font48 font-f t-center'>Why Choose Our Self Publishing Services?</h2>
-    </Col>
-  </Row>
-</Container>
+
+
+
 
 {/* Dowecome */}
 <Dowecome
- title='How Do "I Publish My Book?"'
- text="Our experience enables us to craft captivating stories. Short or long – your manuscript gets the attention it deserves! Every word we polish is prepared for the impact on the readers and infused with care. From beginning to end, our book publishers and book editing experts take on every project, because no task is too big or difficult when you have people like us working together as part of such a one-stop solution."
- subtext="We ensure everything from page-turners to nail-biting finishes feels masterfully controlled so each reader can find a perfect read. Our book editing team eagerly waits for their next project to be proofread and edited."
+ title='You Are One Step Closer To Displaying Your Writing Excellence. Let Our Professional Help You Out.'
+ text="Editing, proofreading, publishing--all that form the criticalities of the book writing process. We know the effort it takes, the perseverance it needs, and the struggle it brings, so why not hire a helping hand? We are only a call, message, or email away! Let’s collaborate."
  number="+1-302-883-8877"
  discuss="LET'S DISCUSS"
 Dowecome= "publishmybook"
-image={publishmybook}
+image={youareonestepcloserto}
 
 
 />
 
 
-{/* Whychoosebookwritingcube */}
-<Whychoosebookwritingcube
- title='What Type Of Books Do We Publish?'
- text= {text}
- subtext={subtext}
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
- image={typeofbooks}
- whychooseclass= "marketyourbook"
- />
+{/* Lululogos components */}
+
+<div className='mt-5'>
+<Lululogos/>
+</div>
 
 
 
- {/* Dowecome */}
-<Dowecome
- title='How Many Copies Of Your Book Will Be Published?'
- text="We publish/print books on demand. We set up your account with Amazon and other places, which allows us to have no set values for the minimum amount of copies that can be published/printed. We will print as many and as little as you want."
- subtext={kindledirectpublishing}
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
-Dowecome= "publishmybook"
-image={copy}
-/>
 
-
-{/* Whychoosebookwritingcube */}
-<Whychoosebookwritingcube
- title='How Will We Help You Market Your Book?'
- text= 'Our team of marketing experts are willing to provide their services to you. If you choose us for marketing, we ensure that you and your book gets maximum exposure. Our marketing professionals will assist your book and brand in reaching the success it deserves.'
- subtext= 'Our book marketing professionals will help your book and brand reach the success it deserves.'
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
-image={marketyourbook}
-whychooseclass= "marketyourbook"
- />
-
-
-{/* Customersatisfaction */}
- <Customersatisfaction/>
-
-
- {/* Bookpublishingservices */}
- <Bookpublishingservices/>
-
-
-{/* Why Choose Book Writing Cube? */}
-<Whychoosebook
-   title="What Is Our Book Publishing Process?"
-  text="We have devised an elaborate workflow process to maximize transparency while also making sure that the final product's quality does not suffer. We do this through an extensive process of asking for approvals and updating our customers at every project stage. This helps a customer understand where we're coming from and be aware of what's going on. Our self publishing process follows these six stages, as listed below."
-  whychoose= {drivethebook1}
- />
 
 
 {/* Aspiring */}

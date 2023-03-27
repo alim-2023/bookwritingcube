@@ -7,7 +7,7 @@ import Makestories from '../../components/Makestories'
 import Lululogos from '../../components/Lululogos'
 import Aspiring from '../../components/Aspiring'
 import Whychoosebook from '../../components/Whychoosebook'
-import drivethebook1 from '/public/images/drivethebook/1.png'
+import howtheformatting from '/public/images/whychoosebooks/howtheformatting.png'
 import Dowecome from '../../components/Dowecome'
 import Customersatisfaction from '../../components/Customersatisfaction'
 import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
@@ -27,11 +27,11 @@ const Bookformattingservices = () => {
   const bannertext=[
     {
       title: 'Shaping Your Work into a Stellar Piece of Literary Art with Our Book Formatting Services!',
-      pra: 'As an author, the only wish you long for is to make an unbeatable name for yourself. Here at Book Writing Cube, we offer book marketing services that help authors reach a larger audience, boost visibility, and get more ratings and sales for their books.',
+      pra: 'At Book Writing Cube, we understand that the process of creating a book can be daunting and time-consuming. That’s why we offer our professional book formatting services to help you save time and energy. From simple formatting tweaks to complete book redesigns, our team can do it all.We format your book according to industry standards so that it looks its best when published. We also work with you to ensure that your book’s interior layout is clear and easy to read.',
       discuss:'LET S DISCUSS',
       homebannernum:'(302) 883-8877',
       banlogo:homebannerlogos,
-      banners:'bookpublishingservices',
+      banners:'bookformattingservices',
      
        
 
@@ -51,23 +51,23 @@ const datapost = <span>Yes, you can. The Book Writing Cube team will assist you 
 const whybookpublishingdata = [
 
 {
-  title: 'How can I publish my book?',
-  text:  'The first thing you need to do after making up your mind about publishing a book is to find a publishing house. There are several types of publications including online publication, paperback or hardcopy publishing as well as self Publication. You need to select the kind of publication you want and then work with the publisher company to assist you with the process.',
+  title: 'What Does Book Formatting Include?',
+  text:  'Professional formatting services generally include setting up the basic layout of the book, including margins, pagination, and chapter headings. It may also involve more complex tasks, such as creating a table of contents and index pages.',
   col6: '6',
 },
 {
-  title: 'What’s different about Self Publishing?',
-  text: 'By self publishing a book, you get full authority of your work including the management and other processes of publishing like editing, cover design and even marketing strategies. You have to pay a certain amount as fee and you get to call the shots! At Book Writing Cube, different teams designated for different kinds of publications.',
+  title: 'How Does Book Formatting Services Providers Help Business Owners?',
+  text: 'Formatting a book can be a difficult and time-consuming task, but it’s important to get it right if you want your book to look professional and be successful. A good book formatting service will take care of all the details for you, from choosing the right font and line spacing to creating a table of contents and index. They’ll also make sure that your book is compatible with all the major e-book platforms, so you can reach the widest possible audience. Working with professional book formatting services helps businesses stand out from the crowd and give you the best chance of success. To cut a long story short, investing in professional book formatting services is a smart move that will pay off in the long run.',
   col6: '6',
 },
 {
-title:'How much does it cost to have a book published?',
-text:'If you’re worried about the initial investment you have to put in order to get your book published, don’t fret too much! There are various packages available from which you can select the one that works for you. We work with every kind of budget to give your clients the best experience and help them publish their work for the world to read!',
+title:'How to Format a Document for Book Formatting?',
+text:'When formatting a document for books, there are a few things to keep in mind. First, you will want to make sure that your document is in a font that is easy to read. Times New Roman or Arial are both good options. You will also want to make sure that your margins are at least 1 inch on all sides, and that your text is double-spaced. Finally, you will want to include a header at the top of each page that includes the title of your book and your name. Professional document formatting services take care of this process.',
 col6: '6',
 },
 {
-title:'Can I publish on different publishing platforms?',
-text: datapost,
+title:'How Do Formatted Books Help Business Owners?',
+text: 'Here are a few ways that a professionally formatted book can help business owners:',
 col6: '6',
 },
 
@@ -129,8 +129,8 @@ col6: '6',
 
 {/* Makestories */}
 <Makestories
-title='Our Latest Book Publishing Projects'
-para='Let Our Book Publishing Team Help You'
+title='Our Recent Formatting Projects That Made Our Clients WOW!'
+para='The list of projects goes on, but the most recent ones are here to help you confide in our formatting services expertise.'
 />
 
 
@@ -139,9 +139,9 @@ para='Let Our Book Publishing Team Help You'
   <Container>
 
   <Row>
-    <h2 className='font48 fw900 color-blue t-center'>Why Book Publishing?</h2>
+    <h2 className='font48 fw900 color-blue t-center'>Formatting Services Act Like A Missing Piece Of Your Book Success!</h2>
     <p className='font15 fw500 color-black t-center pb-5'>
-                        Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!
+    Our experts leave no stone unturned when it comes to formatting your book to the universal standards and making it a masterpiece. It goes unsaid that formatting services help you control the narrative and make a good first impression on the potential readers. To help you know more about book formatting perks, we have some knowledge to share with you!
                     </p>
 
   </Row>
@@ -162,85 +162,28 @@ para='Let Our Book Publishing Team Help You'
 <Lululogos/>
 
 
-<Container className='servicetitle'>
-  <Row>
-    <Col>
-      <h2 className='color-blue fw900 font48 font-f t-center'>Why Choose Our Self Publishing Services?</h2>
-    </Col>
-  </Row>
-</Container>
-
-{/* Dowecome */}
-<Dowecome
- title='How Do "I Publish My Book?"'
- text="Our experience enables us to craft captivating stories. Short or long – your manuscript gets the attention it deserves! Every word we polish is prepared for the impact on the readers and infused with care. From beginning to end, our book publishers and book editing experts take on every project, because no task is too big or difficult when you have people like us working together as part of such a one-stop solution."
- subtext="We ensure everything from page-turners to nail-biting finishes feels masterfully controlled so each reader can find a perfect read. Our book editing team eagerly waits for their next project to be proofread and edited."
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
-Dowecome= "publishmybook"
-image={publishmybook}
-
-
-/>
-
-
-{/* Whychoosebookwritingcube */}
-<Whychoosebookwritingcube
- title='What Type Of Books Do We Publish?'
- text= {text}
- subtext={subtext}
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
- image={typeofbooks}
- whychooseclass= "marketyourbook"
- />
 
 
 
- {/* Dowecome */}
-<Dowecome
- title='How Many Copies Of Your Book Will Be Published?'
- text="We publish/print books on demand. We set up your account with Amazon and other places, which allows us to have no set values for the minimum amount of copies that can be published/printed. We will print as many and as little as you want."
- subtext={kindledirectpublishing}
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
-Dowecome= "publishmybook"
-image={copy}
-/>
 
 
-{/* Whychoosebookwritingcube */}
-<Whychoosebookwritingcube
- title='How Will We Help You Market Your Book?'
- text= 'Our team of marketing experts are willing to provide their services to you. If you choose us for marketing, we ensure that you and your book gets maximum exposure. Our marketing professionals will assist your book and brand in reaching the success it deserves.'
- subtext= 'Our book marketing professionals will help your book and brand reach the success it deserves.'
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
-image={marketyourbook}
-whychooseclass= "marketyourbook"
- />
 
 
-{/* Customersatisfaction */}
- <Customersatisfaction/>
 
-
- {/* Bookpublishingservices */}
- <Bookpublishingservices/>
 
 
 {/* Why Choose Book Writing Cube? */}
 <Whychoosebook
-   title="What Is Our Book Publishing Process?"
-  text="We have devised an elaborate workflow process to maximize transparency while also making sure that the final product's quality does not suffer. We do this through an extensive process of asking for approvals and updating our customers at every project stage. This helps a customer understand where we're coming from and be aware of what's going on. Our self publishing process follows these six stages, as listed below."
-  whychoose= {drivethebook1}
+   title="How The Formatting Wheels Are Set In Motion?"
+  text="Our professionals follow a five-step game plan to make your manuscript perfect to the level of finesse."
+  whychoose= {howtheformatting}
  />
 
 
 {/* Aspiring */}
 <Aspiring
- title= 'Whether Bookshelf or Amazon Self Publishing – Our Designs Makes You Stand Out'
- text="Design is the most important aspect when it comes to selling books. We know that might sound like an old cliché, but designing your cover will deliver layout and build intrigue for potential readers; they’ll want more after seeing what’s in store within these pages! So don’t settle on anything less than perfection – let us help make sure every manuscript looks exactly how you envisioned through Book Writing Cube."
+ title= 'Polish Your Manuscripts To Perfection By Having Us On Your Side!'
+ text="Looking for a book formatting service that can help make your dream of being a published author a reality? Look no further than our team of professionals at Book Writing Cube! We offer a wide range of book formatting services that are sure to meet your needs and exceed your expectations. Contact us today to learn more about our services."
  number="+1-302-883-8877"
  discuss="LET'S DISCUSS"
 />

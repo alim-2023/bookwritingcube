@@ -39,6 +39,162 @@
     font-family: 'inter';
 }
 
+.bookwritingservices{
+    background-image: url(/images/bannerimages/bookwritingservices.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    background-position: center;
+    font-family: 'inter';
+}
+
+.bookpromotionservices{
+    background-image: url(/images/bannerimages/bookpromotionservices.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    background-position: center;
+    font-family: 'inter';
+}
+.bookeditingservices{
+    background-image: url(/images/bannerimages/bookeditingservices.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    background-position: center;
+    font-family: 'inter';
+}
+.bookmarketingservices{
+    background-image: url(/images/bannerimages/bookmarketingservices.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    background-position: center;
+    font-family: 'inter';
+}
+.offeringyoubook{
+    background-image: url(/images/bannerimages/offeringyoubook.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    background-position: center;
+    font-family: 'inter';
+}
+.blogwritingservices{
+    background-image: url(/images/bannerimages/blogwritingservices.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    background-position: center;
+    font-family: 'inter';
+}
+.bookcoverdesignservices{
+    background-image: url(/images/bannerimages/bookcoverdesignservices.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    background-position: center;
+    font-family: 'inter';
+}
+.buildexcitement{
+    background-image: url(/images/bannerimages/buildexcitement.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    background-position: center;
+    font-family: 'inter';
+}
+.topratedbusiness{
+    background-image: url(/images/bannerimages/topratedbusiness.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    background-position: center;
+    font-family: 'inter';
+}
+.childrenbookpublication{
+    background-image: url(/images/bannerimages/childrenbookpublication.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    background-position: center;
+    font-family: 'inter';
+}
+.authormarketingpromotionservices{
+    background-image: url(/images/bannerimages/authormarketingpromotionservices.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    background-position: right;
+    font-family: 'inter';
+}
+.childrenbookIllustrations{
+    background-image: url(/images/bannerimages/childrenbookIllustrations.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    background-position: right;
+    font-family: 'inter';
+}
+.digitalmarketingservices{
+    background-image: url(/images/bannerimages/digitalmarketingservices.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    background-position: right;
+    font-family: 'inter';
+}
+.bookformattingservices{
+    background-image: url(/images/bannerimages/bookformattingservices.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    background-position: center;
+    font-family: 'inter';
+}
+.audiobookrecordingservices{
+    background-image: url(/images/bannerimages/audiobookrecordingservices.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    background-position: center;
+    font-family: 'inter';
+}
+.webcontentwritingservices{
+    background-image: url(/images/bannerimages/webcontentwritingservices.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    background-position: center;
+    font-family: 'inter';
+}
+.empoweringauthorswith{
+    background-image: url(/images/bannerimages/empoweringauthorswith.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    background-position: center;
+    font-family: 'inter';
+}
+
+
 .homenumer:hover {
 
     background-color: black;

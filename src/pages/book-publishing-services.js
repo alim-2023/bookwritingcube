@@ -7,7 +7,9 @@ import Makestories from '../../components/Makestories'
 import Lululogos from '../../components/Lululogos'
 import Aspiring from '../../components/Aspiring'
 import Whychoosebook from '../../components/Whychoosebook'
-import drivethebook1 from '/public/images/drivethebook/1.png'
+
+import drivethebook1 from '/public/images/whychoosebooks/fictions.jpg'
+
 import Dowecome from '../../components/Dowecome'
 import Customersatisfaction from '../../components/Customersatisfaction'
 import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'

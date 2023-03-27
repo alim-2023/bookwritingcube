@@ -7,13 +7,11 @@ import Makestories from '../../components/Makestories'
 import Lululogos from '../../components/Lululogos'
 import Aspiring from '../../components/Aspiring'
 import Whychoosebook from '../../components/Whychoosebook'
-import drivethebook1 from '/public/images/drivethebook/1.png'
+import fivestepprocess from '/public/images/whychoosebooks/fivestepprocess.png'
 import Dowecome from '../../components/Dowecome'
 import Customersatisfaction from '../../components/Customersatisfaction'
-import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
-import typeofbooks from '/public/images/selfpublishingservices/typeofbooks.png'
-import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
-import copy from '/public/images/selfpublishingservices/copy.png'
+
+
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Link from 'next/link'
 import { Container,Row,Col } from 'react-bootstrap'
@@ -27,47 +25,42 @@ const Bookcoverdesignservices = () => {
   const bannertext=[
     {
       title: 'Communicate About The Story Inside With Our Book Cover Design Services!',
-      pra: 'As an author, the only wish you long for is to make an unbeatable name for yourself. Here at Book Writing Cube, we offer book marketing services that help authors reach a larger audience, boost visibility, and get more ratings and sales for their books.',
+      pra: 'Why do you need book cover design services? The answer is simple. Because the first impression matters. If you are an author who wants to expedite your book sales or a business executive who wants to be a cut above the rest, you ought to invest in appealing book cover designs.',
+      subtext1:'Book Writing Cube helps you create engaging and professional covers that capture your unique voice and vision. Our mission is to help people share their stories and ideas with the world, and our vision is to be the go-to source for book cover design services.',
+      subtext2:'Then why wait? Call our eBook cover designers and let them take charge of making your book the best-selling publication of all times! Time To Give Your Potential Readers A Taste Of What Your Book Is About Without Spoiling The Plot.',
       discuss:'LET S DISCUSS',
       homebannernum:'(302) 883-8877',
       banlogo:homebannerlogos,
-      banners:'bookpublishingservices',
+      banners:'bookcoverdesignservices',
      
        
 
     }
   ]
 
-const text = <span>We write, edit, publish and market all genres of books. Also, we provide similar services to <Link className='textdocationnone' href="#">self publish ebooks</Link>. So, we can also help you with <Link className='textdocationnone' href="#">self publishing</Link> .</span>;
 
-const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
-
-const  kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="#" className='textdocationnone'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
-
-
-const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="#">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
 
 
 const whybookpublishingdata = [
 
 {
-  title: 'How can I publish my book?',
-  text:  'The first thing you need to do after making up your mind about publishing a book is to find a publishing house. There are several types of publications including online publication, paperback or hardcopy publishing as well as self Publication. You need to select the kind of publication you want and then work with the publisher company to assist you with the process.',
+  title: 'What Makes A Good Book Cover Design?',
+  text:  'A good book cover design is important because it is the first thing that a potential reader will see, so it needs to be eye-catching and attractive enough to make them want to pick up the book and read it. There are a few things that make a good book cover design. First, it does have an easy-to-read title and easy-to-recognize author information prominently displayed. In addition, the book cover should accurately reflect the genre of the book, i.e., a comic book cover creator will design a different cover for comic books than romance novels. Last but not least, it is also important to remember that the book cover is an important marketing tool. Therefore, the cover should accurately reflect the book’s content. More so, a good cover design can also help set the book’s tone and give readers an idea of what to expect from the story.',
   col6: '6',
 },
 {
-  title: 'What’s different about Self Publishing?',
-  text: 'By self publishing a book, you get full authority of your work including the management and other processes of publishing like editing, cover design and even marketing strategies. You have to pay a certain amount as fee and you get to call the shots! At Book Writing Cube, different teams designated for different kinds of publications.',
+  title: 'What Is Book Cover Design?',
+  text: 'Book cover design is the process of creating an attractive and eye-catching book cover that accurately represents the contents of the book. It is critical to remember that the book cover is often the first thing potential readers will see, so it is important to make a good impression.',
   col6: '6',
 },
 {
-title:'How much does it cost to have a book published?',
-text:'If you’re worried about the initial investment you have to put in order to get your book published, don’t fret too much! There are various packages available from which you can select the one that works for you. We work with every kind of budget to give your clients the best experience and help them publish their work for the world to read!',
+title:'What Do I Need To Provide To The Book Cover Designer?',
+text:'When you’re ready to start working with a designer on your book cover, you’ll need to provide them with some basic information about your book, including the title, author name, publisher, and publication date. You should also have a good idea of the overall look, the target audience, and the feel that you’re hoping to achieve with the cover. If you have any specific images or other elements that you would like to include, be sure to share those with the designer.',
 col6: '6',
 },
 {
-title:'Can I publish on different publishing platforms?',
-text: datapost,
+title:'How Can I Protect My Book Cover Design?',
+text: 'If you want to protect your book cover design, you can register it with the U.S. Copyright Office. You will need to provide a copy of the cover design, along with a description of the work and your contact information. Once your copyright is registered, you will have the legal right to take action if someone unauthorized uses your design.',
 col6: '6',
 },
 
@@ -116,6 +109,8 @@ col6: '6',
         <Banner key={i}
           title={item.title}
           text={item.pra}
+          subtext1={item.subtext1}
+          subtext2={item.subtext2}
           discuss={item.discuss}
           homebannernum={item.homebannernum}
           homebanlogos={item.banlogo}
@@ -129,8 +124,8 @@ col6: '6',
 
 {/* Makestories */}
 <Makestories
-title='Our Latest Book Publishing Projects'
-para='Let Our Book Publishing Team Help You'
+title='Done and Dusted Book Cover Design Projects That Shed Light on Our Credibility'
+para='Here are a few book cover design projects that we accomplished with utmost finesse.'
 />
 
 
@@ -139,9 +134,9 @@ para='Let Our Book Publishing Team Help You'
   <Container>
 
   <Row>
-    <h2 className='font48 fw900 color-blue t-center'>Why Book Publishing?</h2>
+    <h2 className='font48 fw900 color-blue t-center'>Don’t Let Your Questions Pester You Any Longer. We Have Answers To Rein Them In!</h2>
     <p className='font15 fw500 color-black t-center pb-5'>
-                        Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!
+    Our book cover design experts go above and beyond to make your book look flawless and attention-grabbing. Whether you are an author who wants design for their books or a business person who wants their publications to look professional, we serve as the perfect stop to pause. Book Writing Cube sets the bar high with its standard book cover design services and knows what its clients may be thinking of. So, here are some frequently asked questions.
                     </p>
 
   </Row>
@@ -162,85 +157,32 @@ para='Let Our Book Publishing Team Help You'
 <Lululogos/>
 
 
-<Container className='servicetitle'>
-  <Row>
-    <Col>
-      <h2 className='color-blue fw900 font48 font-f t-center'>Why Choose Our Self Publishing Services?</h2>
-    </Col>
-  </Row>
-</Container>
-
-{/* Dowecome */}
-<Dowecome
- title='How Do "I Publish My Book?"'
- text="Our experience enables us to craft captivating stories. Short or long – your manuscript gets the attention it deserves! Every word we polish is prepared for the impact on the readers and infused with care. From beginning to end, our book publishers and book editing experts take on every project, because no task is too big or difficult when you have people like us working together as part of such a one-stop solution."
- subtext="We ensure everything from page-turners to nail-biting finishes feels masterfully controlled so each reader can find a perfect read. Our book editing team eagerly waits for their next project to be proofread and edited."
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
-Dowecome= "publishmybook"
-image={publishmybook}
-
-
-/>
-
-
-{/* Whychoosebookwritingcube */}
-<Whychoosebookwritingcube
- title='What Type Of Books Do We Publish?'
- text= {text}
- subtext={subtext}
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
- image={typeofbooks}
- whychooseclass= "marketyourbook"
- />
 
 
 
- {/* Dowecome */}
-<Dowecome
- title='How Many Copies Of Your Book Will Be Published?'
- text="We publish/print books on demand. We set up your account with Amazon and other places, which allows us to have no set values for the minimum amount of copies that can be published/printed. We will print as many and as little as you want."
- subtext={kindledirectpublishing}
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
-Dowecome= "publishmybook"
-image={copy}
-/>
 
 
-{/* Whychoosebookwritingcube */}
-<Whychoosebookwritingcube
- title='How Will We Help You Market Your Book?'
- text= 'Our team of marketing experts are willing to provide their services to you. If you choose us for marketing, we ensure that you and your book gets maximum exposure. Our marketing professionals will assist your book and brand in reaching the success it deserves.'
- subtext= 'Our book marketing professionals will help your book and brand reach the success it deserves.'
- number="+1-302-883-8877"
- discuss="LET'S DISCUSS"
-image={marketyourbook}
-whychooseclass= "marketyourbook"
- />
 
 
-{/* Customersatisfaction */}
- <Customersatisfaction/>
 
 
- {/* Bookpublishingservices */}
- <Bookpublishingservices/>
+
+
+
+
 
 
 {/* Why Choose Book Writing Cube? */}
 <Whychoosebook
-   title="What Is Our Book Publishing Process?"
-  text="We have devised an elaborate workflow process to maximize transparency while also making sure that the final product's quality does not suffer. We do this through an extensive process of asking for approvals and updating our customers at every project stage. This helps a customer understand where we're coming from and be aware of what's going on. Our self publishing process follows these six stages, as listed below."
-  whychoose= {drivethebook1}
+   title="Five-Step Process for Book Cover Design Services."
+  whychoose= {fivestepprocess}
  />
 
 
 {/* Aspiring */}
 <Aspiring
- title= 'Whether Bookshelf or Amazon Self Publishing – Our Designs Makes You Stand Out'
- text="Design is the most important aspect when it comes to selling books. We know that might sound like an old cliché, but designing your cover will deliver layout and build intrigue for potential readers; they’ll want more after seeing what’s in store within these pages! So don’t settle on anything less than perfection – let us help make sure every manuscript looks exactly how you envisioned through Book Writing Cube."
+ title= 'Professional Book Cover Design Services That Help Your Ideal Readers Judge Your Book By Its Cover!'
+ text="Call us if you want to get your hands on the beautiful, engaging, and effective book cover to break the competition and make a 'NAME.' "
  number="+1-302-883-8877"
  discuss="LET'S DISCUSS"
 />
