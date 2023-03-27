@@ -1,15 +1,25 @@
 import React from 'react'
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
-import Banner from '../../components/Banner'
 import Head from 'next/head'
-import Partners from '../../components/Partners'
-import Makestories from '../../components/Makestories'
-import Lululogos from '../../components/Lululogos'
-import Aspiring from '../../components/Aspiring'
-import Whychoosebook from '../../components/Whychoosebook'
 import stepstoour from '/public/images/whychoosebooks/stepstoour.png'
-import Dowecome from '../../components/Dowecome'
-import Customersatisfaction from '../../components/Customersatisfaction'
+
+import Banner from '../../components/Banner'
+import Partners from '../../components/Partners'
+
+// import Makestories from '../../components/Makestories'
+// import Lululogos from '../../components/Lululogos'
+// import Aspiring from '../../components/Aspiring'
+// import Whychoosebook from '../../components/Whychoosebook'
+// import Dowecome from '../../components/Dowecome'
+// import Customersatisfaction from '../../components/Customersatisfaction'
+import dynamic from 'next/dynamic'
+const Makestories = dynamic(() => import('../../components/Makestories'))
+const Lululogos = dynamic(() => import('../../components/Lululogos'))
+const Aspiring = dynamic(() => import('../../components/Aspiring'))
+const Whychoosebook = dynamic(() => import('../../components/Whychoosebook'))
+const Dowecome = dynamic(() => import('../../components/Dowecome'))
+const Customersatisfaction = dynamic(() => import('../../components/Customersatisfaction'))
+
 
 import ipublishmybook from '/public/images/ipublishmybook/ipublishmybook.png'
 
