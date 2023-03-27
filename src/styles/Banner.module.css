@@ -323,6 +323,65 @@
 }
 @media (max-width:767px)  {
 
+
+
+
+    .bookwritingservices {
+       background-image:unset;
+    }
+    .bookpromotionservices {
+       background-image:unset;
+    }
+    .bookeditingservices{
+       background-image:unset;
+    }
+    .bookmarketingservices{
+       background-image:unset;
+    }
+    .offeringyoubook{
+       background-image:unset;
+    }
+    .blogwritingservices{
+       background-image:unset;
+    }
+    .bookcoverdesignservices{
+       background-image:unset;
+    }
+    .buildexcitement{
+       background-image:unset;
+    }
+    .topratedbusiness{
+       background-image:unset;
+    }
+    .childrenbookpublication{
+       background-image:unset;
+    }
+    .authormarketingpromotionservices{
+       background-image:unset;
+    }
+    .childrenbookIllustrations{
+       background-image:unset;
+    }
+    .digitalmarketingservices{
+       background-image:unset;
+    }
+    .bookformattingservices{
+       background-image:unset;
+    }
+    .audiobookrecordingservices{
+       background-image:unset;
+    }
+    .webcontentwritingservices{
+       background-image:unset;
+    }
+    .empoweringauthorswith{
+       background-image:unset;
+    }
+
+
+
+
+
 .banner {
     background-image: unset;
     background-color: #f1f1f1;
