@@ -109,8 +109,8 @@ const fine = [
    <>
    <Head>
 
-   <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta charSet="UTF-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <title>Book Editing Services Rectifying Writing Flaws - Book Writing Cube</title>
     <meta name="description" content="Book Writing Cube Offers Book Editing Services To Make Your Manuscript Flawless. Visit Our Site To Know More. " />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

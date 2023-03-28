@@ -33,8 +33,8 @@ const Faqs = () => {
     <>
     
     <Head> 
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charSet="UTF-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <title>Book Writing Services Company - Book Writing Cube</title>
     <meta name="description"
         content="We Give You Professional in Book Writing Want to become an author of the all-time best seller? We have the right solution for you Lets Discuss Lets Discuss (302) 883-8877 Request A Free Quote Your Budget3k-5k5k-7k7k-10k10k-15k15k-20k20k-25k25k-30k30k-40k40k-50k The published manifestation of your writing dreams! Get Free Consultancy Are You Facing Difficulty in Converting Idea into Words? […]" />

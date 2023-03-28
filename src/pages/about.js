@@ -48,8 +48,8 @@ const About = () => {
 
 <Head>
 
-<meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charSet="UTF-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <title>About us - Book Writing cube </title>
     <meta name="description"
         content="Book Writing Company that molds your ideas into captivating stories and make them happen. Connect with us to become the best-selling author now." />

@@ -80,8 +80,8 @@ col6: '6',
    <>
    <Head>
 
-   <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta charSet="UTF-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <title> Promising Formatting Services – Book Writing Cube </title>
     <meta name="description"
         content="Formatting Services that help your book ready for publication. Contact us to format your book per international standards." />

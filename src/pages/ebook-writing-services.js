@@ -80,8 +80,8 @@ col6: '6',
    <Head>
 
 
-   <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta charSet="UTF-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <title>Ebook Writing Services  - Book Writing Cube</title>
     <meta name="description"
         content="Ebook Writing Services Offer You The Professional Assistance To Pen Down Your Thoughts. Get A Custom Quote Today!" />

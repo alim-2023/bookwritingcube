@@ -73,8 +73,8 @@ col6: '6',
    <>
    <Head>
 
-   <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta charSet="UTF-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <title>  Author Website Design Services – Book Writing Cube </title>
     <meta name="description"
         content="Author Website Design Services that help authors promote their books by making the most out of website experiences. Call us now to design it for you. " />

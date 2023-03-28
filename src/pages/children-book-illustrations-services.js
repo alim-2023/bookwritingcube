@@ -62,8 +62,8 @@ const datapost = <span>Yes, you can. The Book Writing Cube team will assist you 
    <Head>
 
 
-   <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta charSet="UTF-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <title>Children Book Illustrations Services - Book Writing Cube</title>
     <meta name="description" content="Children Book Illustration Services That Hit The Chord With Kids and Hook Them To Read. Visit Our Website To Get Services For You." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>

@@ -73,8 +73,8 @@ col6: '6',
    <>
    <Head>
 
-   <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta charSet="UTF-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <title>Book Cover Design Services – Book Writing Cube</title>
     <meta name="description"
         content="Book Cover Design Services to help your book make a striking impression and give your readers a glimpse of what your book is all about. Get yours now. " />

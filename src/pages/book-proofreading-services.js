@@ -83,8 +83,8 @@ col6: '6',
    <Head>
 
 
-   <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta charSet="UTF-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <title>Finest Proofreading Services – Book Writing Cube </title>
     <meta name="description"
         content="Proofreading Services that fix the writing errors and make your content flawless. Hire us to get your manuscript proofread by professionals. " />

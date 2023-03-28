@@ -121,8 +121,8 @@ const reasons = [
    <>
    <Head>
 
-   <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta charSet="UTF-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <title> Professional Book Promotion Services – Book Writing Cube</title>
     <meta name="description"
         content="Book Promotion Services to make a noise around your books. Call our marketing gurus and let them make your book the talk of the town. 

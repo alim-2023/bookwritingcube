@@ -158,8 +158,8 @@ const fine = [
    <Head>
 
 
-   <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta charSet="UTF-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <title>  Book Writing Services - Book Writing Cube </title>
     <meta name="description"
         content="Our Expert Book Writers Offer Quality Book Writing Services For Both Non-Fiction And Fiction Genre. Call Us To Get Them." />

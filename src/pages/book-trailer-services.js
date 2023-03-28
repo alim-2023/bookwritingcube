@@ -77,8 +77,8 @@ col6: '6',
    <>
    <Head>
 
-   <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta charSet="UTF-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <title> Impeccable Book Trailer Services – Book Writing Cube </title>
     <meta name="description"
         content="Book Trailer Services to help you hit the chord with the readers before your book makes an entry into the publication world. Call us to get the services." />
