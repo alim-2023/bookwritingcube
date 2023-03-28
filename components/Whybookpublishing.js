@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from '@/styles/whybookpublishing.module.css'
 import { Container,Row,Col } from 'react-bootstrap'
 
 
