@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container,Row,Col } from 'react-bootstrap'
-import styles from '@/styles/Whybookpublishing.module.css'
+import styles from '@/styles/Whybookpublishing.module.css '
 
 const Whybookpublishing = (props) => {
 
