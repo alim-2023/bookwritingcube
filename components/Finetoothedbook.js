@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '@/styles/finetoothedbook.module.css'
+import styles from '@/styles/Finetoothedbook.module.css'
 import { Container,Row,Col } from 'react-bootstrap'
 import Link from 'next/link'
 
