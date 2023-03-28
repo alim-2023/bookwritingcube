@@ -1,9 +1,10 @@
 import React from 'react'
-
 import { Container, Row, Col } from 'react-bootstrap'
 import Image from 'next/image'
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { FaRegComments } from 'react-icons/fa';
+import styles from '@/styles/Sticky.module.css'
+
 
 const Sticky = () => {
   return (
