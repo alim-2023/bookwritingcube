@@ -129,6 +129,7 @@ const fine = [
   {
     title:'Customized Book Writing Packages',
     text: finetext,
+    class: 'fintop',
     btn:'LET`S DISCUSS'
 
   },
@@ -136,6 +137,7 @@ const fine = [
   {
     title:'All-in-One Book Writing Approach',
     text:'We provide a range of services to authors who need book writing services. These include the initial idea draft up to the final proofreading. Before publishing it, we ensure that each work holds its essence according to the idea and does not deviate.',
+    class: 'fintop',
     btn:'LET`S DISCUSS'
 
   },
@@ -143,6 +145,7 @@ const fine = [
   {
     title:'Specialist Services',
     text:'We collaborate with the industry’s best bookwriting experts and eBook Writers to give you a piece a that stands out among all the rest. Our value-added services allow us to design your cover and market your publication to reach maximum readers. We won’t abandon you, and as professional book writing services we ensure that our teams of book writer help you reach that bestseller status!',
+    class: 'fintop',
     btn:'LET`S DISCUSS'
 
   },
@@ -283,7 +286,7 @@ image={bookwritingcanbe}
 </div>
 
 
-<div className={styles.finetoothedbook}>
+<div className={`${styles.finetoothedbook} customizedbook`}>
 <Container>
 <Row >
 <h2 className='font48 fw900 color-blue  t-center font-f mb-2'>Fine-toothed book writing to give your readers a truly immersive experience with the help of our team of professional eBook writers!</h2>  
@@ -297,6 +300,7 @@ image={bookwritingcanbe}
 <Finetoothedbook   key={i}
 title =  {item.title}
 text =  {item.text}
+classtop =  {item.class}
 btn =  {item.btn}
 />
 )}

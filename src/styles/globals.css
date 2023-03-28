@@ -121,6 +121,8 @@ body{ font-family: 'Inter'; }
     height: 90px;
 }
 
+
+
 /* .testtimonials .slick-prev, .slick-next {
   font-size: 0;
   line-height: 0;
@@ -146,6 +148,11 @@ body{ font-family: 'Inter'; }
 
 
 @media (max-width:1280px)  {
+
+  .customizedbook .col-md-4{
+    width: 100%;
+  }
+  
 
   .font48 {
     font-size: 35px;

@@ -23,6 +23,8 @@ import Bookpublishingservices from '../../components/Bookpublishingservices'
 import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/whybookpublishing.module.css'
 
+import Finetoothedbook from '../../components/Finetoothedbook'
+
 const Bookeditingservices = () => {
 
 
@@ -72,6 +74,35 @@ col6: '6',
 ]
 
 
+
+const fine = [
+
+  {
+    title:'Proofreading to perfection',
+    text: 'Our professional book writing editor and proofreader make sure the story is impactful, the content is clear and concise, and the message is engaging.',
+    btn:'LET`S DISCUSS',
+    class: 'fintopbookedit',
+
+  },
+
+  {
+    title:'Rigorous Reviewers',
+    text:'The online book editor for hire goes through the provided manuscript and pinpoints what does and doesn’t flow well with the scene, transitions, format, and story development.',
+    btn:'LET`S DISCUSS',
+    class: 'fintopbookedit',
+
+  },
+
+  {
+    title:'Grammar Gurus',
+    text:'Great grammar, incredible word usage, and well-written sentence are needed to make your work enticing and the audience’s favorite—this is what our professional book editors excel in!',
+    btn:'LET`S DISCUSS',
+    class: 'fintopbookedit',
+
+  },
+
+
+]
 
 
   return (
@@ -216,6 +247,27 @@ image={whychooseourbookeditingservices4}
 whychooseclass= "marketyourbook"
  />
 
+<div className={`${styles.finetoothedbook} mt-5`}>
+<Container>
+<Row >
+<h2 className='font48 fw900 color-blue  t-center font-f mb-2'>How Do Our Book Editing And Formatting Services Stand Out?</h2>  
+
+<p className='font15 fw500 color-black t-center pb-2'>We're committed to providing quality book editing services for your work. From book proofreading, copywriting, and grammar, we'll help you perfect what's written so it can be published professionally- whether that means removing errors or adding creative flair.</p>
+
+</Row>
+
+<Row className='gy-5'>
+{ fine.map((item, i) =>
+<Finetoothedbook   key={i}
+title =  {item.title}
+text =  {item.text}
+btn =  {item.btn}
+classtop =  {item.class}
+/>
+)}
+</Row>
+</Container>
+</div>
 
 
 
