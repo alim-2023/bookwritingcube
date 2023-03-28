@@ -259,4 +259,3 @@ whychooseclass= "marketyourbook"
 export default Bookpublishingservices
 
 
-book-publishing-services.js
