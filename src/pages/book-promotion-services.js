@@ -20,6 +20,7 @@ import { Container,Row,Col } from 'react-bootstrap'
 import Bookpublishingservices from '../../components/Bookpublishingservices'
 import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/whybookpublishing.module.css'
+import Stillonthefence from '../../components/stillonthefence'
 
 const Bookpromotionservices = () => {
 
@@ -72,6 +73,37 @@ col6: '6',
 
 
 
+const reasons = [
+
+  {
+    title:'Proven Track Record',
+    text:'Our company has a proven track record of successful book promotion campaigns.',
+  },
+  {
+    title:'Team of Marketing Gurus',
+    text:'Book Writing Cube has a team of experienced and creative professionals who can provide customized book promotion services. Every marketing approach, platform, and product requires a well-tailored strategy and plan of execution. Since every book has a different audience, our book marketing services make sure the needs and preferences of the target readers are met.',
+  },
+  {
+    title:'Cost-Effective Solutions',
+    text:'We offer cost-effective book promotion services for authors that fit any budget. The packages we offer regarding book marketing services include social media platforms, blogging, guest posting, and email marketing.',
+  },
+
+  {
+    title:'Extensive Network',
+    text:'We bear a wide range of contacts and resources to promote your book effectively. We`ve helped authors from all genres and backgrounds achieve their publishing goals, and we can do the same for you.',
+  },
+  {
+    title:'Deep Understanding',
+    text:'We have a deep understanding of the book promotion process and know how to get results.',
+  },
+  {
+    title:'Result-driven Approach',
+    text:'We are committed to providing the best possible online book promotion services and achieving the desired results for our clients.',
+  },
+
+
+]
+
 
   return (
    <>
@@ -79,27 +111,38 @@ col6: '6',
 
    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Book Publishing Services To Help You Be Read - Book Writing Cube</title>
-    <meta name="description" content="We Offer Book Publishing Services For Authors Who Want To Self-Publish Their Books. Go To Our Site To Learn." />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title> Professional Book Promotion Services – Book Writing Cube</title>
+    <meta name="description"
+        content="Book Promotion Services to make a noise around your books. Call our marketing gurus and let them make your book the talk of the town. 
+        " />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="max-image-preview:large" />
     <meta name="tags" content="" />
-    <meta name="DC.title" content="Book Publishing Services" />
-    <meta name="geo.region" content="en" />
+
+    <meta name="DC.title" content="book promotion" />
+    <meta name="geo.region" content="GB" />
+    <meta name="geo.position" content="54.702355;-3.276575" />
+    <meta name="ICBM" content="54.702355, -3.276575" />
+
+    <meta name="DC.title" content="book promotion" />
+    <meta name="geo.region" content="US" />
     <meta name="geo.position" content="39.78373;-100.445882" />
     <meta name="ICBM" content="39.78373, -100.445882" />
-    <meta name="DC.title" content="book publishing services" />
-    <meta name="geo.region" content="GB" />
-    <meta name="geo.position" content="55.753005;-2.857642" />
-    <meta name="ICBM" content="55.753005, -2.857642" />
-  	<meta property="og:locale" content="en" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Book Publishing Services To Help You Be Read - Book Writing Cube" />
-	<meta property="og:description" content="We Offer Book Publishing Services For Authors Who Want To Self-Publish Their Books. Go To Our Site To Learn." />
-	<meta property="og:url" content="https://www.bookwritingcube.com/" />
-	<meta property="og:site_name" content="Book Publishing Services To Help You Be Read - Book Writing Cube" />
+    <meta property="og:locale" content="en" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Professional Book Promotion Services – Book Writing Cube" />
+    <meta property="og:description"
+        content=" Book Promotion Services to make a noise around your books. Call our marketing gurus and let them make your book the talk of the town." />
+    <meta property="og:url" content="https://www.bookwritingcube.com/" />
+    <meta property="og:site_name" content="Professional Book Promotion Services – Book Writing Cube" />
     <meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="5 minutes" />
+    <meta name="twitter:label1" content="Est. reading time" />
+    <meta name="twitter:data1" content="5 minutes" />
+
+
+
+
+
   <link rel="icon" href="/favicon.png" />
 
    </Head>
@@ -150,8 +193,8 @@ para='Here is a list of the projects we nailed with our marketing expertise.'
       {whybookpublishingdata.map((item, i) =>
         <Whybookpublishing  key={i}
           title={item.title}
-          text={item.text}
-          col6={item.col6}
+          text ={item.text}
+          col6 ={item.col6}
         />
       )}
     </Row>            
@@ -166,10 +209,25 @@ para='Here is a list of the projects we nailed with our marketing expertise.'
 
 
 
+{/* Stillonthefence component */}
+
+<Container className='still'>
 
 
+<Row >
+<h2 className='font48 fw900 color-blue t-center font-f mb-5'>Still On the Fence? We Have Reasons For You To Confide In Us!</h2>  
+</Row>  
 
+<Row className='gy-5'>
+{ reasons.map((item, i) =>
+<Stillonthefence key={i}
+title =  {item.title}
+text =   {item.text}
+/>
+  )}
 
+</Row>  
+</Container>
 
 
 

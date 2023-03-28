@@ -82,27 +82,32 @@ col6: '6',
 
    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Book Publishing Services To Help You Be Read - Book Writing Cube</title>
-    <meta name="description" content="We Offer Book Publishing Services For Authors Who Want To Self-Publish Their Books. Go To Our Site To Learn." />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Author Marketing Promotion Services - Book Writing Cube</title>
+    <meta name="description"
+        content="Looking for a comprehensive author marketing service? Book Writing Cube offers a wide range of services to help you promote your work and connect with new readers." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="max-image-preview:large" />
     <meta name="tags" content="" />
-    <meta name="DC.title" content="Book Publishing Services" />
+    <meta name="DC.title" content="Book Writing Services" />
     <meta name="geo.region" content="en" />
     <meta name="geo.position" content="39.78373;-100.445882" />
     <meta name="ICBM" content="39.78373, -100.445882" />
-    <meta name="DC.title" content="book publishing services" />
+    <meta name="DC.title" content="book writing services" />
     <meta name="geo.region" content="GB" />
     <meta name="geo.position" content="55.753005;-2.857642" />
     <meta name="ICBM" content="55.753005, -2.857642" />
-  	<meta property="og:locale" content="en" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Book Publishing Services To Help You Be Read - Book Writing Cube" />
-	<meta property="og:description" content="We Offer Book Publishing Services For Authors Who Want To Self-Publish Their Books. Go To Our Site To Learn." />
-	<meta property="og:url" content="https://www.bookwritingcube.com/" />
-	<meta property="og:site_name" content="Book Publishing Services To Help You Be Read - Book Writing Cube" />
+    <meta property="og:locale" content="en" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Author Marketing Promotion Services - Book Writing Cube" />
+    <meta property="og:description"
+        content="Looking for a comprehensive author marketing service? Book Writing Cube offers a wide range of services to help you promote your work and connect with new readers." />
+    <meta property="og:url" content="https://www.bookwritingcube.com/" />
+    <meta property="og:site_name" content="Author Marketing Promotion Services - Book Writing Cube" />
     <meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="5 minutes" />
+    <meta name="twitter:label1" content="Est. reading time" />
+    <meta name="twitter:data1" content="5 minutes" />
+    <meta name="facebook-domain-verification" content="s4ocl50k325dpk61h3frbd8aajeybv" />
+
   <link rel="icon" href="/favicon.png" />
 
    </Head>

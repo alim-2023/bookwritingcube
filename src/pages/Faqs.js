@@ -32,8 +32,8 @@ const Faqs = () => {
   return (
     <>
     
-    <Head>
-
+    <Head> 
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Book Writing Services Company - Book Writing Cube</title>
     <meta name="description"

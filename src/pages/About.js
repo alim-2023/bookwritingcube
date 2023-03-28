@@ -77,6 +77,10 @@ const About = () => {
     <link rel="icon" href="/favicon.png" />
 
 
+
+    
+
+
 </Head>    
 {/* banner components */}
 {bannertext.map((item, i) =>

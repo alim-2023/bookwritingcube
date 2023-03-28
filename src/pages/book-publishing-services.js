@@ -84,8 +84,8 @@ col6: '6',
 
    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Book Publishing Services To Help You Be Read - Book Writing Cube</title>
-    <meta name="description" content="We Offer Book Publishing Services For Authors Who Want To Self-Publish Their Books. Go To Our Site To Learn." />
+    <title>Amazon KDP Book Publishing Services Company - bookwritingcube.com</title>
+    <meta name="description" content="Hire a reliable Book Publishing company, for Kindle Direct Publishing. As a top book publisher, we offer a variety of tools and resources to help authors succeed – Call us now and let our publishing experts guide you!" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="tags" content="" />
     <meta name="DC.title" content="Book Publishing Services" />
@@ -98,11 +98,11 @@ col6: '6',
     <meta name="ICBM" content="55.753005, -2.857642" />
   	<meta property="og:locale" content="en" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Book Publishing Services To Help You Be Read - Book Writing Cube" />
-	<meta property="og:description" content="We Offer Book Publishing Services For Authors Who Want To Self-Publish Their Books. Go To Our Site To Learn." />
+	<meta property="og:title" content="Amazon KDP Book Publishing Services Company - bookwritingcube.com" />
+	<meta property="og:description" content="Hire a reliable Book Publishing company, for Kindle Direct Publishing. As a top book publisher, we offer a variety of tools and resources to help authors succeed – Call us now and let our publishing experts guide you!" />
 	<meta property="og:url" content="https://www.bookwritingcube.com/" />
-	<meta property="og:site_name" content="Book Publishing Services To Help You Be Read - Book Writing Cube" />
-    <meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:site_name" content="Amazon KDP Book Publishing Services Company - bookwritingcube.com" />
+  <meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:label1" content="Est. reading time" />
 	<meta name="twitter:data1" content="5 minutes" />
   <link rel="icon" href="/favicon.png" />

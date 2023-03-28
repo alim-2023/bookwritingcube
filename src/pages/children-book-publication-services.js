@@ -61,27 +61,33 @@ const datapost = <span>Yes, you can. The Book Writing Cube team will assist you 
 
    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Book Publishing Services To Help You Be Read - Book Writing Cube</title>
-    <meta name="description" content="We Offer Book Publishing Services For Authors Who Want To Self-Publish Their Books. Go To Our Site To Learn." />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Children Book Publication Services Creating Reading Trials - Book Writing Cube</title>
+    <meta name="description"
+        content="Book Publication Services that aim to aid aspiring authors write, publish, & sell their children's books." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="tags" content="" />
-    <meta name="DC.title" content="Book Publishing Services" />
-    <meta name="geo.region" content="en" />
+
+    <meta name="DC.title" content="children book publication" />
+    <meta name="geo.region" content="GB" />
+    <meta name="geo.position" content="54.702355;-3.276575" />
+    <meta name="ICBM" content="54.702355, -3.276575" />
+
+    <meta name="DC.title" content="children book publication" />
+    <meta name="geo.region" content="US" />
     <meta name="geo.position" content="39.78373;-100.445882" />
     <meta name="ICBM" content="39.78373, -100.445882" />
-    <meta name="DC.title" content="book publishing services" />
-    <meta name="geo.region" content="GB" />
-    <meta name="geo.position" content="55.753005;-2.857642" />
-    <meta name="ICBM" content="55.753005, -2.857642" />
-  	<meta property="og:locale" content="en" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Book Publishing Services To Help You Be Read - Book Writing Cube" />
-	<meta property="og:description" content="We Offer Book Publishing Services For Authors Who Want To Self-Publish Their Books. Go To Our Site To Learn." />
-	<meta property="og:url" content="https://www.bookwritingcube.com/" />
-	<meta property="og:site_name" content="Book Publishing Services To Help You Be Read - Book Writing Cube" />
+    <meta property="og:locale" content="en" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Children Book Publication Services Creating Reading Trials - Book Writing Cube" />
+    <meta property="og:description" content="Book Publication Services that aim to aid aspiring authors write, publish, & sell their children's books." />
+    <meta property="og:url" content="https://www.bookwritingcube.com/" />
+    <meta property="og:site_name" content="Children Book Publication Services Creating Reading Trials - Book Writing Cube" />
     <meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="5 minutes" />
+    <meta name="twitter:label1" content="Est. reading time" />
+    <meta name="twitter:data1" content="5 minutes" />
+
+
+
   <link rel="icon" href="/favicon.png" />
 
    </Head>
