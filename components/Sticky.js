@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '@/styles/Sticky.module.css'
+
 import { Container, Row, Col } from 'react-bootstrap'
 import Image from 'next/image'
 import { BsFillTelephoneFill } from 'react-icons/bs';
