@@ -20,7 +20,7 @@ import { Container,Row,Col } from 'react-bootstrap'
 import Bookpublishingservices from '../../components/Bookpublishingservices'
 import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/whybookpublishing.module.css'
-import Stillonthefence from '../../components/stillonthefence'
+import Stillonthefence from '../../components/Stillonthefence'
 
 const Bookpromotionservices = () => {
 
