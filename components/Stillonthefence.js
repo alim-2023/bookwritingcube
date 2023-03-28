@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '@/styles/Stillonthefence.module.css'
+import styles from '@/styles/stillonthefence.module.css'
 import { Container,Row,Col } from 'react-bootstrap'
 
 
