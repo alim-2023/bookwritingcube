@@ -21,6 +21,7 @@ import Bookpublishingservices from '../../components/Bookpublishingservices'
 import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/whybookpublishing.module.css'
 import Stillonthefence from '../../components/Stillonthefence'
+import Finetoothedbook from '../../components/Finetoothedbook'
 
 const Bookwritingservices = () => {
 
@@ -120,7 +121,34 @@ const reasons = [
 
 ]
 
+const finetext =  <span>We offer our clients a customized book writing process that starts with clear communication before initiating the project. Our professional book writing experts inquire and probe to clarify the requirements, so there is no hurdle. Every stage of the process is customizable according to your preferences. We promise you we have the best <Link className='textdocationnone' href='/book-writing-services'>ebook writers for hire </Link> ! </span>
 
+
+const fine = [
+
+  {
+    title:'Customized Book Writing Packages',
+    text: finetext,
+    btn:'LET`S DISCUSS'
+
+  },
+
+  {
+    title:'All-in-One Book Writing Approach',
+    text:'We provide a range of services to authors who need book writing services. These include the initial idea draft up to the final proofreading. Before publishing it, we ensure that each work holds its essence according to the idea and does not deviate.',
+    btn:'LET`S DISCUSS'
+
+  },
+
+  {
+    title:'Specialist Services',
+    text:'We collaborate with the industry’s best bookwriting experts and eBook Writers to give you a piece a that stands out among all the rest. Our value-added services allow us to design your cover and market your publication to reach maximum readers. We won’t abandon you, and as professional book writing services we ensure that our teams of book writer help you reach that bestseller status!',
+    btn:'LET`S DISCUSS'
+
+  },
+
+
+]
 
   return (
    <>
@@ -255,8 +283,26 @@ image={bookwritingcanbe}
 </div>
 
 
+<div className={styles.finetoothedbook}>
+<Container>
+<Row >
+<h2 className='font48 fw900 color-blue  t-center font-f mb-2'>Fine-toothed book writing to give your readers a truly immersive experience with the help of our team of professional eBook writers!</h2>  
 
+<p className='font15 fw500 color-black t-center pb-2'>Book Writing Cube is a portal to bring your thoughts, ideas, or dreams to paper for your readers.</p>
 
+</Row>
+
+<Row className='gy-5'>
+{ fine.map((item, i) =>
+<Finetoothedbook   key={i}
+title =  {item.title}
+text =  {item.text}
+btn =  {item.btn}
+/>
+)}
+</Row>
+</Container>
+</div>
 
 
 

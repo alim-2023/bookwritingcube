@@ -45,7 +45,11 @@
     counter-reset: section;
 }
 
-
+.finetoothedbook{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #f1f1f1;
+}
 
 @media (max-width:991px)  {
 
