@@ -78,27 +78,39 @@ const reasons = [
   {
     title:'Proven Track Record',
     text:'Our company has a proven track record of successful book promotion campaigns.',
+    col:'6',
+    classnum: 'number',
   },
   {
     title:'Team of Marketing Gurus',
     text:'Book Writing Cube has a team of experienced and creative professionals who can provide customized book promotion services. Every marketing approach, platform, and product requires a well-tailored strategy and plan of execution. Since every book has a different audience, our book marketing services make sure the needs and preferences of the target readers are met.',
+    col:'6',
+    classnum: 'number',
   },
   {
     title:'Cost-Effective Solutions',
     text:'We offer cost-effective book promotion services for authors that fit any budget. The packages we offer regarding book marketing services include social media platforms, blogging, guest posting, and email marketing.',
+    col:'6',
+    classnum: 'number',
   },
 
   {
     title:'Extensive Network',
     text:'We bear a wide range of contacts and resources to promote your book effectively. We`ve helped authors from all genres and backgrounds achieve their publishing goals, and we can do the same for you.',
+    col:'6',
+    classnum: 'number',
   },
   {
     title:'Deep Understanding',
     text:'We have a deep understanding of the book promotion process and know how to get results.',
+    col:'6',
+    classnum: 'number',
   },
   {
     title:'Result-driven Approach',
     text:'We are committed to providing the best possible online book promotion services and achieving the desired results for our clients.',
+    col:'6',
+    classnum: 'number',
   },
 
 
@@ -223,6 +235,8 @@ para='Here is a list of the projects we nailed with our marketing expertise.'
 <Stillonthefence key={i}
 title =  {item.title}
 text =   {item.text}
+col6 = { item.col }
+classnumber = { item.classnum }
 />
   )}
 

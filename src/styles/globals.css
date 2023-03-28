@@ -191,6 +191,14 @@ body{ font-family: 'Inter'; }
 }
 
 @media (max-width:767px)  {
+  .still h2 {
+    padding-bottom: 0px;
+}
+.still .gy-5{
+
+  --bs-gutter-y: 2rem;
+}
+
   .faqheading.accordion-header .accordion-button {
     font-size: 1rem;
 }

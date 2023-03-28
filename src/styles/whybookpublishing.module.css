@@ -37,6 +37,16 @@
     list-style: none;
 }
 
+.stillbookwritingservices{
+
+    background-color: #16467d;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    counter-reset: section;
+}
+
+
+
 @media (max-width:991px)  {
 
     .posttitle {

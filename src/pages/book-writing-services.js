@@ -20,6 +20,7 @@ import { Container,Row,Col } from 'react-bootstrap'
 import Bookpublishingservices from '../../components/Bookpublishingservices'
 import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/whybookpublishing.module.css'
+import Stillonthefence from '../../components/stillonthefence'
 
 const Bookwritingservices = () => {
 
@@ -73,6 +74,51 @@ col6: '6',
 
 ]
 
+
+
+
+const reasons = [
+
+  {
+    title:'World-Class bookwriting Team',
+    text:'Work with the industry’s top writers, editors, and publishing strategists. Our team approach gives you the best chance for success.',
+    classnum: 'number1',
+    
+  },
+  {
+    title:'Personalized Strategic Approach',
+    text:'Our process begins with 4extensive publishing strategy sessions to ensure we develop a plan to achieve your goals.',
+    classnum: 'number1',
+   
+  },
+  {
+    title:'Refined Process',
+    text:'Enjoy the efficiency and dependability of our professionally managed bookwriting process.',
+    classnum: 'number1',
+   
+  },
+
+  {
+    title:'Book Writing experts',
+    text:'Our team includes #1 New York Times- Book Writers and award-winning authors for almost every genre.',
+    classnum: 'number1',
+  
+  },
+  {
+    title:'Big-5 Editors',
+    text:'Your project will be managed and edited by a former acquisitions editor from a Big-5 publisher with numerous New York Times - Book Writing titles.',
+    classnum: 'number1',
+    
+  },
+  {
+    title:'Publishing Navigation',
+    text:'We guide you through every step of the book publishing process. We can place your book directly with traditional publishers or help you choose the ideal hybrid publishing solution.',
+    classnum: 'number1',
+   
+  },
+
+
+]
 
 
 
@@ -166,6 +212,27 @@ para='Let Our Book Writing Team Help You.'
 
 
 
+{/* Stillonthefence component */}
+<div className={styles.stillbookwritingservices}>
+<Container >
+<Row >
+<h2 className='font48 fw900 color-white t-center font-f mb-5'>Why Choose Our Book Writing Services?</h2>  
+</Row>  
+
+<Row className='gy-5'>
+{ reasons.map((item, i) =>
+<Stillonthefence key={i}
+title =  {item.title}
+text =   {item.text}
+col6 = { item.col }
+classnumber = { item.classnum }
+/>
+  )}
+
+</Row>  
+</Container>
+
+</div>
 
 
 
