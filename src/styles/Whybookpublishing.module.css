@@ -1,0 +1,83 @@
+.whybookpublishing{
+    background-image: url(/images/whybookpublishing/bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-position: center;
+    font-family: 'inter';
+}
+
+.posttitle:before {
+    position: absolute;
+    content: '';
+    background-image: url(/images/whybookpublishing/sideicon.png);
+    width: 46px;
+    height: 46px;
+    left: 0;
+    background-size: contain;
+}
+.posttitle {
+    position: relative;
+    padding-left: 10%;
+}
+
+
+.whybookpublishing h2{
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+
+.keepit{
+    padding: 0;
+    margin: 0;
+}
+.keepit li{
+    list-style: none;
+}
+
+.stillbookwritingservices{
+
+    background-color: #16467d;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    counter-reset: section;
+}
+
+.finetoothedbook{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #f1f1f1;
+}
+
+@media (max-width:991px)  {
+
+    .posttitle {
+        padding-left: 18%;
+    }
+    
+}
+@media (max-width:767px)  {
+
+    .posttitle {
+        padding-left: 11%;
+    }
+    
+}
+@media (max-width:480px)  {
+
+    .posttitle {
+        padding-left: 18%;
+    }
+
+    .whybookpublishing{
+      
+
+        padding-bottom: 20px;
+
+    }
+    
+}
+
+
