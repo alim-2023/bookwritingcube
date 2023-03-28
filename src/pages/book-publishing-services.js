@@ -24,22 +24,19 @@ import Stillonthefence from '../../components/Stillonthefence'
 const Bookpublishingservices = () => {
 
 
-  const bannertext=[
-    {
-      title: 'Book Promotion Services That Give Your Book The Exposure It Deserves!',
-      pra: 'As an author, the only wish you long for is to make an unbeatable name for yourself. Here at Book Writing Cube, we offer book marketing services that help authors reach a larger audience, boost visibility, and get more ratings and sales for their books.',
-      subtext1:'If you want to create buzz around your publication and grow your audience, we are the perfect destination to stop by. We specialize in helping authors get their books into the hands of their target readership.',
-      subtext2:'Connect with us to connect with the world who may serve as the biggest advocates of your book!',
-      subtext3:'Our Job Isn’t Done Till Your Reputation Is Established As A Renowned Name In The Industry.',
-      discuss:'LET S DISCUSS',
-      homebannernum:'(302) 883-8877',
-      banlogo:homebannerlogos,
-      banners:'bookpromotionservices',
-     
-       
-
-    }
-  ]
+    const bannertext=[
+        {
+          title: 'Book Publishing Services Giving You The Creative Control You Deserve!',
+          pra: 'Whether it be amazon self publishing or any other platform, our book publishing services give you the creative control you deserve. Discuss with our expert book publishers the creative control you deserve. Discuss with our expert book publishers.',
+          discuss:'LET S DISCUSS',
+          homebannernum:'(302) 883-8877',
+          banlogo:homebannerlogos,
+          banners:'bookpublishingservices',
+         
+           
+    
+        }
+      ]
 
 
 
@@ -256,13 +253,15 @@ classnumber = { item.classnum }
  />
 
 
+
 {/* Aspiring */}
 <Aspiring
- title= 'Making Your Book a Stellar Addition to the Literature World!'
- text="If you want to watch your work take off and reach new heights, Book Writing Cube may help you do the trick. With extended years of experience in the industry, we know exactly what it takes to get your book noticed and gain maximum exposure. Call us now to take your book to the next level!"
+ title= 'Whether Bookshelf or Amazon Self Publishing – Our Designs Makes You Stand Out'
+ text="Design is the most important aspect when it comes to selling books. We know that might sound like an old cliché, but designing your cover will deliver layout and build intrigue for potential readers; they’ll want more after seeing what’s in store within these pages! So don’t settle on anything less than perfection – let us help make sure every manuscript looks exactly how you envisioned through Book Writing Cube."
  number="+1-302-883-8877"
  discuss="LET'S DISCUSS"
 />
+
 
 
 
