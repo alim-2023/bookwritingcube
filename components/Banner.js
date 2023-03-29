@@ -5,6 +5,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Slider from 'react-slick'
 
+import { BsFillPlayFill } from 'react-icons/bs'
+
 // images
 
 import banslider1 from '../public/images/bannerimages/banslider1.png'
@@ -65,6 +67,12 @@ const Banner = (props) => {
       }
     ]
   };
+
+
+function openvideo(){
+  alert('test');
+}
+
 
   return (
   <>
@@ -128,10 +136,22 @@ const Banner = (props) => {
                   <div className='mt-5'>
                     <Link className={styles.discuss} href="#">{props.discuss}</Link>  
                     <Link className={styles.homenumer} href="tel:(302) 883-8877"> {props.homebannernum}</Link>
+
+                    
+                    { props.processs ? 
+
+                      <Link onClick={openvideo} className={` ${styles.homenumer} ${styles.new1} `} href='#'> <BsFillPlayFill size={25}  /> {props.processs} </Link>
+
+                    :
+                    '' 
+                    }
+
                   </div>
                   : 
                   ''
                   }
+
+                  
 
 { props.homebanlogos ?  
                   <div className={styles.homebannerlogo}>

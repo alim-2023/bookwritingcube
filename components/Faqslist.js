@@ -44,7 +44,7 @@ const Faqslist = () => {
                 <Accordion.Header className='faqheading'>Will your editors and writers communicate with us directly?   </Accordion.Header>
                 <Accordion.Body className='textbody'>
               
-                If that is what you need, yes. Most of our coordination is done by a customer care executive, and they make sure to deliver all the writing and editing-related queries to the team and the client thoroughly. The team would send you correspondence letters, emails, and queries regularly, and you can send any query that you have back to the team. We are the best destination for  <Link className='textdocationnone' href='https://www.bookwritingcube.com/book-writing-services/'> book writers for hire</Link> , so, rest assured, you are having a competent team on your side.
+                If that is what you need, yes. Most of our coordination is done by a customer care executive, and they make sure to deliver all the writing and editing-related queries to the team and the client thoroughly. The team would send you correspondence letters, emails, and queries regularly, and you can send any query that you have back to the team. We are the best destination for  <Link className='textdocationnone' href='/book-writing-services'> book writers for hire</Link> , so, rest assured, you are having a competent team on your side.
                 </Accordion.Body>
             </Accordion.Item >
 
@@ -122,7 +122,7 @@ const Faqslist = () => {
     <li>Create Video Content: Create compelling videos featuring yourself, interviews with other authors, and promotional footage of your book.</li>
 </ul>
             
-<p>Nonetheless, one best approach is to partner with <Link className='textdocationnone' href='https://www.bookwritingcube.com/book-promotion-services/'> book promotion services </Link>. These services implement an array of tactics and develop campaigns that help you establish yourself as an author in the industry.</p>
+<p>Nonetheless, one best approach is to partner with <Link className='textdocationnone' href='/book-promotion-services'> book promotion services </Link>. These services implement an array of tactics and develop campaigns that help you establish yourself as an author in the industry.</p>
 
                 </Accordion.Body>
             </Accordion.Item >
@@ -151,7 +151,7 @@ const Faqslist = () => {
                 <Accordion.Header className='faqheading'>What are publishers looking for in 2023? </Accordion.Header>
                 <Accordion.Body className='textbody'>
               
-              <p>As <Link className='textdocationnone' href='https://www.bookwritingcube.com/book-publishing-services/'> book publishing </Link>  trends 2023 continue to evolve, publishers will look for stories with a unique spin. They will want authors and creators willing to push the boundaries of traditional book genres and explore more unconventional topics.</p>
+              <p>As <Link className='textdocationnone' href='/book-publishing-services'> book publishing </Link>  trends 2023 continue to evolve, publishers will look for stories with a unique spin. They will want authors and creators willing to push the boundaries of traditional book genres and explore more unconventional topics.</p>
                 
 
               <p> Publishers will also look for more diverse writers who can provide fresh perspectives through their writing and content that appeals to a broader audience. Besides, book publishers in 2023 will search for stories with strong plots or characters and innovative approaches such as interactive books.</p>

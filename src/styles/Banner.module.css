@@ -217,7 +217,7 @@
 
     font-size: 15px;
     font-weight: 500;
-    padding: 12px 30px;
+    padding: 12px 18px;
     border: 2px solid #16467d;
     color: #000;
     text-decoration: unset;
@@ -228,7 +228,7 @@
 }
 .homenumer{
     border: 0;
-    padding: 12px 30px;
+    padding: 12px 20px;
     border-radius: 0;
     background-color: #16467d;
     color: #fff;
@@ -242,6 +242,16 @@
     margin-top: 40px;
 }
 
+@media (max-width:1200px)  { 
+
+.new1{
+    display: block;
+    margin-left: unset;
+    width: max-content;
+    margin-top: 5%;
+}
+
+}
 
 @media (max-width:991px)  {
 

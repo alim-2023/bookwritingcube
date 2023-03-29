@@ -21,7 +21,7 @@ import ipublishmybook from '/public/images/ipublishmybook/ipublishmybook.png'
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Link from 'next/link'
 import { Container,Row,Col } from 'react-bootstrap'
-import Bookpublishingservices from '../../components/Bookpublishingservices'
+import Bookpublishingservices from '../../components/Bookpublishingservicesweoffer'
 import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/Whybookpublishing.module.css'
 
