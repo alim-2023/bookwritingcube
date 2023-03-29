@@ -18,6 +18,9 @@ import { Container,Row,Col } from 'react-bootstrap'
 import Bookpublishingservices from '../../components/Bookpublishingservicesweoffer'
 import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/Whybookpublishing.module.css'
+import Finetoothedbook from '../../components/Finetoothedbook'
+
+import Stillonthefence from '../../components/Stillonthefence'
 
 const Ghostwritingservices = () => {
 
@@ -71,6 +74,85 @@ col6: '6',
 
 ]
 
+
+
+
+const reasons = [
+
+  {
+    title:'World-class ghostwriting services Team',
+    text:'Work with the industry’s top writers, editors, and publishing strategists. Our team approach gives you the best chance for success.',
+    classnum: 'number1',
+    
+  },
+  {
+    title:'Personalized Strategic Approach',
+    text:'Our process begins with extensive writing, editing, and publishing strategies to ensure the development of a feasible project completion budget and timeline.',
+    classnum: 'number1',
+   
+  },
+  {
+    title:'Refined Process',
+    text:'Enjoy the efficiency and dependability of a professionally managed ghostwriting services process',
+    classnum: 'number1',
+   
+  },
+
+  {
+    title:'Trained ghostwriters',
+    text:' Our team includes the industry’s best ghostwriters who have worked with acclaimed authors for every genre.',
+    classnum: 'number1',
+  
+  },
+  {
+    title:'Big-5 publishers',
+    text:'We work in collaboration with the industry’s top 5 publishers and publishing houses. Book Writing Cube guarantees you the acquisition of well-thought-through contracts with the best in town publishers',
+    classnum: 'number1',
+    
+  },
+  {
+    title:'Online and offline formats',
+    text:'We provide our clients with thorough guidance about the online and offline publishing processes. From well-designed paperback and hardcover to well-formatted eBook, our hybrid approach is our all-in-one publishing solution.',
+    classnum: 'number1',
+   
+  },
+
+
+]
+
+
+
+
+
+
+const fine = [
+
+  {
+    title:'Client-tailored packages',
+    text: 'The process of hiring a ghostwriter starts with thorough and detailed communication of the idea and the storyline. We get to know the clients’ requirements and a dedicated budget for the project. After that, we offer and suggest well-structured packages befitting all the clients’ needs and preferences.',
+    class: 'fintop',
+    btn:'LET`S DISCUSS'
+
+  },
+
+  {
+    title:'Diverse options and approaches',
+    text:'Every book, genre, and the client has different needs. One approach can’t fit all, which is why we offer our clients an all-inclusive range of services. We offer basic editing, line-by-line editing, developmental editing, and proofreading services for editing clients. We offer different writing plans and processes for each genre for writing clients.',
+    class: 'fintop',
+    btn:'LET`S DISCUSS'
+
+  },
+
+  {
+    title:'Around the clock availability',
+    text:'Our customer support representatives and ghostwriters are available and open to communication, no matter your time region. For us, your book`s success is what counts the most! A well-crafted book, a successfully marketed brand, and a reputable name—we invest all our time and effort to deliver these promises.',
+    class: 'fintop',
+    btn:'LET`S DISCUSS'
+
+  },
+
+
+]
 
 
 
@@ -169,6 +251,31 @@ para='Become a renowned author with the help of our ghostwriters!'
 
 
 
+{/* Stillonthefence component */}
+<div className={styles.stillbookwritingservices}>
+<Container >
+<Row >
+<h2 className='font48 fw900 color-white t-center font-f mb-5'>Why choose our ghostwriting services?</h2>  
+</Row>  
+
+<Row className='gy-5'>
+{ reasons.map((item, i) =>
+<Stillonthefence key={i}
+title =  {item.title}
+text =   {item.text}
+col6 = { item.col }
+classnumber = { item.classnum }
+/>
+  )}
+
+</Row>  
+</Container>
+
+</div>
+
+
+
+
 
 {/* Dowecome */}
 <Dowecome
@@ -193,6 +300,30 @@ image={andnohiring}
 
 
 
+
+
+
+<div className={`${styles.finetoothedbook} customizedbook`}>
+<Container>
+<Row >
+<h2 className='font48 fw900 color-blue  t-center font-f mb-2'>Your Book's Success Is Our Objective—We Work As A Team.</h2>  
+
+<p className='font15 fw500 color-black t-center pb-2'>Hire Book Writing Cube to experience professionalism and exceptional quality.</p>
+
+</Row>
+
+<Row className='gy-5'>
+{ fine.map((item, i) =>
+<Finetoothedbook   key={i}
+title =  {item.title}
+text =  {item.text}
+classtop =  {item.class}
+btn =  {item.btn}
+/>
+)}
+</Row>
+</Container>
+</div>
 
 
 

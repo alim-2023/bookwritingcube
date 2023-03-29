@@ -10,7 +10,7 @@ import Whychoosebook from '../../components/Whychoosebook'
 import whatisourchildren from '/public/images/whychoosebooks/whatisourchildren.png'
 import Dowecome from '../../components/Dowecome'
 import Customersatisfaction from '../../components/Customersatisfaction'
-
+import Stillonthefence from '../../components/Stillonthefence'
 import yourhowwhat from '/public/images/yourhowwhat/yourhowwhat.png'
 import typeofbooks from '/public/images/selfpublishingservices/typeofbooks.png'
 import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
@@ -50,6 +50,31 @@ const  kindledirectpublishing = <span>Providing the Highest quality and cost-eff
 const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="#">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
 
 
+const reasons = [
+
+  {
+    title:'Book reviewing',
+    text:'Our dedicated teams go through every word and illustration before handing over the final draft to you. We make sure the illustrations are contextually correct while ensuring the rhythmic flow of the content. At Book Writing Cube, our proofreaders go the extra with text and illustration alignments and sizing.',
+    classnum: 'number1',
+    
+  },
+  {
+    title:'Book composition',
+    text:'Once the text and illustrations are checked for grammar and context, we offer the client an initial draft for further review. Our experts provide you with different options when it comes to the spread and type of illustration in order to keep your book publication cost-effective.',
+    classnum: 'number1',
+   
+  },
+  {
+    title:'Book publication',
+    text:'In this final stage, we help you with typesetting, page trim, length, and cover of the book. Our design and illustration professionals facilitate you in finalizing the publishing draft. Be it enhancing the color scheme or changing the typography, we offer multiple revisions to help you publish the always-wanted book under your name.',
+    classnum: 'number1',
+   
+  },
+
+
+
+
+]
 
 
 
@@ -149,6 +174,37 @@ image={yourhowwhat}
 <div className='mt-5'>
 <Lululogos/>
 </div>
+
+
+{/* Stillonthefence component */}
+<div className={styles.stillbookwritingservices}>
+<Container >
+<Row >
+<h2 className='font48 fw900 color-white t-center font-f mb-3'>Enticement, exposure, and expansion—acing the toughest gig!</h2>  
+
+<p class="font15 fw500 font-f t-center color-white  mb-5">Know this: not many authors secure any deal with the publishers.
+                        But at Book Writing Cube, we help you connect and collaborate with high-profile publishers and
+                        Children's Book Publishing experts.
+                    </p>
+</Row>  
+
+<Row className='gy-5'>
+{ reasons.map((item, i) =>
+<Stillonthefence key={i}
+title =  {item.title}
+text =   {item.text}
+col6 = { item.col }
+classnumber = { item.classnum }
+/>
+  )}
+
+</Row>  
+</Container>
+
+</div>
+
+
+
 
 
 {/* Why Choose Book Writing Cube? */}
