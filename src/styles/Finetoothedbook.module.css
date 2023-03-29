@@ -43,7 +43,25 @@
     height: 188px;
 }
 
+
+.connect {
+    border: 1px solid #17337c;
+    padding: 1.25rem;
+    border-radius: 5px;
+    height: auto;
+}
+.connect h4 {
+    height: 150px;
+}
 @media (max-width:1280px)  {
+
+    .connect h4 {
+        height: 150px;
+    }
+    .connect {
+        width: 30%;
+        margin: 0 auto;
+    }
     .fintop h4{
         height: unset;
     }
@@ -56,5 +74,31 @@
      
         height: unset;
     }
+
+ }
+
+ @media (max-width:991px)  { 
+
+    .connect {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .connect h4 {
+        height: 80px;
+    }
+
+
+ }
+
+ @media (max-width:480px)  { 
+
+    .connect {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .connect h4 {
+        height: 80px;
+    }
+
 
  }

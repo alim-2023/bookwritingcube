@@ -11,8 +11,8 @@ import bookwritingprocess from '/public/images/whychoosebooks/bookwritingprocess
 import Dowecome from '../../components/Dowecome'
 import Customersatisfaction from '../../components/Customersatisfaction'
 import andnohiring from '/public/images/andnohiring/andnohiring.png'
-
-
+import Finetoothedbook from '../../components/Finetoothedbook'
+import Stillonthefence from '../../components/Stillonthefence'
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Link from 'next/link'
 import { Container,Row,Col } from 'react-bootstrap'
@@ -69,6 +69,82 @@ title:'What genres do you cover?',
 text: 'All! We cover all genres from fiction to autobiographies, fantasy thrillers, to children’s literature. Our book writing services cover all genres and all types of work f literature. We have an arsenal of teams dedicated to numerous genres, and all of them are tremendous at their job.',
 col6: '6',
 },
+
+]
+
+
+const reasons = [
+
+  {
+    title:'World-Class ghostwriting-services Team',
+    text:'Work with the industry’s top writers, editors, and publishing strategists. Our team approach gives you the best chance for success.',
+    classnum: 'number1',
+    
+  },
+  {
+    title:'Personalized Strategic Approach',
+    text:'Our process begins with extensive publishing strategy sessions to ensure we develop a plan to achieve your goals.',
+    classnum: 'number1',
+   
+  },
+  {
+    title:'Refined Process',
+    text:'Enjoy the efficiency and dependability of a professionally managed ghostwriting-services process',
+    classnum: 'number1',
+   
+  },
+
+  {
+    title:'Book Writing Ghostwriters',
+    text:'Our team includes #1 New York Times - Book Writing ghostwriters and award-winning authors for almost any genre.',
+    classnum: 'number1',
+  
+  },
+  {
+    title:'Big-5 Editors',
+    text:'Your project will be managed and edited by a former acquisitions editor from a Big-5 publisher with numerous New York Times - Book Writing titles.',
+    classnum: 'number1',
+    
+  },
+  {
+    title:'Publishing Navigation',
+    text:'We guide you through every step of the book publishing process. We can place your book directly with traditional publishers or help you choose the ideal hybrid publishing solution',
+    classnum: 'number1',
+   
+  },
+
+
+]
+
+
+
+
+
+
+
+const fine = [
+
+  {
+    title:'Connect with an efficient genre writer and schedule a 1 on 1 interview',
+    class: 'connect',
+    btn:'LET`S DISCUSS'
+
+  },
+
+  {
+    title:'Get the desired eBook design and have it formatted according to industry standards',
+    class: 'connect',
+    btn:'LET`S DISCUSS'
+
+  },
+
+  {
+    title:'We take care of copyrights, editing, and designs along with content',
+    class: 'connect',
+    btn:'LET`S DISCUSS'
+
+  },
+
 
 ]
 
@@ -164,6 +240,27 @@ para='Let Our E-Book Writing Team Help You.'
 </div>
 
 
+{/* Stillonthefence component */}
+<div className={styles.stillbookwritingservices}>
+<Container >
+<Row >
+<h2 className='font48 fw900 color-white t-center font-f mb-5'>Why Choose Our E-Book Writing Services?</h2>  
+</Row>  
+
+<Row className='gy-5'>
+{ reasons.map((item, i) =>
+<Stillonthefence key={i}
+title =  {item.title}
+text =   {item.text}
+col6 = { item.col }
+classnumber = { item.classnum }
+/>
+  )}
+
+</Row>  
+</Container>
+
+</div>
 
 
 
@@ -181,11 +278,41 @@ image={andnohiring}
 />
 
 
+
+
+
+
+
+
+
 {/* Lululogos components */}
 <div className='mt-5'>
 <Lululogos/>
 </div>
 
+
+
+<div className={`${styles.finetoothedbook} customizedbook`}>
+<Container>
+<Row >
+<h2 className='font48 fw900 color-blue  t-center font-f mb-2'>Paving Your Way for An Unforgettable eBook</h2>  
+
+<p className='font15 fw500 color-black t-center pb-2'>Our eBook publishing service is an excellent tool to build your authority in the book writing industry and become an authority of relevant information.</p>
+
+</Row>
+
+<Row className='gy-5'>
+{ fine.map((item, i) =>
+<Finetoothedbook   key={i}
+title =  {item.title}
+text =  {item.text}
+classtop =  {item.class}
+btn =  {item.btn}
+/>
+)}
+</Row>
+</Container>
+</div>
 
 
 

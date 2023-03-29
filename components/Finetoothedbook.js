@@ -11,8 +11,12 @@ const Finetoothedbook = (props) => {
 
 <Col md={4}>
    <div  className={styles[props.classtop]}>
+
         <h4 className="font17 fw700 color-black font-f">{props.title}</h4>
+
+{ props.text ? 
         <p className='color-lightgray font14 fw400 font-f'>{props.text}</p>
+        : '' }
         <Link className={styles.btnfine} href="#">{props.btn}</Link>
       
    </div>
