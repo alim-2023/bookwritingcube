@@ -27,7 +27,7 @@ const Header = () => {
   function toggle() {
 
     setclick((prevState) => !prevState);
-    console.log(click, 'state')
+  
 
   }
 

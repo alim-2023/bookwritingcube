@@ -242,6 +242,29 @@
     margin-top: 40px;
 }
 
+.bgVideo1{
+    width: 100%;
+}
+.crossclose{
+        position: absolute;
+        top: 7px;
+        right: 10px;
+        background-color: #222222;
+        color: white;
+        width: 31px;
+        height: 31px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+        border-radius: 3px;
+        font-weight: 700;
+        font-family: 'Inter';
+        cursor: pointer;
+        z-index: 9;
+
+}
+
 @media (max-width:1200px)  { 
 
 .new1{

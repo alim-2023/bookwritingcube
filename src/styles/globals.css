@@ -121,24 +121,48 @@ body{ font-family: 'Inter'; }
     height: 90px;
 }
 
+.modopp .modalprocess{
+  position: relative;
+    flex: 1 1 auto;
+    padding: 4px;
+}
 
+/* .testtimonials .slick-prev:before, .slick-next:before {
+  font-family: none;
+}
+.testtimonials  .slick-prev:before {
+  content: '<';
+font-size: 20px;
+  font-weight: bolder;
+}
+.testtimonials  .slick-next:before {
+  content: '>';
+font-size: 20px;
+  font-weight: bolder;
+}
 
-/* .testtimonials .slick-prev, .slick-next {
-  font-size: 0;
-  line-height: 0;
-  position: absolute;
-  top: 50%;
-  display: block;
-  width: 20px;
-  height: 20px;
-  padding: 0;
-  transform: translate(0, -50%);
-  cursor: pointer;
-  color: white;
-  border: none;
-  outline: none;
-  background: #262525;
+.testtimonials .slick-prev {
+  width: 30px;
+  height: 30px;
+  background: black;
+  opacity: .5;
   border-radius: 50px;
+  
+}
+
+.testtimonials .slick-next {
+  
+  width: 30px;
+  height: 30px;
+  background: black;
+  opacity: .5;
+  border-radius: 50px;
+}
+
+.testtimonials .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+  background: black;
+  outline: none;
+  background: black;
 } */
 
 .servicetitle{

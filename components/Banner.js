@@ -4,8 +4,10 @@ import { Container, Row , Col } from 'react-bootstrap'
 import Link from 'next/link'
 import Image from 'next/image'
 import Slider from 'react-slick'
-
+import Modal from 'react-bootstrap/Modal';
+import  { useState } from 'react';
 import { BsFillPlayFill } from 'react-icons/bs'
+import Button from 'react-bootstrap'
 
 // images
 
@@ -69,9 +71,11 @@ const Banner = (props) => {
   };
 
 
-function openvideo(){
-  alert('test');
-}
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
 
 
   return (
@@ -140,7 +144,7 @@ function openvideo(){
                     
                     { props.processs ? 
 
-                      <Link onClick={openvideo} className={` ${styles.homenumer} ${styles.new1} `} href='#'> <BsFillPlayFill size={25}  /> {props.processs} </Link>
+                      <Link onClick={handleShow} className={` ${styles.homenumer} ${styles.new1} `} href='#'> <BsFillPlayFill size={25}  /> {props.processs} </Link>
 
                     :
                     '' 
@@ -176,9 +180,29 @@ function openvideo(){
 }
                 </div>
 
+
+
+
               </Col>
          </Row>
       </Container>
+
+
+      <Modal className='modopp'
+        show={show}
+        onHide={handleClose}
+        size="lg"
+        centered
+    
+      >
+     <span onClick={handleClose} className={styles.crossclose}>x</span>
+        <Modal.Body className='modalprocess'>
+        <video controls className={`${styles.bgVideo1}`} autoPlay muted loop src="/images/process-combine.mp4" type="video/mp4"></video>
+        </Modal.Body>
+      
+      </Modal>
+
+
         
      </div>
   </>

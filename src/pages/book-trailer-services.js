@@ -41,7 +41,9 @@ const Booktrailerservices = () => {
 
 
 
-const datapost = <ul className={styles.keepit}> <li>Keep it short and sweet</li> <li>Make sure the audio is clear and easy to hear</li> <li>Include engaging visuals</li> <li>Tell a story</li> <li>Highlight the key points of your book</li>  </ul>
+const datapost =  <><span className={styles.keepit}>Keep it short and sweet</span><span className={styles.keepit}>Make sure the audio is clear and easy to hear</span><span className={styles.keepit}>Include engaging visuals</span><span className={styles.keepit}>Tell a story</span><span className={styles.keepit}>Highlight the key points of your book</span></>
+
+
 
 
 const whybookpublishingdata = [
