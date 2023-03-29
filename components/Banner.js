@@ -96,35 +96,35 @@ const Banner = (props) => {
 
                   { props.text ?
 
-                  <p className='fw500 font18 color-black font-f mt-4'>{props.text}</p>
+                  <p className='fw500 font18 color-black font-f mt-4 m-0'>{props.text}</p>
                   : 
                   ''
                   }
 
                 { props.subtext ?
 
-                <p className='fw500 font18 color-black font-f mt-4'> <strong>{props.publishers }</strong> {props.subtext}</p>
+                <p className='fw500 font18 color-black font-f mt-4 m-0'> <strong>{props.publishers }</strong> {props.subtext}</p>
                 : 
                 ''
                 }
 
                   { props.subtext1 ?
 
-                  <p className='fw500 font18 color-black font-f'> {props.subtext1}</p>
+                  <p className='fw500 font18 color-black font-f m-0'> {props.subtext1}</p>
                   : 
                   ''
                   }
 
                   { props.subtext2 ?
 
-                  <p className='fw500 font18 color-black font-f'> {props.subtext2}</p>
+                  <p className='fw500 font18 color-black font-f m-0'> {props.subtext2}</p>
                   : 
                   ''
                   }
 
                   { props.subtext3 ?
 
-                  <p className='fw500 font18 color-black font-f'> {props.subtext3}</p>
+                  <p className='fw500 font18 color-black font-f m-0'> {props.subtext3}</p>
                   : 
                   ''
                   }
