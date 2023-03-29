@@ -20,6 +20,15 @@ import { Container,Row,Col } from 'react-bootstrap'
 import Bookpublishingservices from '../../components/Bookpublishingservicesweoffer'
 import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/Whybookpublishing.module.css'
+import Stillonthefence from '../../components/Stillonthefence'
+import Ourcaptivatingauthor from '../../components/Ourcaptivatingauthor'
+
+
+import designprojects1 from '/public/images/designprojects/1.png'
+import designprojects2 from '/public/images/designprojects/2.png'
+import designprojects3 from '/public/images/designprojects/3.png'
+
+
 
 const Authorwebsitedesignservices = () => {
 
@@ -67,6 +76,52 @@ col6: '6',
 ]
 
 
+
+
+
+
+const reasons = [
+
+  {
+    title:'Experienced Designers',
+    text:'We have a team of experienced professionals who are passionate about helping authors create beautiful and effective websites.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Captivating Designs',
+    text:'We offer a wide range of design options to choose from, so you can find the perfect look for your site.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Marketing Efforts',
+    text:'We can help you promote yourself and your book through social media and other online channels.',
+    col:'6',
+    classnum: 'number',
+  },
+
+  {
+    title:'Affordable Packages',
+    text:'We offer affordable rates that fit within your budget.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Fast Delivery',
+    text:'We provide fast turnaround times so you can get your site up and running quickly.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'24/7 Customer Service',
+    text:'As a leading website design company, we offer excellent customer service and are always available to answer any questions you may have.',
+    col:'6',
+    classnum: 'number',
+  },
+
+
+]
 
 
   return (
@@ -129,7 +184,15 @@ col6: '6',
 <Partners/>
 
 
+<Ourcaptivatingauthor
+ title="A Quick Look At Our Captivating Author Website Design Projects"
+ text= "Our team of experienced and skilled website designers stays one step ahead of the latest trends to keep you satisfied!"
+ img1={designprojects1}  
+ img2={designprojects2}
+ img3={designprojects3}
 
+
+/>
 
 {/* Whybookpublishing */}
 <div className={styles.whybookpublishing}>
@@ -164,7 +227,27 @@ col6: '6',
 
 
 
+{/* Stillonthefence component */}
 
+<Container className='still'>
+
+
+<Row >
+<h2 className='font48 fw900 color-blue t-center font-f mb-5'>Why Our Author Website Design Services Are Ideal For You</h2>  
+</Row>  
+
+<Row className='gy-5'>
+{ reasons.map((item, i) =>
+<Stillonthefence key={i}
+title =  {item.title}
+text =   {item.text}
+col6 = { item.col }
+classnumber = { item.classnum }
+/>
+  )}
+
+</Row>  
+</Container>
 
 
 
