@@ -3,13 +3,14 @@ import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import Banner from '../../components/Banner'
 import Head from 'next/head'
 import Partners from '../../components/Partners'
-import Makestories from '../../components/Makestories'
+import Makestoriesnew from '../../components/Makestoriesnew'
 import Lululogos from '../../components/Lululogos'
 import Aspiring from '../../components/Aspiring'
 import Whychoosebook from '../../components/Whychoosebook'
 import fivestepprocess from '/public/images/whychoosebooks/fivestepprocess.png'
 import Dowecome from '../../components/Dowecome'
 import Customersatisfaction from '../../components/Customersatisfaction'
+import Stillonthefence from '../../components/Stillonthefence'
 
 
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
@@ -66,6 +67,50 @@ col6: '6',
 
 ]
 
+
+
+const reasons = [
+
+  {
+    title:'Seasoned Designers',
+    text:'We have a team of highly skilled and experienced designers who can create stunning book covers that ensure your book stands out from the rest. From offering eBook cover design services to Amazon book cover design services, there is nothing we can’t do when it comes to designing covers for your book.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'The Use of the State-of-the-art Tools',
+    text:'We use the latest design software and technologies to create your high-end book covers, ensuring that they are of the highest quality.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Variety to Choose From',
+    text:'We offer a wide range of book cover design services, so you can choose the one that best suits your needs.',
+    col:'6',
+    classnum: 'number',
+  },
+
+  {
+    title:'Fast Turnaround Time',
+    text:'We have a fast turnaround time and can deliver your book cover within days if you need it urgently.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'No Compromise on Quality',
+    text:'Our professionals never compromise on quality, so rest assured you will be provided with only the best.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Excellent Customer Service',
+    text:'We are always all ears to your queries and ensure your no questions remain unanswered.',
+    col:'6',
+    classnum: 'number',
+  },
+
+
+]
 
 
 
@@ -132,7 +177,7 @@ col6: '6',
 <Partners/>
 
 {/* Makestories */}
-<Makestories
+<Makestoriesnew
 title='Done and Dusted Book Cover Design Projects That Shed Light on Our Credibility'
 para='Here are a few book cover design projects that we accomplished with utmost finesse.'
 />
@@ -169,6 +214,27 @@ para='Here are a few book cover design projects that we accomplished with utmost
 
 
 
+{/* Stillonthefence component */}
+
+<Container className='still'>
+
+
+<Row >
+<h2 className='font48 fw900 color-blue t-center font-f mb-5'>What Makes Us The Best Book Cover Design Services Provider In The Whole Country?</h2>  
+</Row>  
+
+<Row className='gy-5'>
+{ reasons.map((item, i) =>
+<Stillonthefence key={i}
+title =  {item.title}
+text =   {item.text}
+col6 = { item.col }
+classnumber = { item.classnum }
+/>
+  )}
+
+</Row>  
+</Container>
 
 
 

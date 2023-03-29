@@ -9,9 +9,9 @@ import Image from 'next/image'
 import makestories1 from '../public/images/makestories/makestories1.png'
 import makestories2 from '../public/images/makestories/makestories2.png'
 import makestories3 from '../public/images/makestories/makestories3.png'
-import makestories4 from '../public/images/makestories/makestories4.png'
 import makestories5 from '../public/images/makestories/makestories5.png'
 import makestories6 from '../public/images/makestories/makestories6.png'
+import makestories7 from '../public/images/makestories/makestories7.png'
 
 
 
@@ -21,7 +21,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
 
-const Makestories = (props) => {
+const Makestoriesnew = (props) => {
 
 
     const makestoriesimg =
@@ -30,9 +30,9 @@ const Makestories = (props) => {
       { storiesimg:makestories1 },
       { storiesimg:makestories2 },
       { storiesimg:makestories3 },
-      { storiesimg:makestories4 },
       { storiesimg:makestories5 },
       { storiesimg:makestories6 },
+      { storiesimg:makestories7 },
   
     
     ];
@@ -110,4 +110,4 @@ const Makestories = (props) => {
   )
 }
 
-export default Makestories
+export default Makestoriesnew

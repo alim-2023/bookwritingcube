@@ -3,7 +3,7 @@ import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import Banner from '../../components/Banner'
 import Head from 'next/head'
 import Partners from '../../components/Partners'
-import Makestories from '../../components/Makestories'
+import Makestoriesnew from '../../components/Makestoriesnew'
 import Lululogos from '../../components/Lululogos'
 import Aspiring from '../../components/Aspiring'
 import Whychoosebook from '../../components/Whychoosebook'
@@ -20,6 +20,8 @@ import { Container,Row,Col } from 'react-bootstrap'
 import Bookpublishingservices from '../../components/Bookpublishingservicesweoffer'
 import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/Whybookpublishing.module.css'
+import Stillonthefence from '../../components/Stillonthefence'
+
 
 const Bookproofreadingservices = () => {
 
@@ -72,6 +74,52 @@ title:'What Are The Benefits Of Using A Book Proofreading Service?',
 text: 'The benefits of using a book proofreading service include having a professionally edited manuscript, catching errors before publication, and improving the overall quality of your book.',
 col6: '6',
 },
+
+]
+
+
+
+
+const reasons = [
+
+  {
+    title:'Second-to-none Proofreading Services',
+    text:'To help you improve the readability of your book, our proofreading experts go the extra mile and ensure not a single flaw remains unattended. The rendered online proofreading services are of the highest quality, which means you can rest assured of being in good hands.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Highly Experienced Proofreaders',
+    text:'We have a team of highly experienced and skilled proofreaders who are experts in their field and work diligently to ensure that your document is error-free.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Money-back Satisfaction Guaranteed',
+    text:'We offer a money-back satisfaction guarantee so that you can be confident that you will be happy with the results of our proofreading services.',
+    col:'6',
+    classnum: 'number',
+  },
+
+  {
+    title:'24/7 Operational',
+    text:'We are available 24/7 to provide you with our proofreading services so that you can get your document back as soon as possible.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Pricing That Makes Sense',
+    text:'We offer a range of affordable pricing options to suit your needs and budgets. Our affordable proofreading services are what you need to make your book covert into a best-selling publication.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'All Ears to You',
+    text:'Sun never sets on Book Writing Cube. We welcome queries of our valued clients with the laser-speedy response and ensure their concerns are addressed at the earliest possible.',
+    col:'6',
+    classnum: 'number',
+  },
+
 
 ]
 
@@ -141,7 +189,7 @@ col6: '6',
 <Partners/>
 
 {/* Makestories */}
-<Makestories
+<Makestoriesnew
 title='Our Done and Dusted Proofreading Projects That Speak For Our Credibility'
 para='Here are a few proofreading projects that we accomplished with utmost finesse.'
 />
@@ -178,7 +226,27 @@ para='Here are a few proofreading projects that we accomplished with utmost fine
 
 
 
+{/* Stillonthefence component */}
 
+<Container className='still'>
+
+
+<Row >
+<h2 className='font48 fw900 color-blue t-center font-f mb-5'>Why Do You Need To Invest In Our Professional Proofreading Services?</h2>  
+</Row>  
+
+<Row className='gy-5'>
+{ reasons.map((item, i) =>
+<Stillonthefence key={i}
+title =  {item.title}
+text =   {item.text}
+col6 = { item.col }
+classnumber = { item.classnum }
+/>
+  )}
+
+</Row>  
+</Container>
 
 
 

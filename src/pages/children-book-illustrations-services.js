@@ -6,7 +6,7 @@ import stepstoour from '/public/images/whychoosebooks/stepstoour.png'
 import Banner from '../../components/Banner'
 import Partners from '../../components/Partners'
 
-import Makestories from '../../components/Makestories'
+import Makestoriesnew from '../../components/Makestoriesnew'
 import Lululogos from '../../components/Lululogos'
 import Aspiring from '../../components/Aspiring'
 import Whychoosebook from '../../components/Whychoosebook'
@@ -111,7 +111,7 @@ const datapost = <span>Yes, you can. The Book Writing Cube team will assist you 
 <Partners/>
 
 {/* Makestories */}
-<Makestories
+<Makestoriesnew
 title='Our Latest Illustrations Books Projects'
 para='Let Our Book Children’s Illustration Team Help You'
 />

@@ -3,14 +3,14 @@ import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import Banner from '../../components/Banner'
 import Head from 'next/head'
 import Partners from '../../components/Partners'
-import Makestories from '../../components/Makestories'
+import Makestoriesnew from '../../components/Makestoriesnew'
 import Lululogos from '../../components/Lululogos'
 import Aspiring from '../../components/Aspiring'
 import Whychoosebook from '../../components/Whychoosebook'
 import hereshowwehelp from '/public/images/whychoosebooks/hereshowwehelp.png'
 import Dowecome from '../../components/Dowecome'
 import Customersatisfaction from '../../components/Customersatisfaction'
-
+import Stillonthefence from '../../components/Stillonthefence'
 
 
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
@@ -66,6 +66,51 @@ col6: '6',
 
 ]
 
+
+
+
+const reasons = [
+
+  {
+    title:'Team of Professionals',
+    text:'We have a team of experienced and professional content writers who can help you create high-quality, engaging content for your website.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Range Of Services',
+    text:'The company offers a wide range of web content writing services, so you can choose the ones that best suit your needs.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'The Use of the Latest SEO Techniques',
+    text:'We use the latest SEO techniques to ensure your website`s content is visible and ranks high in search engine results.',
+    col:'6',
+    classnum: 'number',
+  },
+
+  {
+    title:'Affordable Rates',
+    text:'We offer affordable rates for our web content writing services, so you can get quality content without spending a lot of money.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Customer Satisfaction',
+    text:'Our company guarantees customer satisfaction, so you can be sure that you’ll be happy with the final product.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Proven Track Record',
+    text:'We have a strong track record of delivering quality content, so you can trust that you’ll receive the same high level of service.',
+    col:'6',
+    classnum: 'number',
+  },
+
+
+]
 
 
 
@@ -133,7 +178,7 @@ col6: '6',
 <Partners/>
 
 {/* Makestories */}
-<Makestories
+<Makestoriesnew
 title='Go Through Our Web Content Writing Projects To Affirm Our Expertise!'
 para='Have a glimpse of what accomplishment we have achieved so far.'
 />
@@ -171,7 +216,27 @@ para='Have a glimpse of what accomplishment we have achieved so far.'
 
 
 
+{/* Stillonthefence component */}
 
+<Container className='still'>
+
+
+<Row >
+<h2 className='font48 fw900 color-blue t-center font-f mb-5'>Why Book Writing Cube Is Perfect For Web Content Writing Services?</h2>  
+</Row>  
+
+<Row className='gy-5'>
+{ reasons.map((item, i) =>
+<Stillonthefence key={i}
+title =  {item.title}
+text =   {item.text}
+col6 = { item.col }
+classnumber = { item.classnum }
+/>
+  )}
+
+</Row>  
+</Container>
 
 
 

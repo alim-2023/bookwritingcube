@@ -3,13 +3,14 @@ import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import Banner from '../../components/Banner'
 import Head from 'next/head'
 import Partners from '../../components/Partners'
-import Makestories from '../../components/Makestories'
+import Makestoriesnew from '../../components/Makestoriesnew'
 import Lululogos from '../../components/Lululogos'
 import Aspiring from '../../components/Aspiring'
 import Whychoosebook from '../../components/Whychoosebook'
 import ourstreamlinedbusiness from '/public/images/whychoosebooks/ourstreamlinedbusiness.png'
 import Dowecome from '../../components/Dowecome'
 import Customersatisfaction from '../../components/Customersatisfaction'
+import Stillonthefence from '../../components/Stillonthefence'
 
 
 
@@ -74,6 +75,49 @@ col6: '6',
 
 
 
+const reasons = [
+
+  {
+    title:'High-Quality Serviced',
+    text:'You`ll get a professionally written business plan that will help you secure funding and get your business off the ground.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Home to Industry Experts',
+    text:'We have a team of experienced business plan writers who will work with you to understand your business and objectives and craft a custom-tailored business plan for you.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Meticulous Business Plans',
+    text:'Our plans are comprehensive and cover all aspects of starting and running your business, from market analysis to financial projections.',
+    col:'6',
+    classnum: 'number',
+  },
+
+  {
+    title:'Cost-Effective Prices',
+    text:'We offer affordable rates without compromising on quality or service.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Customer Satisfaction',
+    text:'All our plans come with a 100% satisfaction guarantee - if you`re not happy with your plan, we`ll revise it until you are.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Trusted by Many',
+    text:'We have an extensive track record of helping businesses secure funding and achieve their goals. Contact us today to see how we can help you too.',
+    col:'6',
+    classnum: 'number',
+  },
+
+
+]
+
 
   return (
    <>
@@ -133,7 +177,7 @@ col6: '6',
 <Partners/>
 
 {/* Makestories */}
-<Makestories
+<Makestoriesnew
 title='A Quick Look At Our Spectacular Business Plan Projects'
 para='With extensive knowledge and creativity, our experts turn your brilliant ideas into successful business plans!
 '
@@ -166,6 +210,31 @@ para='With extensive knowledge and creativity, our experts turn your brilliant i
 
 {/* Lululogos components */}
 <Lululogos/>
+
+
+
+
+{/* Stillonthefence component */}
+
+<Container className='still'>
+
+
+<Row >
+<h2 className='font48 fw900 color-blue t-center font-f mb-5'>Why Our Business Plan Writing Services Are Ideal For You</h2>  
+</Row>  
+
+<Row className='gy-5'>
+{ reasons.map((item, i) =>
+<Stillonthefence key={i}
+title =  {item.title}
+text =   {item.text}
+col6 = { item.col }
+classnumber = { item.classnum }
+/>
+  )}
+
+</Row>  
+</Container>
 
 
 

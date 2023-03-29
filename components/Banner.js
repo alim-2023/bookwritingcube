@@ -193,6 +193,7 @@ const Banner = (props) => {
         onHide={handleClose}
         size="lg"
         centered
+        animation={false}
     
       >
      <span onClick={handleClose} className={styles.crossclose}>x</span>

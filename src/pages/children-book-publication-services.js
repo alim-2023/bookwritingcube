@@ -3,7 +3,7 @@ import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import Banner from '../../components/Banner'
 import Head from 'next/head'
 import Partners from '../../components/Partners'
-import Makestories from '../../components/Makestories'
+import Makestoriesnew from '../../components/Makestoriesnew'
 import Lululogos from '../../components/Lululogos'
 import Aspiring from '../../components/Aspiring'
 import Whychoosebook from '../../components/Whychoosebook'
@@ -113,7 +113,7 @@ const datapost = <span>Yes, you can. The Book Writing Cube team will assist you 
 <Partners/>
 
 {/* Makestories */}
-<Makestories
+<Makestoriesnew
 title='Our Latest Children’s Book Publishing Projects'
 para='Let Our Children’s Book Publishing Team Help You'
 />

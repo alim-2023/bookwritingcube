@@ -3,7 +3,7 @@ import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import Banner from '../../components/Banner'
 import Head from 'next/head'
 import Partners from '../../components/Partners'
-import Makestories from '../../components/Makestories'
+import Makestoriesnew from '../../components/Makestoriesnew'
 import Lululogos from '../../components/Lululogos'
 import Aspiring from '../../components/Aspiring'
 import Whychoosebook from '../../components/Whychoosebook'
@@ -20,6 +20,7 @@ import { Container,Row,Col } from 'react-bootstrap'
 import Bookpublishingservices from '../../components/Bookpublishingservicesweoffer'
 import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/Whybookpublishing.module.css'
+import Stillonthefence from '../../components/Stillonthefence'
 
 const Bookformattingservices = () => {
 
@@ -74,6 +75,50 @@ col6: '6',
 ]
 
 
+
+
+const reasons = [
+
+  {
+    title:'Experienced Professionals',
+    text:'We have a team of highly experienced and qualified professionals who are experts in book formatting.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Affordable Rates',
+    text:'We offer affordable rates without compromising on quality.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'On-Time Delivery',
+    text:'We deliver your formatted books within the promised timeframe.',
+    col:'6',
+    classnum: 'number',
+  },
+
+  {
+    title:'Quality Assurance',
+    text:'We have a 100% satisfaction guarantee, ensuring that you are happy with our book formatting services. Book Writing Cube has a proven track record of providing high-quality book formatting services to authors worldwide.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Customer Support',
+    text:'We`re always available to answer any questions you may have about our services. In short, we provide 24/7 customer support to answer all your queries and doubts.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Modern Tools',
+    text:'We use the latest software and technology to format your books perfectly.',
+    col:'6',
+    classnum: 'number',
+  },
+
+
+]
 
 
   return (
@@ -135,7 +180,7 @@ col6: '6',
 <Partners/>
 
 {/* Makestories */}
-<Makestories
+<Makestoriesnew
 title='Our Recent Formatting Projects That Made Our Clients WOW!'
 para='The list of projects goes on, but the most recent ones are here to help you confide in our formatting services expertise.'
 />
@@ -171,7 +216,27 @@ para='The list of projects goes on, but the most recent ones are here to help yo
 
 
 
+{/* Stillonthefence component */}
 
+<Container className='still'>
+
+
+<Row >
+<h2 className='font48 fw900 color-blue t-center font-f mb-5'>What Makes Us Your Top Pick?</h2>  
+</Row>  
+
+<Row className='gy-5'>
+{ reasons.map((item, i) =>
+<Stillonthefence key={i}
+title =  {item.title}
+text =   {item.text}
+col6 = { item.col }
+classnumber = { item.classnum }
+/>
+  )}
+
+</Row>  
+</Container>
 
 
 

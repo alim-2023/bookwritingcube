@@ -3,7 +3,7 @@ import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import Banner from '../../components/Banner'
 import Head from 'next/head'
 import Partners from '../../components/Partners'
-import Makestories from '../../components/Makestories'
+import Makestoriesnew from '../../components/Makestoriesnew'
 import Lululogos from '../../components/Lululogos'
 import Aspiring from '../../components/Aspiring'
 import Whychoosebook from '../../components/Whychoosebook'
@@ -126,8 +126,8 @@ const reasons = [
   return (
    <>
    <Head>
-   <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta charSet="UTF-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <title>Amazon KDP Book Publishing Services Company - bookwritingcube.com</title>
     <meta name="description" content="Hire a reliable Book Publishing company, for Kindle Direct Publishing. As a top book publisher, we offer a variety of tools and resources to help authors succeed – Call us now and let our publishing experts guide you!" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -183,7 +183,7 @@ const reasons = [
 <Partners/>
 
 {/* Makestories */}
-<Makestories
+<Makestoriesnew
 title='Our Latest Book Publishing Projects'
 para='Let Our Book Publishing Team Help You'
 />

@@ -3,14 +3,14 @@ import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import Banner from '../../components/Banner'
 import Head from 'next/head'
 import Partners from '../../components/Partners'
-import Makestories from '../../components/Makestories'
+import Makestoriesnew from '../../components/Makestoriesnew'
 import Lululogos from '../../components/Lululogos'
 import Aspiring from '../../components/Aspiring'
 import Whychoosebook from '../../components/Whychoosebook'
 import stepsthatwe from '/public/images/whychoosebooks/stepsthatwe.png'
 import Dowecome from '../../components/Dowecome'
 import Customersatisfaction from '../../components/Customersatisfaction'
-
+import Stillonthefence from '../../components/Stillonthefence'
 
 
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
@@ -75,6 +75,51 @@ col6: '6',
 
 
 
+const reasons = [
+
+  {
+    title:'Expertise and Creativity',
+    text:'The team at Book Writing Cube has a wealth of experience and creativity, which allows them to produce high-quality book trailer service that will grab attention and get people talking.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Unique Approach',
+    text:'Our company takes a unique approach to book trailer production, ensuring each one is tailored to the specific book and target audience. For example, when it comes to creating a custom comic book video trailer, we go the extra mile to invoke the element of humor in the video.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Cost-Effective',
+    text:'We offer competitive rates for book trailer production, making it a cost-effective option for authors and publishers.',
+    col:'6',
+    classnum: 'number',
+  },
+
+  {
+    title:'Fast Turnaround',
+    text:'We understand the importance of timely delivery, and our team will work to ensure that your book trailer is completed as quickly as possible.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Flexible',
+    text:'We are flexible and accommodating, working with you to ensure that your book trailer meets your specific needs and requirements.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Guaranteed Satisfaction',
+    text:'Our company is dedicated to customer satisfaction, and they guarantee that you will be happy with the final product.',
+    col:'6',
+    classnum: 'number',
+  },
+
+
+]
+
+
+
   return (
    <>
    <Head>
@@ -133,7 +178,7 @@ col6: '6',
 <Partners/>
 
 {/* Makestories */}
-<Makestories
+<Makestoriesnew
 title='Our Recent Book Trailer Projects That Roar For Our Sound Expertise!'
 para='Here’s a list of our done-and-dusted projects that we completed with utmost excellence and received rave reviews from our clients.'
 />
@@ -170,6 +215,27 @@ para='Here’s a list of our done-and-dusted projects that we completed with utm
 
 
 
+{/* Stillonthefence component */}
+
+<Container className='still'>
+
+
+<Row >
+<h2 className='font48 fw900 color-blue t-center font-f mb-5'>Fasten Your Belt to Experience the Sheer Expertness under Our Roof!</h2>  
+</Row>  
+
+<Row className='gy-5'>
+{ reasons.map((item, i) =>
+<Stillonthefence key={i}
+title =  {item.title}
+text =   {item.text}
+col6 = { item.col }
+classnumber = { item.classnum }
+/>
+  )}
+
+</Row>  
+</Container>
 
 
 

@@ -3,7 +3,7 @@ import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import Banner from '../../components/Banner'
 import Head from 'next/head'
 import Partners from '../../components/Partners'
-import Makestories from '../../components/Makestories'
+import Makestoriesnew from '../../components/Makestoriesnew'
 import Lululogos from '../../components/Lululogos'
 import Aspiring from '../../components/Aspiring'
 import Whychoosebook from '../../components/Whychoosebook'
@@ -16,6 +16,7 @@ import { Container,Row,Col } from 'react-bootstrap'
 import Bookpublishingservices from '../../components/Bookpublishingservicesweoffer'
 import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/Whybookpublishing.module.css'
+import Stillonthefence from '../../components/Stillonthefence'
 
 const Blogwritingservices = () => {
 
@@ -69,6 +70,51 @@ col6: '6',
 
 ]
 
+
+
+
+const reasons = [
+
+  {
+    title:'Home to Industry Experts',
+    text:'We have a team of experienced and qualified writers who can provide quality content for your blog.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Dynamic Services',
+    text:'We offer a variety of writing services, including blog writing, article writing, and copywriting.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'High-Quality Content',
+    text:'We always deliver high-quality content on time and within budget.',
+    col:'6',
+    classnum: 'number',
+  },
+
+  {
+    title:'Thorough Reviews',
+    text:'We have a team of proofreaders who check all content for accuracy and grammar mistakes.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Customer Satisfaction Above All',
+    text:'At Book Writing Cube, we offer a 100% satisfaction guarantee on all our services.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Trusted & Reputable in the Industry',
+    text:'We are a reliable and trustworthy company that you can count on.',
+    col:'6',
+    classnum: 'number',
+  },
+
+
+]
 
 
 
@@ -133,7 +179,7 @@ col6: '6',
 <Partners/>
 
 {/* Makestories */}
-<Makestories
+<Makestoriesnew
 title='A Quick Look At Our Successful Blog Writing Projects'
 para='Our team of brilliant blog writers has years’ worth of experience.'
 />
@@ -168,7 +214,27 @@ para='Our team of brilliant blog writers has years’ worth of experience.'
 
 
 
+{/* Stillonthefence component */}
 
+<Container className='still'>
+
+
+<Row >
+<h2 className='font48 fw900 color-blue t-center font-f mb-5'>Why Our Spectacular Blog Writing Services Are Ideal For Your Business</h2>  
+</Row>  
+
+<Row className='gy-5'>
+{ reasons.map((item, i) =>
+<Stillonthefence key={i}
+title =  {item.title}
+text =   {item.text}
+col6 = { item.col }
+classnumber = { item.classnum }
+/>
+  )}
+
+</Row>  
+</Container>
 
 
 

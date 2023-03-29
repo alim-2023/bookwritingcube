@@ -3,7 +3,7 @@ import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import Banner from '../../components/Banner'
 import Head from 'next/head'
 import Partners from '../../components/Partners'
-import Makestories from '../../components/Makestories'
+import Makestoriesnew from '../../components/Makestoriesnew'
 import Lululogos from '../../components/Lululogos'
 import Aspiring from '../../components/Aspiring'
 import Whychoosebook from '../../components/Whychoosebook'
@@ -20,6 +20,7 @@ import { Container,Row,Col } from 'react-bootstrap'
 import Bookpublishingservices from '../../components/Bookpublishingservicesweoffer'
 import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/Whybookpublishing.module.css'
+import Stillonthefence from '../../components/Stillonthefence'
 
 const Authormarketingpromotionservices = () => {
 
@@ -73,6 +74,52 @@ col6: '6',
 
 ]
 
+
+
+
+
+const reasons = [
+
+  {
+    title:'Industry Experts',
+    text:'We have a team of experienced professionals who know how to promote your book.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Range of Services',
+    text:'We have a variety of services to choose from, so you can find the perfect package for your needs.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Cost-Effective',
+    text:'We offer great value for money, with prices that are competitive and affordable.',
+    col:'6',
+    classnum: 'number',
+  },
+
+  {
+    title:'Stellar Portfolio',
+    text:'We have a track record of success, with many clients achieving bestseller status.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Passion & Dedication',
+    text:'We are passionate about helping authors reach their goals and achieve success.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'24/7 Customer Service',
+    text:'Our team is dedicated to providing excellent customer service and support every step of the way.',
+    col:'6',
+    classnum: 'number',
+  },
+
+
+]
 
 
 
@@ -133,7 +180,7 @@ col6: '6',
 <Partners/>
 
 {/* Makestories */}
-<Makestories
+<Makestoriesnew
 title='A Quick Look At Our Spectacular Author Marketing Projects'
 para='With extensive knowledge and creativity, our marketing experts transform your career and set it up for success!'
 />
@@ -168,6 +215,27 @@ para='With extensive knowledge and creativity, our marketing experts transform y
 
 
 
+{/* Stillonthefence component */}
+
+<Container className='still'>
+
+
+<Row >
+<h2 className='font48 fw900 color-blue t-center font-f mb-5'>Why Our Author Marketing Services Are Ideal For You</h2>  
+</Row>  
+
+<Row className='gy-5'>
+{ reasons.map((item, i) =>
+<Stillonthefence key={i}
+title =  {item.title}
+text =   {item.text}
+col6 = { item.col }
+classnumber = { item.classnum }
+/>
+  )}
+
+</Row>  
+</Container>
 
 
 
