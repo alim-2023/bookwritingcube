@@ -10,15 +10,13 @@ import Whychoosebook from '../../components/Whychoosebook'
 import bookeditingprocess from '/public/images/whychoosebooks/bookeditingprocess.png'
 import Dowecome from '../../components/Dowecome'
 import Customersatisfaction from '../../components/Customersatisfaction'
-
-
-
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Link from 'next/link'
 import { Container,Row,Col } from 'react-bootstrap'
 import Bookpublishingservices from '../../components/Bookpublishingservicesweoffer'
 import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/Whybookpublishing.module.css'
+import Audiobookrecordingprojects from '../../components/Audiobookrecordingprojects'
 
 const Audiobookrecordingservices = () => {
 
@@ -128,7 +126,7 @@ col6: '6',
    {/* partners components */}
 <Partners/>
 
-
+<Audiobookrecordingprojects />
 
 
 {/* Whybookpublishing */}

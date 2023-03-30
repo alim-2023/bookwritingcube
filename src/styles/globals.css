@@ -9,6 +9,7 @@ body{ font-family: 'Inter'; }
   .color-grey{ color: #2c2c2c;}
   .color-white{ color: #fff;}
   .color-lightgray{color: #505050;}
+  .color-tw{ color:#212529; }
 
 
 .textdocationnone{
@@ -167,6 +168,12 @@ font-size: 20px;
 
 .servicetitle{
   padding-top: 55px;
+}
+
+
+.audiobook .slick-track{
+  display: flex;
+  align-items: center;
 }
 
 
