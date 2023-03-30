@@ -85,6 +85,11 @@
 .motive:hover {
     text-decoration: underline;
 }
+
+.childline{
+    justify-content: space-between;
+}
+
 @media (max-width:991px)  {
 
     .posttitle {

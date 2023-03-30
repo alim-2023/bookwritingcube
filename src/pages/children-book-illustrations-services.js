@@ -13,7 +13,7 @@ import Whychoosebook from '../../components/Whychoosebook'
 import Dowecome from '../../components/Dowecome'
 import Customersatisfaction from '../../components/Customersatisfaction'
 
-
+import Childrenbook from '../../components/Childrenbook'
 
 import ipublishmybook from '/public/images/ipublishmybook/ipublishmybook.png'
 
@@ -52,6 +52,39 @@ const  kindledirectpublishing = <span>Providing the Highest quality and cost-eff
 const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="#">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
 
 
+
+const reasons = [
+
+  {
+    title:'Spot Illustration:',
+    text:'Spot illustration is the tiny pieces or single piece of illustration drawn on the first or the title pages of each chapter to help breathe some life into the text or provide a little more context. It could be basic line art like or a small caricature drawn right above the title of the chapter, which takes up a quarter or lesser portion of the page. They are less expressive and have more to do with just intriguing the reader or enticing their imagination enough to carry on reading.',
+    classnum: 'number1',
+    
+  },
+ 
+  {
+    title:'Half-page illustrations:',
+    text:'As the name suggests, half-page illustrations are the illustrations that cover more than a quarter or at maximum half of the page of the book. This kind of illustration usually accompanies words by expressing one of the most intriguing aspects of the story and is not usually confined to the chapter`s title page. It can be a scene, a small introduction to a new character, a minor altercation between the characters that need to be highlighted, etc.',
+    classnum: 'number1',
+   
+  },
+
+  {
+    title:'Single page illustrations:',
+    text:'IThese kinds of illustrations typically cover the whole page and are far more detailed and expressive than the formerly explained ones. These are in great detail, and the text usually becomes optional, as the illustration speaks for itself.',
+    classnum: 'number1',
+  
+  },
+ 
+  {
+    title:'Spread illustrations:',
+    text:'These specific kinds of illustrations are usually spread on both the book`s pages and are usually more expressive and in greater detail than the text at this point is mostly optional. You could say they are like comic books, but rather, an image takes up the whole page than just a small part of the strip.',
+    classnum: 'number1',
+   
+  },
+
+
+]
 
 
 
@@ -121,6 +154,34 @@ para='Let Our Book Children’s Illustration Team Help You'
 
 {/* Lululogos components */}
 <Lululogos/>
+
+
+
+{/* Stillonthefence component */}
+<div className={styles.stillbookwritingservices}>
+<Container >
+<Row >
+<h2 className='font48 fw900 color-white t-center font-f mb-3 font-f'>You Need To Know What Type Of Children's Book Illustrations You Need For Your Book!</h2>  
+
+<p  className='font15 fw500 color-white t-center pb-5 font-f'>Before you come to us for illustrations, you need to know that there is more than just one type of Children's Book Illustrations, and you must know which one fits your project better. Don't know what the various kinds of illustrations are? Well, allow us to educate you.</p>
+
+</Row>  
+
+<Row className={`${styles.childline} gy-5`}>
+{ reasons.map((item, i) =>
+<Childrenbook key={i}
+title =  {item.title}
+text =   {item.text}
+classnumber = { item.classnum }
+/>
+  )}
+
+</Row>  
+</Container>
+
+</div>
+
+
 
 
 {/* Dowecome */}
