@@ -19,6 +19,7 @@ import { Container,Row,Col } from 'react-bootstrap'
 import Bookpublishingservices from '../../components/Bookpublishingservicesweoffer'
 import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/Whybookpublishing.module.css'
+import Buildyourownidentity from '../../components/Buildyourownidentity'
 
 const Digitalmarketingservices = () => {
 
@@ -159,6 +160,8 @@ image={youareonestepcloserto}
 <Lululogos/>
 </div>
 
+
+<Buildyourownidentity />
 
 
 
