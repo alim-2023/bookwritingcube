@@ -50,6 +50,41 @@
     background-color: #f1f1f1;
 }
 
+.alignment{
+    display: block;
+}
+.motive{
+    margin-top: 4%;
+    display: block;
+    cursor: pointer;
+    
+}
+.proper{
+    margin-top: 4%;
+}
+.design{
+    position: relative;
+    
+}
+.design:before{
+    position: absolute;
+    content: "";
+    background-color: black;
+    width: 7px;
+    height: 7px;
+    top: 9px;
+    left: -17px;
+    border-radius: 50px;
+}
+.design{
+    display: none;
+}
+.active1{
+    display:block;
+}
+.motive:hover {
+    text-decoration: underline;
+}
 @media (max-width:991px)  {
 
     .posttitle {

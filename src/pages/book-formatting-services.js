@@ -21,6 +21,7 @@ import Bookpublishingservices from '../../components/Bookpublishingservicesweoff
 import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/Whybookpublishing.module.css'
 import Stillonthefence from '../../components/Stillonthefence'
+import { useState } from 'react'
 
 const Bookformattingservices = () => {
 
@@ -39,14 +40,41 @@ const Bookformattingservices = () => {
     }
   ]
 
-const text = <span>We write, edit, publish and market all genres of books. Also, we provide similar services to <Link className='textdocationnone' href="#">self publish ebooks</Link>. So, we can also help you with <Link className='textdocationnone' href="#">self publishing</Link> .</span>;
+  const [clicktoggle, setclicktoggle] = useState(false);
 
-const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
+  function toggle() {
 
-const  kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="#" className='textdocationnone'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
+    setclicktoggle((prevState) => !prevState);
+  
+
+  }
 
 
-const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="#">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
+
+
+const data = <><span className={styles.alignment}> Here are a few ways that a professionally formatted book can help business owners:</span>
+ <span className={styles.alignment}>Therefore, a well-formatted book looks more professional and is more likely to be taken seriously by potential customers and clients</span>   
+ 
+ <span onClick={toggle} className={styles.motive}>Read More</span>
+
+
+
+
+ <span className={ clicktoggle ?  `${styles.active1} ${styles.alignment} ${styles.proper} ${styles.design}` : 
+ `${styles.alignment} ${styles.proper} ${styles.design}` }>A properly formatted and designed book is more likely to be picked up and read, which means your message will actually be seen and absorbed by readers.</span>
+ <span className={ clicktoggle ?  `${styles.active1} ${styles.alignment}  ${styles.design}` : 
+ `${styles.alignment}  ${styles.design}` }>A well-formatted book gives the impression that you are a professional who takes pride in your work – something that can definitely rub off on potential customers and clients.</span>
+
+ <span className={ clicktoggle ?  `${styles.active1} ${styles.alignment}  ${styles.design}` : 
+ `${styles.alignment}  ${styles.design}` }>A well-formatted book is easier to read and navigate, making readers more likely to stick with it until the end. This gives you a better chance of getting your message across and making a lasting impression.</span>
+
+ <span className={ clicktoggle ?  `${styles.active1} ${styles.alignment}  ${styles.design}` : 
+ `${styles.alignment}  ${styles.design}` }>Last but not least, having a professionally formatted book can help you stand out from the competition. In today's crowded marketplace, it's more important than ever to find ways to make your business stand out – and a well-formatted book can certainly help you do that.So if you're looking for a way to give your business a boost, investing in a professionally formatted book is definitely a wise move.</span>
+
+ 
+ 
+ </>
+
 
 
 const whybookpublishingdata = [
@@ -68,7 +96,7 @@ col6: '6',
 },
 {
 title:'How Do Formatted Books Help Business Owners?',
-text: 'Here are a few ways that a professionally formatted book can help business owners:',
+text: data,
 col6: '6',
 },
 
