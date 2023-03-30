@@ -71,6 +71,8 @@ const Audiobookrecordingprojects = () => {
                     <p className='color-tw font15 fw500'>
                     The culmination of the book is when the evil sorcwho has been wreaking havoc on the kingdom, is fidefeated by the heroic knight. However, this vicomes at a great cost, as the knight is morwounded in the process. Before he dies, he givefinal words of wisdom to the young prince, who mustake up the mantle of protector of the kingdom.
                     </p>
+
+                    
             </div> 
                      
             <div>

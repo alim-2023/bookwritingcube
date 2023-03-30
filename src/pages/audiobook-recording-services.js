@@ -17,6 +17,8 @@ import Bookpublishingservices from '../../components/Bookpublishingservicesweoff
 import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/Whybookpublishing.module.css'
 import Audiobookrecordingprojects from '../../components/Audiobookrecordingprojects'
+import Stillonthefence from '../../components/Stillonthefence'
+
 
 const Audiobookrecordingservices = () => {
 
@@ -45,7 +47,7 @@ const whybookpublishingdata = [
   col6: '6',
 },
 {
-  title: 'WWhat are the benefits of audiobook recording services?',
+  title: 'What are the benefits of audiobook recording services?',
   text: 'Audiobook recording services can provide a range of benefits for businesses and individuals. For businesses, audiobooks can be used as a marketing tool to promote products or services. For individuals, audiobooks can provide a convenient way to learn new skills or improve existing ones. They can also be a great way to stay entertained and engaged while driving, working out, or doing other activities.',
   col6: '6',
 },
@@ -63,6 +65,51 @@ col6: '6',
 ]
 
 
+
+
+
+const reasons = [
+
+  {
+    title:'Professional & High-Quality',
+    text:'Our audiobook recording services are professional and of the highest quality. We use state-of-the-art equipment and have a team of experienced professionals who are dedicated to providing you with the best possible service.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'One-Stop Solution',
+    text:'We offer a wide range of services, so we can meet your specific needs and requirements. Whether you need a simple recording or complex editing and post-production work, we can do it all.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Fast Delivery',
+    text:'We have a fast turnaround time, so you can get your audiobook recorded and ready for sale quickly.',
+    col:'6',
+    classnum: 'number',
+  },
+
+  {
+    title:'Affordable',
+    text:'We offer competitive rates, so you can get high-quality recordings without breaking the bank.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Cooperative',
+    text:'Our team is friendly and helpful and will work with you to ensure that you are happy with the final product.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Trusted By Many',
+    text:'We are a reliable and trusted company and have years of experience in the audiobook industry. You can be sure that your project will be in good hands when you choose us.',
+    col:'6',
+    classnum: 'number',
+  },
+
+
+]
 
 
   return (
@@ -160,7 +207,27 @@ col6: '6',
 
 
 
+{/* Stillonthefence component */}
 
+<Container className='still'>
+
+
+<Row >
+<h2 className='font48 fw900 color-blue t-center font-f mb-5'>Why Our World-Class Audiobook Recording Services Are Ideal For You</h2>  
+</Row>  
+
+<Row className='gy-5'>
+{ reasons.map((item, i) =>
+<Stillonthefence key={i}
+title =  {item.title}
+text =   {item.text}
+col6 = { item.col }
+classnumber = { item.classnum }
+/>
+  )}
+
+</Row>  
+</Container>
 
 
 
