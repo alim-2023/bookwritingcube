@@ -1,0 +1,10 @@
+.formattingservices{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f1f1f1;
+}
+
+.shape{
+    display: flex;
+    justify-content: center;
+}

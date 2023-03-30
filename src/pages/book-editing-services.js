@@ -10,7 +10,7 @@ import Whychoosebook from '../../components/Whychoosebook'
 import drivethebook1 from '/public/images/whychoosebooks/bookeditingprocess.png'
 import Dowecome from '../../components/Dowecome'
 import Customersatisfaction from '../../components/Customersatisfaction'
-
+import Formattingservices from '../../components/Formattingservices'
 import whychooseourbookeditingservices1 from '/public/images/whychooseourbookeditingservices/1.png'
 import whychooseourbookeditingservices2 from '/public/images/whychooseourbookeditingservices/2.png'
 import whychooseourbookeditingservices3 from '/public/images/whychooseourbookeditingservices/3.png'
@@ -277,6 +277,9 @@ classtop =  {item.class}
    title="Our Book Editing Process"
   whychoose= {drivethebook1}
  />
+
+
+ <Formattingservices />
 
 
 {/* Aspiring */}

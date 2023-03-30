@@ -6,14 +6,13 @@ import Image from 'next/image'
 
 
 // slick css
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
 const Audiobookrecordingprojects = () => {
 
-    var makestories = {
+    var bookrecordingprojects = {
         dots: false,
         arrows:false,
         autoplay:true,
@@ -63,7 +62,7 @@ const Audiobookrecordingprojects = () => {
             </Row>
 
           
-            <Slider {...makestories}>
+            <Slider {...bookrecordingprojects}>
 
            
             <div>
