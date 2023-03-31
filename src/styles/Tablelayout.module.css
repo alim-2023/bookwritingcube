@@ -1,0 +1,23 @@
+.tablelayout{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.btntabls{
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.88em;
+    background: #30333b;
+    font-weight: 500;
+    padding: 0.25rem;
+    text-align: center;
+    font-family: 'inter';
+}
+
+@media (max-width:767px)  {
+
+.tablelayout{
+    display: none;
+}
+
+ }

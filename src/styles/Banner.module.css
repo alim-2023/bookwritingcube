@@ -193,6 +193,15 @@
     background-position: center;
     font-family: 'inter';
 }
+.condition{
+    background-image: url(/images/bannerimages/bookeditingservices.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 130px;
+    padding-bottom: 30px;
+    background-position: center;
+    font-family: 'inter';
+}
 
 
 .homenumer:hover {

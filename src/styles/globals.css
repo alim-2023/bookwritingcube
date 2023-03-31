@@ -44,6 +44,10 @@ body{ font-family: 'Inter'; }
 .t-left{ text-align: left; }
 .t-right{ text-align:right;}
 
+.text-transform{
+  text-transform: uppercase;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 3px;
@@ -166,6 +170,26 @@ font-size: 20px;
   background: black;
 } */
 
+/* .lineediting th, .table-bordered td {
+  border: 0;
+  margin: 10px;
+  border-right: 5px solid #fff;
+} */
+
+.lineediting td{
+  font-family: 'Inter';
+  text-align: center;
+  border-right: 5px solid #fff;
+}
+
+.lineediting tbody tr:nth-of-type(odd) {
+  background-color: rgba(0,0,0,.05);
+  border-right: 5px solid #fff;
+  margin: 10px;
+  border-bottom: 1px solid #f2f2f2;
+  border-top: 1px solid #f2f2f2;
+}
+
 .servicetitle{
   padding-top: 55px;
 }
@@ -176,7 +200,10 @@ font-size: 20px;
   align-items: center;
 }
 
-
+.condition .col-md-7{
+  width: 100%;
+  text-align: center;
+}
 
 @media (max-width:1280px)  {
 
@@ -193,6 +220,16 @@ font-size: 20px;
 }
 
 }
+
+@media (max-width:1200px)  {
+
+  .quality .col-md-3 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+}
+
 
 @media (max-width:991px)  {
   .font16 {
@@ -230,6 +267,13 @@ font-size: 20px;
 }
 
 @media (max-width:767px)  {
+
+  .quality .col-md-3 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+
   .still h2 {
     padding-bottom: 0px;
 }

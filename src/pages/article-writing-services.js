@@ -20,6 +20,7 @@ import { Container,Row,Col } from 'react-bootstrap'
 import Bookpublishingservices from '../../components/Bookpublishingservicesweoffer'
 import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/Whybookpublishing.module.css'
+import Professionalseo from '../../components/Professionalseo'
 
 const Articlewritingservices = () => {
 
@@ -130,6 +131,10 @@ col6: '6',
 
    {/* partners components */}
 <Partners/>
+
+
+{/* Professionalseo */}
+<Professionalseo />
 
 
 

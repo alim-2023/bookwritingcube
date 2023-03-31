@@ -24,6 +24,7 @@ import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/Whybookpublishing.module.css'
 
 import Finetoothedbook from '../../components/Finetoothedbook'
+import Tablelayout from '../../components/Tablelayout'
 
 const Bookeditingservices = () => {
 
@@ -280,6 +281,9 @@ classtop =  {item.class}
 
 
  <Formattingservices />
+
+
+ <Tablelayout />
 
 
 {/* Aspiring */}

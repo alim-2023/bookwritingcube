@@ -25,6 +25,7 @@ import { Container,Row,Col } from 'react-bootstrap'
 import Bookpublishingservices from '../../components/Bookpublishingservicesweoffer'
 import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/Whybookpublishing.module.css'
+import Bookmarketingprojects from '../../components/Bookmarketingprojects'
 
 const Bookmarketingservices = () => {
 
@@ -134,6 +135,8 @@ col6: '6',
 
    {/* partners components */}
 <Partners/>
+
+<Bookmarketingprojects />
 
 
 
