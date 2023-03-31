@@ -5,14 +5,20 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
-import Freequote from '../components/Freequote'
+import Freequote from './Freequote'
 
 // images
 import bookbadges1 from '/public/images/bookbadges/1.png'
 import bookbadges2 from '/public/images/bookbadges/2.png'
+import bookbadges3 from '/public/images/bookbadges/3.png'
+import bookbadges4 from '/public/images/bookbadges/4.png'
+import bookbadges5 from '/public/images/bookbadges/5.png'
+import bookbadges6 from '/public/images/bookbadges/6.png'
+import bookbadges7 from '/public/images/bookbadges/7.png'
+import bookbadges8 from '/public/images/bookbadges/8.png'
 
 
-const Bookbadges = (props) => {
+const Bookbadgesbook = (props) => {
 
 
 const [show, setShow] = useState(false);
@@ -25,19 +31,54 @@ const data =[
 
     {
         title: 'Book',
-        subtitle:'Marketing', 
-        para:'We will help market your book so that it almost guarantees that you grow your audience drastically. Building custom marketing strategies is what we do best!',
+        subtitle:'Cover Design', 
+        para:'Have your book trailers created by the best designers in the industry. We create elaborate cinematic videos for your books that are intricate and creative simultaneously, which helps build your book’s awareness.',
         btnname:'Get A Quote',
-        bookbadges1:  bookbadges1,
+        bookbadges1:  bookbadges3,
     },
     
     {
-        title: 'Book',
-        subtitle:'Publishing', 
+        title: 'Premium',
+        subtitle:'Book Videos', 
         para:'Our book publishers are the best in the business at what they do. We will make all your dreams come true by making you the next bestselling author.',
         btnname:'Get A Quote',
-        bookbadges1:  bookbadges2,
+        bookbadges1:  bookbadges4,
     },
+
+
+    {
+        title: 'Author',
+        subtitle:'Website', 
+        para:'Have your very own website created where you can showcase the person behind the book. You can build a huge fan following just with the help of your website.',
+        btnname:'Get A Quote',
+        bookbadges1:  bookbadges5,
+    },
+ 
+
+    {
+        title: 'Professional',
+        subtitle:'Audiobooks', 
+        para:'You can make your audiobooks simply by contacting us on this website. It’s that easy! We welcome any queries you might have with open arms.',
+        btnname:'Get A Quote',
+        bookbadges1:  bookbadges6,
+    },
+
+    {
+        title: 'Custom',
+        subtitle:'Book Illustrations', 
+        para:'We can help create your customer illustrations at just a fraction of the cost! We will provide the best quality of products at the most affordable prices.',
+        btnname:'Get A Quote',
+        bookbadges1:  bookbadges7,
+    },
+
+    {
+        title: 'Custom',
+        subtitle:'Book Editing', 
+        para:'We know that every word counts, so we`re committed to crafting captivating stories for any length and style.',
+        btnname:'Get A Quote',
+        bookbadges1:  bookbadges8,
+    },
+ 
  
 
 
@@ -90,4 +131,4 @@ const data =[
   )
 }
 
-export default Bookbadges
+export default Bookbadgesbook

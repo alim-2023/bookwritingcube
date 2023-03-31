@@ -292,6 +292,10 @@
 
 @media (max-width:991px)  {
 
+    .pricing{
+        padding-top: 70px;
+    }
+
 
     .bookwritingservices {
         padding-top: 70px;
@@ -374,6 +378,10 @@
 
 
     .bookwritingservices {
+       background-image:unset;
+       background-color: #f1f1f1;
+    }
+    .pricing {
        background-image:unset;
        background-color: #f1f1f1;
     }

@@ -8,6 +8,7 @@ import Experts from '../../components/Experts'
 import Dowecome from '../../components/Dowecome'
 import howdoimg from '/public/images/professional/professional.png'
 import Bookbadges from '../../components/Bookbadges'
+import Bookbadgesbook from '../../components/Bookbadgesbook'
 
 
 
@@ -94,7 +95,7 @@ const Pricing = () => {
 
 
 {/* Bookbadges */}
-<Bookbadges />   
+<Bookbadgesbook />   
 
 
 {/* Talk To Our Experts! */}

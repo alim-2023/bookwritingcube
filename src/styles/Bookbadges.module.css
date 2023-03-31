@@ -2,6 +2,7 @@
     box-shadow: 0 0 21px 3px #ddd;
     padding: 6% 3% 10%;
     align-items: center;
+    height: 320px;
 }
 
 .bookbadges{
@@ -52,4 +53,31 @@
 }
 
 
+@media (max-width:1280px)  { 
 
+.bookcontent {
+    box-shadow: 0 0 21px 3px #ddd;
+    padding: 6% 3% 10%;
+    align-items: center;
+    height: 360px;
+}
+
+}
+
+@media (max-width:767px)  { 
+
+    .bookcontent {
+        box-shadow: 0 0 21px 3px #ddd;
+        padding: 6% 3% 10%;
+        align-items: center;
+        height: unset;
+    }
+
+    .bookcontent img{
+        margin-top: 8%;
+        display: block;
+        width: 145px;
+        height: auto;
+    }
+    
+    }

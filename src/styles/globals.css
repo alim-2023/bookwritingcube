@@ -200,7 +200,10 @@ font-size: 20px;
   align-items: center;
 }
 
-
+.bookalign .content{
+  margin-right: calc(-.0 * var(--bs-gutter-x));
+  margin-left: calc(-.0 * var(--bs-gutter-x));
+}
 
 @media (max-width:1280px)  {
 

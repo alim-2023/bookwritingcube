@@ -5,6 +5,7 @@ import Banner from '../../components/Banner'
 import Head from 'next/head'
 import { Container,Row,Col } from 'react-bootstrap'
 import Link from 'next/link'
+import Aspiring from '../../components/Aspiring'
 
 const Privacypolicy = () => {
 
@@ -265,6 +266,15 @@ const Privacypolicy = () => {
         </div>
         </Row>
       </Container>
+
+
+     {/* Aspiring */}
+     <Aspiring
+ title= 'Professional Book Writing and Publishing We Give New Life To Your Words'
+ text="Your idea is unique, and you need a company that will take it from start to finish. We are here for all the steps, so your legacy can live in words."
+ number="+1-302-883-8877"
+ discuss="LET'S DISCUSS"
+/>
     </>
  )
 }
