@@ -175,9 +175,9 @@ const Footer = () => {
 
             <ul className={`${styles.footermenu1} pt-4`}>
 
-                <li className={ `${styles.footermenulinks} pt-4`}><Link className={styles.styleset} href="#">Home</Link></li>
+                <li className={ `${styles.footermenulinks} pt-4`}><Link className={styles.styleset} href="/">Home</Link></li>
 
-                <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="#">Pricing</Link></li>
+                <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/pricing">Pricing</Link></li>
 
                 <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="#">Contact</Link></li>
 
@@ -186,11 +186,11 @@ const Footer = () => {
             </ul>
 
             <ul className={styles.socialiconfooter}>
-                <li className={styles.socaillinks}><Link className={styles.styleset} href="#"><RiFacebookBoxFill size={20}  /></Link></li>
-                <li className={styles.socaillinks}><Link className={styles.styleset} href="#"><AiOutlineTwitter size={17}  /></Link></li>
-                <li className={styles.socaillinks}><Link className={styles.styleset} href="#"><AiOutlineInstagram size={17}  /></Link></li>
-                <li className={styles.socaillinks}><Link className={styles.styleset} href="#"><BsYoutube size={17}  /></Link></li>
-                <li className={styles.socaillinks}><Link className={styles.styleset} href="#"><FaLinkedinIn size={17}  /></Link></li>
+                <li className={styles.socaillinks}><Link className={styles.styleset} href="https://www.facebook.com/bookwritingcube"><RiFacebookBoxFill size={20}  /></Link></li>
+                <li className={styles.socaillinks}><Link className={styles.styleset} href="https://twitter.com/bookwrtgcube"><AiOutlineTwitter size={17}  /></Link></li>
+                <li className={styles.socaillinks}><Link className={styles.styleset} href="https://www.instagram.com/bookwritingcube_/"><AiOutlineInstagram size={17}  /></Link></li>
+                <li className={styles.socaillinks}><Link className={styles.styleset} href="https://www.youtube.com/channel/UCD-MEl7xlniOBEbpEVtpcvw"><BsYoutube size={17}  /></Link></li>
+                <li className={styles.socaillinks}><Link className={styles.styleset} href="https://www.linkedin.com/company/book-writing-cube/"><FaLinkedinIn size={17}  /></Link></li>
             </ul>
 
             <Image className='mt-5'  src={protectedlogo} alt='protectedlogo'></Image>
@@ -199,17 +199,17 @@ const Footer = () => {
         <Col md={2}>
 
         <ul className={`${styles.footermenu1} pt-4`}>
-                <li className={ `${styles.footermenulinks} pt-4`}><Link className={styles.styleset} href="#">Book Writing</Link> </li>
+                <li className={ `${styles.footermenulinks} pt-4`}><Link className={styles.styleset} href="/book-writing-services">Book Writing</Link> </li>
 
-                <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="#">Book Editing</Link></li>
+                <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/book-editing-services">Book Editing</Link></li>
 
-                <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="#">Book Publishing</Link></li>
+                <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/book-publishing-services">Book Publishing</Link></li>
 
-                <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="#">Ebook Writing</Link></li>
+                <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/ebook-writing-services">Ebook Writing</Link></li>
 
                 <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="#">Book Marketing</Link></li>
 
-                <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="#">Digital Marketing</Link></li>
+                <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/book-marketing-services">Digital Marketing</Link></li>
                 
             </ul>
 
