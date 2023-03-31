@@ -50,7 +50,7 @@ const Termsofuse = () => {
         <Banner key={i}
           title={item.title}
           bannershome={item.banners}
-          align={item.align}
+          alignclass={item.alignclass}
        /> 
        )}
       

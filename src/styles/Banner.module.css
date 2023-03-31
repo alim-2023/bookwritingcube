@@ -212,6 +212,11 @@
     width: 69%;
     margin: 0 auto;
   }
+.align{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
 .faqs{
     background-image: url(/images/bannerimages/faqsbanner.jpg);
     background-size: cover;
