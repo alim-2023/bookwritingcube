@@ -299,6 +299,21 @@
 
 }
 
+.thankyoubtn{
+    border: 0;
+    padding: 12px 30px;
+    border-radius: 0;
+    background-color: #16467d;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'inter';
+}
+.thankyoubtn:hover{
+    background-color: #000;
+    color: #f1f1f1;
+}
+
+
 @media (max-width:1200px)  { 
 
 .new1{

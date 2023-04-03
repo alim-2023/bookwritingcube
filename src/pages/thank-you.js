@@ -1,17 +1,29 @@
 import React from 'react'
+import Banner from '../../components/Banner'
 import Head from 'next/head'
-import { Container,Row,Col } from 'react-bootstrap'
-import styles from '@/styles/Error.module.css'
-import Link from 'next/link'
 
-const Error = () => {
+const Thankyou = () => {
+
+    const bannertext=[
+        {
+          title: 'Thank You',
+          pra: 'For filling out the contact form. Our representative will contact you shortly.',
+          banners:'bookpublishingservices',
+          thankyou:'thankyou',
+         
+           
+    
+        }
+      ]
+
+
   return (
-   <>
-   <Head>
+    <>
+    <Head>
 
-   <meta charset="UTF-8" />
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>404 - Hire Professional Book Writing Experts in the US -</title>
+    <title>Thank You - Hire Professional Book Writing Experts in the US -</title>
     <meta name="description"
         content="Receive the Best Fraction of Profits with Our Publication Services We give you maximum creative control that retains royalties with a self-published book. Discuss your publishing requirement and strategies with us. Lets Discuss Lets Discuss (302) 883-8877 Request A Free Quote Your Budget3k-5k5k-7k7k-10k10k-15k15k-20k20k-25k25k-30k30k-40k40k-50k The published manifestation of your writing dreams! Get Free Consultancy Publishing by […]" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,36 +33,29 @@ const Error = () => {
     <meta property="og:title" content="Book Publishing - Hire Professional Book Writing Experts in the US -" />
     <meta property="og:description"
         content="Receive the Best Fraction of Profits with Our Publication Services We give you maximum creative control that retains royalties with a self-published book. Discuss your publishing requirement and strategies with us. Lets Discuss Lets Discuss (302) 883-8877 Request A Free Quote Your Budget3k-5k5k-7k7k-10k10k-15k15k-20k20k-25k25k-30k30k-40k40k-50k The published manifestation of your writing dreams! Get Free Consultancy Publishing by […]" />
-    <meta property="og:url" content="https://www.bestsellingpublisher.com/" />
+    <meta property="og:url" content="https://www.bookwritingcube.com/book-publishing-services/" />
     <meta property="og:site_name" content="Book Publishing - Hire Professional Book Writing Experts in the US -" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:label1" content="Est. reading time" />
     <meta name="twitter:data1" content="5 minutes" />
+
     <link rel="icon" href="/favicon.png" />
 
-   </Head>
+    </Head>
+       
+       {/* banner components */}
 
+   {bannertext.map((item, i) =>
+        <Banner key={i}
+          title={item.title}
+          text={item.pra}
+          bannershome={item.banners}
+          thankyou={item.thankyou}
+       /> 
+       )}
 
-
-<div className={styles.error}> 
-<Container>
-    <Row>
-        <Col>
-            <h1 className='fw600 font60 color-blue t-center font-f mb-4'>404 NOT FOUND</h1>
-            <h4 className="fw500 font40 color-black t-center font-f mb-2">THIS IS SOMEWHAT EMBARRASSING, ISN’T IT?</h4>
-            <p className="font18 fw400 color-black t-center font-f mb-4">It looks like nothing was found at this location. Maybe try a search?</p>
-
-            <div className='mt-4 t-center'>
-                        <Link href="#" className={styles.btn404}>LET'S DISCUSS</Link>
-                        <Link href="tel:(800) 781-9093" className={styles.btn404}>(800) 781-9093</Link>
-                    </div>
-        </Col>
-    </Row>
-</Container>
-</div>
-   
-   </>
+    </>
   )
 }
 
-export default Error
+export default Thankyou

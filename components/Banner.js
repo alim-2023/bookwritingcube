@@ -142,19 +142,24 @@ const Banner = (props) => {
                     <Link className={styles.homenumer} href="tel:(302) 883-8877"> {props.homebannernum}</Link>
 
                     
-                    { props.processs ? 
+                      { props.processs ? 
 
-                      <Link onClick={handleShow} className={` ${styles.homenumer} ${styles.new1} `} href='#'> <BsFillPlayFill size={25}  /> {props.processs} </Link>
+                        <Link onClick={handleShow} className={` ${styles.homenumer} ${styles.new1} `} href='#'> <BsFillPlayFill size={25}  /> {props.processs} </Link>
 
-                    :
-                    '' 
-                    }
+                      :
+                      '' 
+                      }
 
                   </div>
                   : 
                   ''
                   }
+{ props.thankyou ? 
+<div className='mt-5 mb-5'>
 
+<Link className={styles.thankyoubtn} href="/"> Back To The Home Page</Link>
+</div>
+: ''  }
                   
 
 { props.homebanlogos ?  

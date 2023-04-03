@@ -20,7 +20,7 @@ const Bloglisting = () => {
         <Row className='gy-4'>
             <Col md={4}>
             <div className={styles.bloglist}>
-            <Image src={blogimage4} className='img-fluid' alt="blog1"></Image>
+            <Image src={blogimage4} className='img-fluid' priority alt="blog1"></Image>
             <div className={styles.cardbodylist}>
                 <a className='textdocationnone' href="#">
                 <h5 className='fw700 font17 color-blue font-f'> Rising Above the Competition: 8 Advanced Strategies for KDP Book Promotion and Marketing on Amazon </h5> </a>
@@ -38,7 +38,7 @@ const Bloglisting = () => {
 
             <Col md={4}>
             <div className={styles.bloglist}>
-            <Image src={blogimage5} className='img-fluid' alt="blog1"></Image>
+            <Image src={blogimage5} className='img-fluid' priority alt="blog1"></Image>
             <div className={styles.cardbodylist}>
                 <a className='textdocationnone' href="#">
                 <h5 className='fw700 font17 color-blue font-f'> Maximizing Your KDP Royalties: A Guide to Book Pricing Strategies </h5> </a>
@@ -54,7 +54,7 @@ const Bloglisting = () => {
 
             <Col md={4}>
             <div className={styles.bloglist}>
-            <Image src={blogimage6} className='img-fluid' alt="blog1"></Image>
+            <Image src={blogimage6} className='img-fluid' priority alt="blog1"></Image>
             <div className={styles.cardbodylist}>
                 <a className='textdocationnone' href="#">
                 <h5 className='fw700 font17 color-blue font-f'> Maximizing Your Amazon Book Promotion: Advanced Tactics for Increased Book Sales </h5> </a>
@@ -65,7 +65,7 @@ const Bloglisting = () => {
 
             <Col md={4}>
             <div className={styles.bloglist}>
-            <Image src={blogimage6} className='img-fluid' alt="blog1"></Image>
+            <Image src={blogimage6} className='img-fluid' priority alt="blog1"></Image>
             <div className={styles.cardbodylist}>
                 <a className='textdocationnone' href="#">
                 <h5 className='fw700 font17 color-blue font-f'> Maximizing Your Amazon Book Promotion: Advanced Tactics for Increased Book Sales </h5> </a>
@@ -77,7 +77,7 @@ const Bloglisting = () => {
 
             <Col md={4}>
             <div className={styles.bloglist}>
-            <Image src={blogimage6} className='img-fluid' alt="blog1"></Image>
+            <Image src={blogimage6} className='img-fluid' priority alt="blog1"></Image>
             <div className={styles.cardbodylist}>
                 <a className='textdocationnone' href="#">
                 <h5 className='fw700 font17 color-blue font-f'> Maximizing Your Amazon Book Promotion: Advanced Tactics for Increased Book Sales </h5> </a>
@@ -88,7 +88,7 @@ const Bloglisting = () => {
 
             <Col md={4}>
             <div className={styles.bloglist}>
-            <Image src={blogimage6} className='img-fluid' alt="blog1"></Image>
+            <Image src={blogimage6} className='img-fluid' priority alt="blog1"></Image>
             <div className={styles.cardbodylist}>
                 <a className='textdocationnone' href="#">
                 <h5 className='fw700 font17 color-blue font-f'> Maximizing Your Amazon Book Promotion: Advanced Tactics for Increased Book Sales </h5> </a>
