@@ -1,0 +1,47 @@
+.bloglisting{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.cardbodylist {
+    padding: 1.25rem;
+    height: 250px;
+
+}
+.bloglist {
+    box-shadow: 0 0 21px 3px #ddd;
+}
+
+
+.blogbtn{
+    border: 0;
+    padding: 12px 30px;
+    border-radius: 0;
+    background-color: #16467d;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'inter';
+   
+}
+.blogbtn:hover{
+    color: #fff;
+    background-color: black;
+    
+}
+
+.cardbodylist h5{
+    height: 170px;
+}
+
+@media (max-width:767px)  {
+
+    .cardbodylist h5 {
+        height: auto;
+        margin-bottom: 6%;
+    }
+    .cardbodylist {
+        padding: 1.25rem;
+        height: auto;
+        padding-bottom: 7%;
+    }
+
+ }

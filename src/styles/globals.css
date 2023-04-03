@@ -26,6 +26,7 @@ body{ font-family: 'Inter'; }
 .font16 {  font-size: 16px;  }
 .font17 {  font-size: 24px;  }
 .font15 {  font-size: 15px;  }
+.font60 {  font-size: 60px;  }
 
 
 /* fontweignt */
@@ -267,6 +268,10 @@ font-size: 20px;
 }
 
 @media (max-width:767px)  {
+
+  .font60 {
+    font-size: 40px;
+}
 
   .quality .col-md-3 {
     flex: 0 0 auto;

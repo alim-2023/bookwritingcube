@@ -1,0 +1,40 @@
+.error{
+    padding-top: 230px;
+    padding-bottom: 90px;
+}
+
+.btn404{
+    border: 0;
+    padding: 12px 30px;
+    border-radius: 0;
+    background-color: #16467d;
+    color: #fff;
+    text-decoration: unset;
+    margin-left: 4px;
+    border: 1px solid #16467d;
+    font-family: 'Inter';
+  
+}
+.btn404:hover{
+    background-color: black;
+    color: #fff;
+}
+
+@media (max-width:991px)  {
+    .error{
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+}
+
+
+@media (max-width:480px)  {
+
+    .btn404{
+        display: block;
+        margin-bottom: 2%;
+    }
+   
+
+}
