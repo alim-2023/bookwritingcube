@@ -179,7 +179,7 @@ const Footer = () => {
 
                 <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/pricing">Pricing</Link></li>
 
-                <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="#">Contact</Link></li>
+                <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/contact">Contact</Link></li>
 
                 <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="#">Let Get Started</Link></li>
 

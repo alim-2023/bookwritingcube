@@ -9,12 +9,8 @@ const Blogs = () => {
     const bannertext=[
         {
           title: 'Blogs',
-      
           alignclass:'blogbanclass',
           aboutbanners:'blogsbanner',
-         
-           
-    
         }
       ]
 

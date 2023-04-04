@@ -75,6 +75,8 @@ export default function Home() {
     <meta name="twitter:data1" content="5 minutes" />
     <meta name="facebook-domain-verification" content="s4ocl50k325dpk61h3frbd8aajeybv" />
     <meta name="google-site-verification" content="F7m5xKviPUMZOF5gFd6tdprcbKj_K1t7VyaYhmzcMMU" />
+
+  
         
       </Head>
       <main>

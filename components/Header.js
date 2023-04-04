@@ -92,7 +92,7 @@ const Header = () => {
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="/pricing">Pricing</Link></li>
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="/faqs">Faq's</Link></li>
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="/blogs">Blogs</Link></li>
-                <li className={styles.navlinks}><Link className={styles.menulinks} href="">Contact us</Link></li>
+                <li className={styles.navlinks}><Link className={styles.menulinks} href="/contact">Contact us</Link></li>
               </ul>
 
               <ul className={styles.align_menu}>
