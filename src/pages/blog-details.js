@@ -7,6 +7,7 @@ import Image from 'next/image'
 import blogimage4 from '/public/images/blogimage/4.png'
 import sideicon from '/public/images/blogimage/sideicon.png'
 import Freequote from '../../components/Freequote'
+import Blogclientssays from '../../components/Blogclientssays'
 
 const Blogdetails = () => {
   return (
@@ -139,7 +140,7 @@ const Blogdetails = () => {
         </Row>
     </Container>
 
-
+<Blogclientssays />
 
     </div>
     

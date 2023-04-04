@@ -208,6 +208,24 @@ font-size: 20px;
   margin-left: calc(-.0 * var(--bs-gutter-x));
 }
 
+
+.blogslide .slick-slider.slick-initialized {
+  background-color: #fff;
+  margin-right: 57px;
+  border-radius: 5px;
+  padding: 50px 30px;
+}
+.blogslide .slick-dots li button:before {
+  font-size: 13px;
+  color: #16467d;
+  border-color: transparent;
+  opacity: 1;
+  margin-top: 112%;
+
+}
+
+
+
 @media (max-width:1280px)  {
 
   .customizedbook .col-md-4{
@@ -235,6 +253,13 @@ font-size: 20px;
 
 
 @media (max-width:991px)  {
+
+  .blogslide .slick-slider.slick-initialized {
+
+    margin-right: unset;
+
+
+}
   .font16 {
     font-size: 13px;
 }

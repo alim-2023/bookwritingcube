@@ -19,8 +19,8 @@ const Blogs = () => {
 
 <Head>
 
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charSet="UTF-8" />
+<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 <title>Book Writing Blogs - Book Writing Cube</title>
 <meta name="description"
     content="Book Writing Blogs that help you get awash with the latest trends in the writing genre. Read them to be ahead of the curve. " />
