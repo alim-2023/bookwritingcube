@@ -61,7 +61,7 @@ const Bloglisting = () => {
             <div className={styles.cardbodylist}>
                 <Link className='textdocationnone' href="#">
                 <h5 className='fw700 font17 color-blue font-f'> {item.title} </h5> </Link>
-                <Link className={styles.blogbtn} href="#">{item.read}</Link>
+                <Link className={styles.blogbtn} href="/blog-details">{item.read}</Link>
              </div>
                 </div>
             </Col>

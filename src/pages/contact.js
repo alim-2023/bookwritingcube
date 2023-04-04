@@ -10,8 +10,8 @@ const Contact = () => {
 
     <Head>
 
-    <meta charset='UTF-8' />
-    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta charSet='UTF-8' />
+    <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
     <title>Book Writing Services Company- Book Writing Cube</title>
     <meta name='description'
         content='Book Writing Services Company that helps you become the best-selling author of all times. Get in touch today.' />
@@ -238,7 +238,7 @@ const Contact = () => {
 </Row>
 
 
-<Row>
+<Row className='gy-3'>
     <Col md={3}>
         <div class='form-check'>
             <input class='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
