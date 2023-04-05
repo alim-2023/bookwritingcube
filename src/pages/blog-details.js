@@ -14,8 +14,8 @@ const Blogdetails = () => {
     <>
 
     <Head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charSet="UTF-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <title>8 Advanced Strategies for KDP Book Promotion and Marketing</title>
     <meta name="description"
         content="Unlock your book’s full potential with advanced KDP promotion and marketing. Click here to uncover strategies to drive more traffic and sales." />
