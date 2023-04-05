@@ -252,7 +252,7 @@ classnumber = { item.classnum }
 <Aspiring
  title= 'Bring Your Business to Life with Book Writing Cube’s Meticulous Business Plan Writing Services!'
  text="Get in touch with one of our industry experts for more information about our online blog writing services and pricing details by leaving your email or phone number below!"
- number="+1-302-883-8877"
+ number="(302) 883-8877"
  discuss="LET'S DISCUSS"
 />
 

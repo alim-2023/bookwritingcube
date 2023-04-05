@@ -284,7 +284,7 @@ classnumber = { item.classnum }
 <Aspiring
  title= 'Polish Your Manuscripts To Perfection By Having Us On Your Side!'
  text="Looking for a book formatting service that can help make your dream of being a published author a reality? Look no further than our team of professionals at Book Writing Cube! We offer a wide range of book formatting services that are sure to meet your needs and exceed your expectations. Contact us today to learn more about our services."
- number="+1-302-883-8877"
+ number="(302) 883-8877"
  discuss="LET'S DISCUSS"
 />
 

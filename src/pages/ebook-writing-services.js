@@ -269,7 +269,7 @@ classnumber = { item.classnum }
 <Dowecome
  title='Planning >> Writing >> Designing = eBook Customization Formula'
  text="We want to help you shine your eBook and make it compelling for readers, so we'll work with the most important ideas. You have an option of doing a one-hour interview where any challenging or confusing topics will be bouncing off us before they're even published."
- number="+1-302-883-8877"
+ number="(302) 883-8877"
  discuss="LET'S DISCUSS"
 Dowecome= "publishmybook"
 image={andnohiring}
@@ -328,7 +328,7 @@ btn =  {item.btn}
 <Aspiring
  title= 'Professional eBook Writing and Publishing We Give New Life To Your Words'
  text="Your idea is unique, and you need a company that will take it from start to finish. We are here for all the steps, so your legacy can live in words."
- number="+1-302-883-8877"
+ number="(302) 883-8877"
  discuss="LET'S DISCUSS"
 />
 

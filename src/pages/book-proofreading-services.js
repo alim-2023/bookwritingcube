@@ -265,7 +265,7 @@ classnumber = { item.classnum }
 <Aspiring
  title= 'Have A Second Set Of Eyes To Catch The Errors That You Have Missed!'
  text="Call us to get professional editors who will comb through your work and correct any errors. Whether it's a typo or a more serious grammatical error, we'll make sure it's fixed before you submit your work."
- number="+1-302-883-8877"
+ number="(302) 883-8877"
  discuss="LET'S DISCUSS"
 />
 

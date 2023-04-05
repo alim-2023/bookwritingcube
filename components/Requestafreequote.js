@@ -34,7 +34,7 @@ const Requestafreequote = () => {
         <Col md={4}> 
 
             <div>
-                <h4 className='fw900 font17 color-blue font-f'> For project inquiries only: </h4>
+                <h4 className='fw700 font17 color-blue font-f'> For project inquiries only: </h4>
                 <p className={styles.bookemail}><MdEmail size={16}  />
                 
                 <Link className={styles.emailhref} href="mailto:info@bookwritingcube.com">  info@bookwritingcube.com </Link> </p>
@@ -44,7 +44,7 @@ const Requestafreequote = () => {
         <Col md={4}>   
 
         <div>
-                <h4 className='fw900 font17 color-blue font-f'> For other inquiries only: </h4>
+                <h4 className='fw700 font17 color-blue font-f'> For other inquiries only: </h4>
                 <p className={styles.bookemail}><BsFillTelephoneFill size={12}  /> 
                 
                 <Link className={styles.emailhref} href="tel:(302)883-8877"> (302)883-8877 </Link> </p>

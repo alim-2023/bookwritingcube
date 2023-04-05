@@ -258,7 +258,7 @@ classnumber = { item.classnum }
 <Aspiring
  title= 'Professional Book Cover Design Services That Help Your Ideal Readers Judge Your Book By Its Cover!'
  text="Call us if you want to get your hands on the beautiful, engaging, and effective book cover to break the competition and make a 'NAME.' "
- number="+1-302-883-8877"
+ number="(302) 883-8877"
  discuss="LET'S DISCUSS"
 />
 

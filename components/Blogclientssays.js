@@ -4,6 +4,7 @@ import { Container,Row,Col } from 'react-bootstrap'
 import Freequote from '../components/Freequote'
 import Link from 'next/link'
 import Image from 'next/image'
+import { useState } from 'react'
 
 // footer icons
 import { AiFillStar } from 'react-icons/ai';
@@ -18,6 +19,16 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
 
 const Blogclientssays = () => {
+
+
+  const [clickto, setclicktoggle1] = useState(false);
+
+  function toggle() {
+
+    setclicktoggle1((prevState) => !prevState);
+  
+
+  }
 
 
     var whatourclients = {
@@ -82,9 +93,11 @@ const Blogclientssays = () => {
                          This is the first time I’ve worked with Book Writing Cube
                                                             and I’m happy that I chose to work with them.
                                                             I am self-publishing my book for the first time and I didn’t
-                                                            know what to expect...
+                                                            know what to expect... <span className={ clickto ?  ` ${styles.active1} ` : `` } >
+                                                            To be honest I happen to come by Book Writing Cube by accident. I was researching websites that helped with self-publishing and I clicked on it and accidentally clicked on the chat icon. Someone responded and at first I didn’t write anything back. But then I decided to take a chance and the person I talked to put me in contact with Mark Rivera. Mark and his team have been very helpful during this whole process. They take my suggestions and show me where I can make improvements. So far I am very satisfied with the work they have been doing. I know that they will do everything they can to make my debut book a success. I am very confident of that.
+                                                            </span>
 
-                                                            <Link className={styles.more} href="#">Read More</Link>
+                                                            <span onClick={toggle} className={styles.more} href="#">Read More</span>
                                     
                                     </p>
 

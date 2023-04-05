@@ -271,10 +271,12 @@ classnumber = { item.classnum }
 <Dowecome
  title='Book Writing Can Be A Nightmare If You Are Not As Fluent With Your Words As You Are With Your Thoughts'
  text="When you think about writing a book, know that it doesn't have to be complicated. As absurd as it may sound, thoughts or ideas may already exist within your head as seed or germinating premises of stories that still need development before they can blossom into anything concrete and comprehensive for readers around the world. Luckily, you have our professional book writers who can help turn those thoughts from just an idea into something worth sharing with friends, family members & strangers alike. Let us help you get rid of writer's block and take that burden off your shoulders."
- number="+1-302-883-8877"
+ number="(302) 883-8877"
  discuss="LET'S DISCUSS"
 Dowecome= "publishmybook"
 image={bookwritingcanbe}
+
+
 
 
 />
@@ -327,7 +329,7 @@ btn =  {item.btn}
 <Aspiring
  title= 'Allow us to dominate all the bookshelves and digital libraries, entrust our professional book writers with your book today!'
  text= {bookwritersforhire}
- number="+1-302-883-8877"
+ number="(302) 883-8877"
  discuss="LET'S DISCUSS"
 />
 

@@ -254,7 +254,7 @@ classnumber = { item.classnum }
 <Aspiring
  title= 'Create the right buzz for every title you pen down with our Author Marketing Promotion Services!'
  text="From amateur author to a brilliant success story, our author marketing services transform your name into a recognized brand."
- number="+1-302-883-8877"
+ number="(302) 883-8877"
  discuss="LET'S DISCUSS"
 />
 

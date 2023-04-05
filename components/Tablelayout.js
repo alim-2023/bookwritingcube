@@ -36,71 +36,71 @@ const Tablelayout = () => {
                         </tr>
                         <tr>
                             <td>Typos</td>
-                            <td><TiTick size={25}  /></td>
-                            <td><TiTick size={25}  /></td>
-                            <td><TiTick size={25}  /></td>
+                            <td><TiTick size={25}  className={styles.rightcolor} /></td>
+                            <td><TiTick size={25}  className={styles.rightcolor} /></td>
+                            <td><TiTick size={25}  className={styles.rightcolor} /></td>
                         </tr>
                         <tr>
                             <td>US or UK</td>
-                            <td><TiTick size={25}  /></td>
-                            <td><TiTick size={25}  /></td>
-                            <td><TiTick size={25}  /></td>
+                            <td><TiTick size={25}  className={styles.rightcolor} /></td>
+                            <td><TiTick size={25}  className={styles.rightcolor} /></td>
+                            <td><TiTick size={25}  className={styles.rightcolor} /></td>
                         </tr> 
                         <tr>
                             <td>Punctuation</td>
-                            <td><TiTick size={25}  /></td>
-                            <td><TiTick size={25}  /></td>
-                            <td><TiTick size={25}  /></td>
+                            <td><TiTick size={25}  className={styles.rightcolor} /></td>
+                            <td><TiTick size={25}  className={styles.rightcolor} /></td>
+                            <td><TiTick size={25}  className={styles.rightcolor} /></td>
                         </tr>
                         <tr>
                             <td>Grammar</td>
-                            <td><TiTick size={25}  /></td>
-                            <td><TiTick size={25}  /></td>
+                            <td><TiTick size={25}  className={styles.rightcolor} /></td>
+                            <td><TiTick size={25}  className={styles.rightcolor} /></td>
                             <td>Some</td>
                         </tr>
                         <tr>
                             <td>Fact-checking</td>
-                            <td><TiTick size={25}  /></td>
-                            <td><TiTick size={25}  /></td>
-                            <td><ImCross size={15}  /></td>
+                            <td><TiTick size={25}  className={styles.rightcolor} /></td>
+                            <td><TiTick size={25}  className={styles.rightcolor} /></td>
+                            <td><ImCross size={15} className={styles.rightcolor}  /></td>
                         </tr>
                         <tr>
                             <td>Consistency</td>
-                            <td><TiTick size={25}  /></td>
-                            <td><TiTick size={25}  /></td>
-                            <td><ImCross size={15}  /></td>
+                            <td><TiTick size={25}  className={styles.rightcolor} /></td>
+                            <td><TiTick size={25}  className={styles.rightcolor} /></td>
+                            <td><ImCross size={15} className={styles.rightcolor}  /></td>
                         </tr>
                         <tr>
                             <td>Repetitions</td>
-                            <td><TiTick size={25}  /></td>
-                            <td><TiTick size={25}  /></td>
-                            <td><ImCross size={15}  /></td>
+                            <td><TiTick size={25}  className={styles.rightcolor} /></td>
+                            <td><TiTick size={25}  className={styles.rightcolor} /></td>
+                            <td><ImCross size={15} className={styles.rightcolor}  /></td>
                         </tr>
 
                         <tr>
                             <td>Clarity</td>
-                            <td><TiTick size={25}  /></td>
+                            <td><TiTick size={25}  className={styles.rightcolor} /></td>
                             <td>Some</td>
-                            <td><ImCross size={15}  /></td>
+                            <td><ImCross size={15} className={styles.rightcolor}  /></td>
                         </tr>
 
                         <tr>
                             <td>Style &amp; flow</td>
-                            <td><TiTick size={25}  /></td>
-                            <td><ImCross size={15}  /></td>
-                            <td><ImCross size={15}  /></td>
+                            <td><TiTick size={25}  className={styles.rightcolor} /></td>
+                            <td><ImCross size={15}  className={styles.rightcolor} /></td>
+                            <td><ImCross size={15} className={styles.rightcolor} /></td>
                         </tr>
                         <tr>
                             <td>Cutting</td>
-                            <td><TiTick size={25}  /></td>
-                            <td><ImCross size={15}  /></td>
-                            <td><ImCross size={15}  /></td>
+                            <td><TiTick size={25}  className={styles.rightcolor} /></td>
+                            <td><ImCross size={15} className={styles.rightcolor} /></td>
+                            <td><ImCross size={15} className={styles.rightcolor} /></td>
                         </tr>
                         <tr>
                             <td>Rewriting</td>
                             <td>Some</td>
-                            <td><ImCross size={15}  /></td>
-                            <td><ImCross size={15}  /></td>
+                            <td><ImCross size={15} className={styles.rightcolor} /></td>
+                            <td><ImCross size={15} className={styles.rightcolor} /></td>
                         </tr>
                     </tbody>
                 </Table>

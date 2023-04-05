@@ -19,7 +19,7 @@
     max-width: 420px;
     margin: 0 auto;
     color: black;
-    height: 120px;
+    height: auto;
 }
 .mark{
     max-width: 420px;
@@ -37,6 +37,10 @@
     font-family: 'inter';
     font-weight: 700;
     display: block;
+}
+
+.active1{
+    display: none;
 }
 
 @media (max-width:991px)  { 

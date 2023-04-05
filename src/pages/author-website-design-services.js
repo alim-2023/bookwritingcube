@@ -266,7 +266,7 @@ classnumber = { item.classnum }
 <Aspiring
  title= 'Create Memorable Digital Experiences for Your Readers with Book Writing Cube’s Author Website Design Services!'
  text="Get in touch with one of our industry experts for more information about our online blog writing services and pricing details by leaving your email or phone number below!"
- number="+1-302-883-8877"
+ number="(302) 883-8877"
  discuss="LET'S DISCUSS"
 />
 

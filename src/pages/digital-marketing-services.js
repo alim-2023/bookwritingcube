@@ -145,7 +145,7 @@ para='Let Our Digital Marketing Team Help You'
 <Dowecome
  title='You Are One Step Closer To Displaying Your Writing Excellence. Let Our Professional Help You Out.'
  text="Editing, proofreading, publishing--all that form the criticalities of the book writing process. We know the effort it takes, the perseverance it needs, and the struggle it brings, so why not hire a helping hand? We are only a call, message, or email away! Let’s collaborate."
- number="+1-302-883-8877"
+ number="(302) 883-8877"
  discuss="LET'S DISCUSS"
 Dowecome= "publishmybook"
 image={youareonestepcloserto}
@@ -171,7 +171,7 @@ image={youareonestepcloserto}
 <Aspiring
  title= 'Whether Bookshelf or Amazon Self Publishing – Our Designs Makes You Stand Out'
  text="Design is the most important aspect when it comes to selling books. We know that might sound like an old cliché, but designing your cover will deliver layout and build intrigue for potential readers; they’ll want more after seeing what’s in store within these pages! So don’t settle on anything less than perfection – let us help make sure every manuscript looks exactly how you envisioned through Book Writing Cube."
- number="+1-302-883-8877"
+ number="(302) 883-8877"
  discuss="LET'S DISCUSS"
 />
 

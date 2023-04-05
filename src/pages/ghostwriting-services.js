@@ -281,7 +281,7 @@ classnumber = { item.classnum }
 <Dowecome
  title='And No, Hiring Ghostwriting Services Isn’t Illegal!'
  text="The misconception has prevailed ever since the phenomenon of ghostwriting services came into being. The ghostwriter's job is to get paid in return for his written masterpiece. Creativity and a great idea can come from anywhere and anyone, and it doesn’t surely mean everyone has the right ability to articulate it. Ghostwriters are professionals working to make those ambitions a reality. It is a legal collaboration to get that idea out there because those ghostwriters are trained to write, edit, and publish that work."
- number="+1-302-883-8877"
+ number="(302) 883-8877"
  discuss="LET'S DISCUSS"
 Dowecome= "publishmybook"
 image={andnohiring}
@@ -344,7 +344,7 @@ btn =  {item.btn}
 <Aspiring
  title= 'At The End Of The Day, You Need The Whole Kit And Caboodle To Get It Down Right!'
  text="Give us a call, or leave an email, and our experts will guide you through the entire process, needs, and packages for ghostwriting services your book!"
- number="+1-302-883-8877"
+ number="(302) 883-8877"
  discuss="LET'S DISCUSS"
 />
 

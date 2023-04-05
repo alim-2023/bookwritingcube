@@ -206,7 +206,7 @@ para='Let Our Book Editing Team Help You.'
 <Dowecome
  title='Developmental Editing'
  text="We know that every word counts, so we're committed to crafting captivating stories for any length and style. Our talented teams of book writing editor will take on your project from start to finish because no task is too big when you have people like us working together as part of such fantastic Book Editing & formatting services."
- number="+1-302-883-8877"
+ number="(302) 883-8877"
  discuss="LET'S DISCUSS"
 Dowecome= "publishmybook"
 image={whychooseourbookeditingservices1}
@@ -219,7 +219,7 @@ image={whychooseourbookeditingservices1}
 <Whychoosebookwritingcube
  title='Editorial Assessment'
  text= 'Proofreading is essential to the success of every project taken up by book editing services. It’s an integral part of finishing your manuscript. Online book editor and proofreader look for errors, so you know that all text was correct before sending or releasing documents published by third parties like publishers.'
- number="+1-302-883-8877"
+ number="(302) 883-8877"
  discuss="LET'S DISCUSS"
  image={whychooseourbookeditingservices2}
  whychooseclass= "marketyourbook"
@@ -231,7 +231,7 @@ image={whychooseourbookeditingservices1}
 <Dowecome
  title='Structural Editing'
  text="In a world where so much information is available, it's essential to make sure what you're putting out there represents your best work. The process of our book editing services includes exploiting the complexities of this process and turning them into success possibilities. It is also an opportunity for professional book editors and publishers who want help perfecting their craftsmanship with every word they type or publish."
- number="+1-302-883-8877"
+ number="(302) 883-8877"
  discuss="LET'S DISCUSS"
 Dowecome= "publishmybook"
 image={whychooseourbookeditingservices3}
@@ -242,7 +242,7 @@ image={whychooseourbookeditingservices3}
 <Whychoosebookwritingcube
  title='Copy Editing'
  text= {text}
- number="+1-302-883-8877"
+ number="(302) 883-8877"
  discuss="LET'S DISCUSS"
 image={whychooseourbookeditingservices4}
 whychooseclass= "marketyourbook"
@@ -290,7 +290,7 @@ classtop =  {item.class}
 <Aspiring
  title= 'So, About That Story, Ready To Publish? Get Book Editing Done Today!'
  text="Editing, proofreading, publishing--all that form the criticalities of the book writing process. We know the effort it takes, the perseverance it needs, and the struggle it brings, so why not hire a helping hand? We are only a call, message, or email away! Let’s collaborate."
- number="+1-302-883-8877"
+ number="(302) 883-8877"
  discuss="LET'S DISCUSS"
 />
 

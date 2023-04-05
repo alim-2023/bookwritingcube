@@ -87,7 +87,7 @@ const Pricing = () => {
  title='Professional'
  text="Avail the chance to work alongside authors that are considered to be pioneers of the industry. Our commitment to quality and customer service is unmatched by anyone in the industry as we always try to keep our customers as happy as we can."
  subheading="Ghostwriting Services"
- number="+1-302-883-8877"
+ number="(302) 883-8877"
  discuss="LET'S DISCUSS"
  image={howdoimg}
  Dowecome= "Dowecome"
