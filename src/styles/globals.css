@@ -83,7 +83,7 @@ body{ font-family: 'Inter'; }
 .faqheading.accordion-header .accordion-button{
   background-color: unset;
   font-size: 1.25rem;
-  font-weight: 500;
+  font-weight: 600;
   font-family: 'Inter';
   color: black;
 }
@@ -124,7 +124,7 @@ body{ font-family: 'Inter'; }
     align-items: center;
     justify-content: center;
     gap: 30px;
-    height: 90px;
+    height: 80px;
 }
 
 .modopp .modalprocess{
@@ -132,7 +132,15 @@ body{ font-family: 'Inter'; }
     flex: 1 1 auto;
     padding: 4px;
 }
-
+.brandnewlogo{
+  padding: 5%;
+}
+.brandnewlogo:hover{
+    filter: contrast(.5);
+    transform: scale(1.1);
+    transition: .4s linear;
+    cursor: pointer;
+}
 
 
 /* .testtimonials .slick-prev:before, .slick-next:before {

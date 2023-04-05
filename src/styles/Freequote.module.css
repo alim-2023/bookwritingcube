@@ -88,6 +88,13 @@
     color: white;
 }
 
+.popquote{
+    padding: 10% 8%;
+}
+.popquote h4{
+    font-size: 40px;
+}
+
 @media (max-width:1200px)  { 
 
     .freediscuss {

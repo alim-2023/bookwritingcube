@@ -78,9 +78,8 @@ const data =[
     </Container>
 
     <Modal show={show} onHide={closemodal} className={styles.modalnew}>
-        <Modal.Body> <Freequote/> <span onClick={closemodal} className={styles.cross}>x</span> </Modal.Body>
-        <Modal.Footer>
-        </Modal.Footer>
+        <Modal.Body> <Freequote formsaspire = 'popquote' /> <span onClick={closemodal} className={styles.cross}>x</span> </Modal.Body>
+      
       </Modal>
 
 
