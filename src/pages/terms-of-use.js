@@ -24,8 +24,8 @@ const Termsofuse = () => {
 
 
     <Head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charSet="UTF-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <title>Terms of use - Hire Professional Book Writing Experts in the US -</title>
     <meta name="description"
         content="Our Professional Editors Will Improve Your Manuscript Before Publication We bring the art of proofreading and editing to perfection Lets Discuss Lets Discuss (302) 883-8877 Request A Free Quote. The published manifestation of your writing dreams! Get Free Consultancy Your Intense and Compelling Story Needs Professional Proof-Reading and Editing Our team has experience […]" />
