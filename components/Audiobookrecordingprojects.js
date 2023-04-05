@@ -9,17 +9,22 @@ import Image from 'next/image'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import { GrFormPrevious } from 'react-icons/gr'
+import { GrFormNext } from 'react-icons/gr'
+
 
 const Audiobookrecordingprojects = () => {
 
     var bookrecordingprojects = {
         dots: false,
-        arrows:false,
+        arrows:true,
         autoplay:true,
         infinite: true,
         speed: 500,
         slidesToShow: 2,
         slidesToScroll: 2,
+        prevArrow: <GrFormPrevious className='privious' />,
+        nextArrow: <GrFormNext className='privious' />,
         responsive: [
             {
               breakpoint: 1024,
@@ -53,7 +58,7 @@ const Audiobookrecordingprojects = () => {
   return (
     <>
         <div className={styles.audiobookrecordingprojects}>
-        <Container className='audiobook'>
+        <Container className='audiobook testtimonials1'>
             <Row>
                 <Col md={12}>
                 <h2 className='font48 fw900 t-center color-blue font-f'>Our Latest Audiobook Recording Projects</h2>

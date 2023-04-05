@@ -64,7 +64,7 @@ const data =[
                         <h2 className="fw900 font40 color-blue font-f"> { post.title}</h2>
                         <h4 className={`${styles.marketing} fw500 font20 font-f`}> { post.subtitle}</h4>
                         <p className='font15 fw500 color-black font-f mb-4'>{post.para}</p>
-                        <Link onClick={modal} className={styles.quote} href="">{post.btnname}</Link>
+                        <span onClick={modal} className={styles.quote} href="">{post.btnname}</span>
 
                             </div>
                     </Col>

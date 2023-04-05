@@ -19,6 +19,7 @@
     color: #fff;
     font-family: 'Inter';
     text-decoration: none;
+    cursor: pointer;
 }
 .quote:hover{
     color:white

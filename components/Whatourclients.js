@@ -2,7 +2,8 @@ import React from 'react'
 import styles from '@/styles/Whatourclients.module.css'
 import Image from 'next/image'
 import { Container } from 'react-bootstrap'
-
+import { GrFormPrevious } from 'react-icons/gr'
+import { GrFormNext } from 'react-icons/gr'
 
 
 
@@ -36,6 +37,8 @@ const Whatourclients = () => {
             speed: 500,
             slidesToShow: 1,
             slidesToScroll: 1,
+            prevArrow: <GrFormPrevious className='privious' />,
+            nextArrow: <GrFormNext className='privious' />,
             responsive: [
                 {
                   breakpoint: 1024,

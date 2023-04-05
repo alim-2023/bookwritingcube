@@ -102,7 +102,7 @@ const Header = () => {
 
                   <Link className={`${styles.headerbtncolor} ${styles.headericon}`} href="tel:(302) 883-8877">
                     
-                     <BsFillTelephoneFill size={12} /> (302) 883-8877 </Link>
+                     <BsFillTelephoneFill className={styles.valuenum} size={12} /> (302) 883-8877 </Link>
                   
                 </li>
 

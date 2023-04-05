@@ -1,7 +1,10 @@
 .border{
     border-right: 1px solid white;
 }
-
+.valuenum{
+    position: relative;
+    left: -6px;
+}
 
 .align_menu{
     display: flex;

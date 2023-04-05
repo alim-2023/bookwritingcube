@@ -8,7 +8,8 @@ import fb1 from '/public/images/fb/tiffany-amazon.png'
 import fb2 from '/public/images/fb/tiffany-facebook.png'
 import fb3 from '/public/images/fb/inta.png'
 
-
+import { GrFormPrevious } from 'react-icons/gr'
+import { GrFormNext } from 'react-icons/gr'
 
 
 
@@ -21,12 +22,14 @@ const Bookmarketingprojects = () => {
 
     var bookmarketingprojects = {
         dots: false,
-        arrows:false,
+        arrows:true,
         // autoplay:true,
         infinite: true,
         speed: 500,
         slidesToShow: 2,
         slidesToScroll: 2,
+        prevArrow: <GrFormPrevious className='privious' />,
+        nextArrow: <GrFormNext className='privious' />,
         responsive: [
             {
               breakpoint: 1024,
@@ -60,7 +63,7 @@ const Bookmarketingprojects = () => {
   return (
     <>
         <div className={styles.audiobookrecordingprojects}>
-        <Container>
+        <Container className='testtimonials'>
             <Row>
                 <Col md={12}>
                 <h2 className='font48 fw900 t-center color-blue font-f'>Our Latest Book Marketing Projects</h2>
