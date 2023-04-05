@@ -73,8 +73,8 @@ const Announcement = () => {
             <p className= 'font15 fw500 font-f'> <strong>Beaverton, Oregon, March 28, 23</strong>  – Book Writing Cube, a leading provider of book writing and
                         publishing services, would like to take this opportunity to clarify a matter of domain
                         ownership. It has come to our attention that there has been confusion regarding the ownership of
-                        a specific domain name. We would like to take this moment to confirm that this domain, <Link href="/" rel="nofollow" target="_blank">https://www.thebookwritingcube.com/</Link> , is not
-                        owned, operated, or affiliated with Book Writing Cube. The correct domain is <Link href="/">https://www.bookwritingcube.com/</Link>.
+                        a specific domain name. We would like to take this moment to confirm that this domain, <Link className='textdocationnone' href="/" rel="nofollow" target="_blank">https://www.thebookwritingcube.com/</Link> , is not
+                        owned, operated, or affiliated with Book Writing Cube. The correct domain is <Link className='textdocationnone' href="/">https://www.bookwritingcube.com/</Link>.
                     </p>
             
                     <p className= 'font15 fw500 font-f'>
@@ -135,18 +135,18 @@ const Announcement = () => {
                         </li>
                 
                         <li className='font-f'><strong>Website: </strong> 
-                        <Link href="/">https://www.bookwritingcube.com/</Link>
+                        <Link className='textdocationnone' href="/">https://www.bookwritingcube.com/</Link>
                         </li>
-                        <li className='font-f'><strong>Trustpilot: </strong> <Link href="https://www.trustpilot.com/review/bookwritingcube.com" rel="nofollow" target="_blank">https://www.trustpilot.com/review/bookwritingcube.com
+                        <li className='font-f'><strong>Trustpilot: </strong> <Link className='textdocationnone' href="https://www.trustpilot.com/review/bookwritingcube.com" rel="nofollow" target="_blank">https://www.trustpilot.com/review/bookwritingcube.com
                             </Link>
                         </li>
-                        <li className='font-f'><strong>Sitejabber: </strong> <Link href="https://www.sitejabber.com/reviews/bookwritingcube.com" rel="nofollow" target="_blank">https://www.sitejabber.com/reviews/bookwritingcube.com
+                        <li className='font-f'><strong>Sitejabber: </strong> <Link className='textdocationnone' href="https://www.sitejabber.com/reviews/bookwritingcube.com" rel="nofollow" target="_blank">https://www.sitejabber.com/reviews/bookwritingcube.com
                             </Link>
                         </li>
-                        <li className='font-f'><strong>Publishersglobal: </strong> <Link href="https://www.publishersglobal.com/directory/supplier-profile/23334" rel="nofollow" target="_blank">https://www.publishersglobal.com/directory/supplier-profile/23334
+                        <li className='font-f'><strong>Publishersglobal: </strong> <Link className='textdocationnone' href="https://www.publishersglobal.com/directory/supplier-profile/23334" rel="nofollow" target="_blank">https://www.publishersglobal.com/directory/supplier-profile/23334
                             </Link>
                         </li>
-                        <li className='font-f'><strong>Better Business Bureau: </strong> <Link href="https://www.bbb.org/us/or/beaverton/profile/publishers-
+                        <li className='font-f'><strong>Better Business Bureau: </strong> <Link className='textdocationnone' href="https://www.bbb.org/us/or/beaverton/profile/publishers-
                             book/book-writing-cube-1296-1000120771" rel="nofollow" target="_blank">https://www.bbb.org/us/or/beaverton/profile/publishers-
                                 book/book-writing-cube-1296-1000120771
                             </Link>
