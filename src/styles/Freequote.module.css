@@ -38,6 +38,7 @@
     color: #000;
     margin-top: 12px;
     font-size: 14px;
+    font-family: 'Inter';
 
 }
 
@@ -93,6 +94,7 @@
 }
 .popquote h4{
     font-size: 40px;
+    font-weight: 800;
 }
 
 @media (max-width:1200px)  { 
