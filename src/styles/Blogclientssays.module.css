@@ -46,7 +46,7 @@
 @media (max-width:991px)  { 
     .looking {
     
-        height: 170px;
+        height: auto;
     }
  }
 
