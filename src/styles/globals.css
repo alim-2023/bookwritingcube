@@ -250,6 +250,12 @@ body{ font-family: 'Inter'; }
 
 
 
+.faqheading .accordion-button:focus {
+  border-color: unset;
+  box-shadow: unset;
+}
+
+
 @media (max-width:1280px)  {
 
   .customizedbook .col-md-4{
