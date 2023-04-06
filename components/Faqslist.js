@@ -9,7 +9,7 @@ const Faqslist = () => {
   return (
     <>
     
-    <div className={styles.faqslist}>
+    <div className={`${styles.faqslist} faqssideicon`}>
 
         <Container>
 <Row>
