@@ -29,7 +29,7 @@ const Requestafreequote = () => {
                 <button className={styles.freebtn} type="submit">Get a Quote</button>
         </form>
 
-        <Row>
+        <Row className={styles.leftemail}>
         <Col md={4}>    <h3 className="fw900 font48 color-blue font-f t-left">Email Us</h3></Col>
         <Col md={4}> 
 

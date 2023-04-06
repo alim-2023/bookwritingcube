@@ -61,6 +61,9 @@
 }
 
 @media (max-width:480px)  {
+    .leftemail{
+        margin-left: 1%;
+    }
     .freebtn {
         width: 70%;
     }
