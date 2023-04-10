@@ -38,9 +38,9 @@ const Contact = () => {
             <Col md={5}>
 
  
-                        <h1 className='color-blue font40 fw900 font-f'>
+                        <h2 className='color-blue font40 fw900 font-f'>
                             Elevate your book. Get published.
-                        </h1>
+                        </h2>
                         <div className={`${styles.published} pt-5`}>
 
                             <p className='fw500 font20 color-black font-f'>

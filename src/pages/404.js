@@ -36,7 +36,7 @@ const Error = () => {
 <Container>
     <Row>
         <Col>
-            <h1 className='fw600 font60 color-blue t-center font-f mb-4'>404 NOT FOUND</h1>
+            <h2 className='fw600 font60 color-blue t-center font-f mb-4'>404 NOT FOUND</h2>
             <h4 className="fw500 font40 color-black t-center font-f mb-2">THIS IS SOMEWHAT EMBARRASSING, ISN’T IT?</h4>
             <p className="font18 fw400 color-black t-center font-f mb-4">It looks like nothing was found at this location. Maybe try a search?</p>
 

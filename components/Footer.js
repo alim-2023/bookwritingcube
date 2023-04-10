@@ -220,7 +220,7 @@ const Footer = () => {
         </Col>    
         <Col md={2}>
             <Image className='pt-4 img-fluid'  src={bbb} alt='Book Writing Cube BBB Business Review'></Image>
-            <h1 className={`${styles.awards} font17 pt-3`}>Awards</h1>
+            <p className={`${styles.awards} font17 pt-3`}>Awards</p>
         
         <div className={styles.imgvisa}>
 
