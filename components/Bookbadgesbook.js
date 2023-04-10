@@ -110,7 +110,7 @@ const data =[
                             </div>
                     </Col>
                     <Col md={4}>
-                        <Image src={post.bookbadges1} alt='bookbadges1' className='img-fluid'></Image>
+                        <Image src={post.bookbadges1} alt='book_writing_cube' className='img-fluid'></Image>
                     </Col>
                 </Row>
             </Col>

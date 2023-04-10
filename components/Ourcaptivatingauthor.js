@@ -21,9 +21,9 @@ const Ourcaptivatingauthor = (props) => {
                     </Col>
 
                   <div className={styles.capimages}>
-                        <Image src={props.img1} className='img-fluid' alt='Design Projects' ></Image>
-                        <Image src={props.img2} className='img-fluid' alt='Design Projects' ></Image>
-                        <Image src={props.img3} className='img-fluid' alt='Design Projects' ></Image>
+                        <Image src={props.img1} className='img-fluid' alt='book_writing_cube' ></Image>
+                        <Image src={props.img2} className='img-fluid' alt='book_writing_cube' ></Image>
+                        <Image src={props.img3} className='img-fluid' alt='book_writing_cube' ></Image>
                   </div>
                 </Row>
             </Container>

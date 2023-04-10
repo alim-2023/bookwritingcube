@@ -164,14 +164,14 @@ const Banner = (props) => {
 
 { props.homebanlogos ?  
                   <div className={styles.homebannerlogo}>
-                      <Image className={`${styles.homelogoimgnone} img-fluid`} src={props.homebanlogos} alt='homebanlogos' ></Image>
+                      <Image className={`${styles.homelogoimgnone} img-fluid`} src={props.homebanlogos} alt='book_writing_cube' ></Image>
 
 
                    <Slider {...bannerslider} className='mt-3'>
                    {bannerlogo.map((item, i) => {
                                   return(  
                       <div key={i}>
-                        <Image className='pt-3 img-fluid brandnewlogo'  src={item.banlogo} alt='bannerlogo'></Image>
+                        <Image className='pt-3 img-fluid brandnewlogo'  src={item.banlogo} alt='book_writing_cube'></Image>
                       </div>
                     )
                   })}

@@ -46,12 +46,12 @@ const Blogdetails = () => {
             <Col md={8}>
 
             <div className='d-flex gap-2'>
-                        <Image src={sideicon} alt="bookwritingcube" priority width="25" height="25" />
+                        <Image src={sideicon} alt="book_writing_cube" priority width="25" height="25" />
                         <p className='fw500 font18 color-black font-f'> By BWC Team in 2023</p>
             </div>
 
                 <div>
-                    <Image src={blogimage4} alt='blogimage' priority  className='img-fluid' />
+                    <Image src={blogimage4} alt='book_writing_cube' priority  className='img-fluid' />
                 </div>
 
                 <p className='mt-3 fw500 font15 font-f'>The publishing landscape is more competitive than ever, so authors need to have knowledge about getting their books seen. Traditional methods like print-on-demand are becoming less effective as the digital marketplace evolves, creating a greater demand for modern strategies that get your book noticed in the growing pool of titles on <Link className='textdocationnone' href='#'>Kindle Direct Publishing</Link> (KDP) platforms.</p>

@@ -57,7 +57,7 @@ const Bloglisting = () => {
         {bloglisting.map((item, i) =>
             <Col md={4} key={i}>
             <div className={styles.bloglist}>
-            <Image src={item.image} className='img-fluid' priority alt="blog1"></Image>
+            <Image src={item.image} className='img-fluid' priority alt="book_writing_cube"></Image>
             <div className={styles.cardbodylist}>
                 <Link className='textdocationnone' href="#">
                 <h5 className='fw700 font17 color-blue font-f'> {item.title} </h5> </Link>

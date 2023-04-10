@@ -44,7 +44,7 @@ const Dowecome = (props) => {
 
                
   <div className={styles.image}>
-     <Image src={props.image} width={750} height={613} className={`${styles.imgshowdow} img-fluid`} alt='image'></Image>
+     <Image src={props.image} width={750} height={613} className={`${styles.imgshowdow} img-fluid`} alt='book_writing_cube'></Image>
   </div>
 
                     

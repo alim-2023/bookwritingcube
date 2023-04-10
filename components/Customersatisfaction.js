@@ -42,7 +42,7 @@ const customer = [
             {customer.map((item, i) =>
                 <Col md={3} key={i}>
                   <div className={styles.customerbrandimg}>
-                    <Image  src={item.customerimages} alt='customerimages' className='img-fluid'></Image>
+                    <Image  src={item.customerimages} alt='book_writing_cube' className='img-fluid'></Image>
                   </div>
                     <h3 className='color-white font16 fw500 t-center font-f'>{item.title}</h3>
                 </Col>

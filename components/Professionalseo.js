@@ -27,7 +27,7 @@ const Professionalseo = () => {
 <Row className={` ${styles.worked} gy-3 quality`}>
     <Col md={3}>
         <div className={styles.blog}>
-            <Image src={blog1} className='img-fluid' alt="blog1"></Image>
+            <Image src={blog1} className='img-fluid' alt="book_writing_cube"></Image>
             <div className={styles.cardbody}>
                 <a className='textdocationnone' href="#">
                 <h5 className='fw700 font17 color-blue font-f'> Quality </h5> </a>
@@ -43,7 +43,7 @@ const Professionalseo = () => {
     <Col md={3}>
 
     <div className={styles.blog}>
-            <Image src={blog2} className='img-fluid' alt="blog1"></Image>
+            <Image src={blog2} className='img-fluid' alt="book_writing_cube"></Image>
             <div className={styles.cardbody}>
                 <a className='textdocationnone' href="#">
                 <h5 className='fw700 font17 color-blue font-f'> Creativity </h5> </a>
@@ -58,7 +58,7 @@ const Professionalseo = () => {
     <Col md={3}>
 
     <div className={styles.blog}>
-            <Image src={blog3} className='img-fluid' alt="blog1"></Image>
+            <Image src={blog3} className='img-fluid' alt="book_writing_cube"></Image>
             <div className={styles.cardbody}>
                 <a className='textdocationnone' href="#">
                 <h5 className='fw700 font17 color-blue font-f'> Plagiarism Free </h5> </a>

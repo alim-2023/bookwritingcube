@@ -163,7 +163,7 @@ const Footer = () => {
 <Container>
     <Row>
         <Col md={3}>
-           <Image className={styles.footerlogosize} src={footerlogo} alt='footerlogo'></Image>
+           <Image className={styles.footerlogosize} src={footerlogo} alt='book_writing_cube'></Image>
            <ul className={styles.footermenu1}>
             <li className={ `${styles.footermenulinks} pt-4`}><MdEmail size={16}  />  <Link className={styles.styleset} href="mailto:info@bookwritingcube.com">info@bookwritingcube.com</Link></li>
             <li className={ `${styles.footermenulinks} pt-3`}><BsFillTelephoneFill size={12}  /> <Link className={styles.styleset} href="tel:(302)883-8877"> (302)883-8877 </Link></li>
@@ -193,7 +193,7 @@ const Footer = () => {
                 <li className={styles.socaillinks}><Link className={styles.styleset} href="https://www.linkedin.com/company/book-writing-cube/"><FaLinkedinIn size={17}  /></Link></li>
             </ul>
 
-            <Image className='mt-5'  src={protectedlogo} alt='protectedlogo'></Image>
+            <Image className='mt-5'  src={protectedlogo} alt='book_writing_cube'></Image>
             
         </Col>    
         <Col md={2}>
@@ -219,7 +219,7 @@ const Footer = () => {
 
         </Col>    
         <Col md={2}>
-            <Image className='pt-4 img-fluid'  src={bbb} alt='bbb'></Image>
+            <Image className='pt-4 img-fluid'  src={bbb} alt='Book Writing Cube BBB Business Review'></Image>
             <h1 className={`${styles.awards} font17 pt-3`}>Awards</h1>
         
         <div className={styles.imgvisa}>
@@ -229,7 +229,7 @@ const Footer = () => {
                     {footerlogos1.map((item, i) => {
                                         return(  
                             <div key={i} className={styles.rightlogo}>
-                                <Image className='pt-3 img-fluid'  src={item.footerimg1} alt='logo'></Image>
+                                <Image className='pt-3 img-fluid'  src={item.footerimg1} alt='book_writing_cube'></Image>
                             </div>
                     )
                     })}
@@ -252,7 +252,7 @@ const Footer = () => {
                     {footerlogosnew.map((item, i) => {
                                         return(  
                             <div key={i} className={styles.rightlogo}>
-                                <Image className='pt-4 img-fluid'  src={item.footerlogosfuncy} alt='logonew'></Image>
+                                <Image className='pt-4 img-fluid'  src={item.footerlogosfuncy} alt='book_writing_cube'></Image>
                             </div>
                     )
                     })}
@@ -264,7 +264,7 @@ const Footer = () => {
 
 
 
-            <Image className='pt-3 img-fluid'  src={visa} alt='visa'></Image>
+            <Image className='pt-3 img-fluid'  src={visa} alt='book_writing_cube'></Image>
 
 
         </div>

@@ -82,7 +82,7 @@ const Whatourclients = () => {
                         
                        <div className={styles.whatclientlogo}> 
 
-                       <Image className={`${styles.quit} img-fluid`}  src={whatour}  alt='whatour'></Image>
+                       <Image className={`${styles.quit} img-fluid`}  src={whatour}  alt='book_writing_cube'></Image>
                        
                         </div> 
 
@@ -108,7 +108,7 @@ const Whatourclients = () => {
                      </div>
                      <div >
                            
-                       <div className={styles.whatclientlogo}>   <Image className={`${styles.quit} img-fluid`}  src={whatour}  alt='whatour1'></Image> </div> 
+                       <div className={styles.whatclientlogo}>   <Image className={`${styles.quit} img-fluid`}  src={whatour}  alt='book_writing_cube'></Image> </div> 
                          <p className={`${styles.looking} font15 fw500 font-f t-center`}>This was my first book to be published, I was extremely nervous,
                                     I wasn’t sure I could trust the company I was sending my money to.
                                     Book Writing Cube has EXCEEDED my expectations. Mark and his team are/were very
@@ -126,7 +126,7 @@ const Whatourclients = () => {
 
                      <div >
                             
-                       <div className={styles.whatclientlogo}>   <Image className={`${styles.quit} img-fluid`}  src={whatour}  alt='whatour2'></Image> </div> 
+                       <div className={styles.whatclientlogo}>   <Image className={`${styles.quit} img-fluid`}  src={whatour}  alt='book_writing_cube'></Image> </div> 
                          <p className={`${styles.looking} font15 fw500 font-f t-center`}>This is the first time I’ve worked with Book Writing Cube and I’m
                                     happy that I chose to work with them.
                                     I am self-publishing my book for the first time and I didn’t know what to expect. To
@@ -145,7 +145,7 @@ const Whatourclients = () => {
 
                      <div >
                             
-                       <div className={styles.whatclientlogo}>   <Image className={`${styles.quit} img-fluid`}  src={whatour}  alt='whatour3'></Image> </div> 
+                       <div className={styles.whatclientlogo}>   <Image className={`${styles.quit} img-fluid`}  src={whatour}  alt='book_writing_cube'></Image> </div> 
                          <p className={`${styles.looking} font15 fw500 font-f t-center`}>This is a fantastic business! Their editing team did a great job
                                     on the design of the book cover, and formatting of the text for uploading onto KDP
                                     for print and ebook made it feasible for me to swiftly self-publish my book. Their
@@ -161,7 +161,7 @@ const Whatourclients = () => {
 
                      <div >
                        
-                     <div className={styles.whatclientlogo}>   <Image className={`${styles.quit} img-fluid`}  src={whatour}  alt='whatour4'></Image> </div> 
+                     <div className={styles.whatclientlogo}>   <Image className={`${styles.quit} img-fluid`}  src={whatour}  alt='book_writing_cube'></Image> </div> 
                          <p className={`${styles.looking} font15 fw500 font-f t-center`}>BWC made my first book experience really easy. Mark was there
                                     with me whenever I had questions or revisions to be made and just overall helpful.
                                     His team is supremely skillful and so their illustrations are one of the best I've
