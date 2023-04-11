@@ -90,4 +90,13 @@
 }
 
 
+@media (max-width:480px)  {
+
+    .number1 h5 {
+        padding-bottom: 20px;
+    }
+
+}
+
+
 
