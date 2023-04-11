@@ -134,6 +134,11 @@
 }
 @media (max-width:1280px)  {
 
+    .valuenum {
+        position: relative;
+        left: -3px;
+    }
+
     .megamenu{
         width: 41%;
     }
