@@ -358,6 +358,10 @@ body{ font-family: 'Inter'; }
 
 }
 @media (max-width:480px)  {
+
+  .font14 {
+    font-size: 18px;
+}
   .font16 {
     font-size: 18px;
 }

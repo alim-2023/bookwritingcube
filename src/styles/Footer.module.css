@@ -99,7 +99,12 @@
     display: unset;
     padding: 5%;
 }
-
+.footer {
+   
+    padding-top: 60px;
+    padding-bottom: 30px;
+  
+}
 
 
 }

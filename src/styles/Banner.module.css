@@ -523,6 +523,11 @@
 
 @media (max-width:480px)  {
 
+    .alignclass{
+        width: 100%;
+        margin: 0 auto;
+    }
+
 
     .discuss{
         font-size: 11px;

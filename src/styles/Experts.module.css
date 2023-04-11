@@ -28,3 +28,11 @@
 .expertnum a:hover{
     color:#fff
 }
+
+@media (max-width:480px)  { 
+    .experts p{
+        font-size: 18px;
+    }
+
+
+ }

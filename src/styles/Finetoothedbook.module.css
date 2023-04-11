@@ -99,6 +99,10 @@
     .connect h4 {
         height: 80px;
     }
+    .connect h4 {
+        height: auto;
+        padding-bottom: 4%;
+    }
 
 
  }

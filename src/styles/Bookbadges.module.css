@@ -82,3 +82,13 @@
     }
     
     }
+
+
+    @media (max-width:480px)  { 
+
+        .bookcontent {
+            padding: 12% 3% 12%;
+        }
+    
+        
+        }

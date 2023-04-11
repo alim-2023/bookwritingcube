@@ -160,16 +160,18 @@
 
   @media (max-width:480px)  {
 
+    .flipcardback p {
+      font-size: 15px;
+      line-height: 1.2;
+  }
+
+
 
     .post {
       margin-bottom: 0%;
     }
 
-    .flipcardback p {
-
-      font-size: 10px;
-   
-  }
+  
 
   .flipcardfront h1 {
     font-size: 13px;
