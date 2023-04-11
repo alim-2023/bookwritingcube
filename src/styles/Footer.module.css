@@ -88,8 +88,11 @@
 }
 
 @media (max-width:480px)  {
+
+
+    
 .footermenu1 .footermenulinks {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .imgvisa .rightlogo img {

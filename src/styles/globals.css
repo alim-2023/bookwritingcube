@@ -358,6 +358,20 @@ body{ font-family: 'Inter'; }
 
 }
 @media (max-width:480px)  {
+  .font16 {
+    font-size: 18px;
+}
+
+  .font17 {
+    font-size: 18px;
+}
+
+  .font18 {
+    font-size: 18px;
+}
+.font15 {
+  font-size: 18px;
+}
 
   .testtimonials svg.slick-arrow.slick-prev {
     left: 2px;
@@ -378,10 +392,10 @@ z-index: 999;
 }
 
   .faqheading.accordion-header .accordion-button {
-    font-size: .8rem;
+    font-size: 20px;
 }
 .textbody.accordion-body {
-  font-size: .8rem;
+  font-size: 18px;
 }
 
 }

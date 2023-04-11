@@ -131,9 +131,9 @@ const Contact = () => {
 
 <Row className='gy-3'>
     <Col md={3}>
-        <div class='form-check'>
+        <div className='form-check'>
             <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
-            <label className='form-check-label' for='flexCheckDefault'>
+            <label className='form-check-label' htmlFor='flexCheckDefault'>
             Ghostwriting--I want to hire a professional to write or rewrite my book
             </label>
         </div>
@@ -141,7 +141,7 @@ const Contact = () => {
     <Col  md={3}>
         <div className='form-check'>
             <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
-            <label className='form-check-label' for='flexCheckDefault'>
+            <label className='form-check-label' htmlFor='flexCheckDefault'>
             Editing--I have written a manuscript and would like a professional to review and/or edit it
             </label>
         </div>
@@ -150,7 +150,7 @@ const Contact = () => {
     <Col  md={3}>
         <div className='form-check'>
             <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
-            <label className='form-check-label' for='flexCheckDefault'>
+            <label className='form-check-label' htmlFor='flexCheckDefault'>
             Book Coaching--I want to write my book on my own, but with the help of a professional to guide me
             </label>
         </div>
@@ -158,7 +158,7 @@ const Contact = () => {
     <Col  md={3}>
         <div className='form-check'>
             <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
-            <label className='form-check-label' for='flexCheckDefault'>
+            <label className='form-check-label' htmlFor='flexCheckDefault'>
             Cultural Accuracy Reading--I would like a professional to review my manuscript and ensure it isn’t offensive, inaccurate, or perpetuating harmful stereotypes
             </label>
         </div>
@@ -170,7 +170,7 @@ const Contact = () => {
     <Col  md={3}>
         <div className='form-check'>
             <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
-            <label className='form-check-label' for='flexCheckDefault'>
+            <label className='form-check-label' htmlFor='flexCheckDefault'>
             Book Proposal
             </label>
         </div>
@@ -178,7 +178,7 @@ const Contact = () => {
     <Col  md={3}>
         <div className='form-check'>
             <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
-            <label className='form-check-label' for='flexCheckDefault'>
+            <label className='form-check-label' htmlFor='flexCheckDefault'>
             Beta Reader Services
             </label>
         </div>
@@ -187,7 +187,7 @@ const Contact = () => {
     <Col  md={3}>
         <div className='form-check'>
             <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
-            <label className='form-check-label' for='flexCheckDefault'>
+            <label className='form-check-label' htmlFor='flexCheckDefault'>
             Other
             </label>
         </div>
@@ -203,34 +203,34 @@ const Contact = () => {
 
 <Row className='gy-3'>
     <Col  md={3}>
-        <div class='form-check'>
-            <input class='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
-            <label class='form-check-label' for='flexCheckDefault'>
+        <div className='form-check'>
+            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <label className='form-check-label' htmlFor='flexCheckDefault'>
             Business
             </label>
         </div>
     </Col>
     <Col  md={3}>
-        <div class='form-check'>
-            <input class='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
-            <label class='form-check-label' for='flexCheckDefault'>
+        <div className='form-check'>
+            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <label className='form-check-label' htmlFor='flexCheckDefault'>
             Memoir/Biography
             </label>
         </div>
     </Col>
 
     <Col  md={3}>
-        <div class='form-check'>
-            <input class='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
-            <label class='form-check-label' for='flexCheckDefault'>
+        <div className='form-check'>
+            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <label className='form-check-label' htmlFor='flexCheckDefault'>
             Health
             </label>
         </div>
     </Col>
     <Col  md={3}>
-    <div class='form-check'>
-            <input class='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
-            <label class='form-check-label' for='flexCheckDefault'>
+    <div className='form-check'>
+            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <label className='form-check-label' htmlFor='flexCheckDefault'>
             Self-Help/Personal Development
             </label>
         </div>
@@ -240,34 +240,34 @@ const Contact = () => {
 
 <Row className='gy-3'>
     <Col md={3}>
-        <div class='form-check'>
-            <input class='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
-            <label class='form-check-label' for='flexCheckDefault'>
+        <div className='form-check'>
+            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <label className='form-check-label' htmlFor='flexCheckDefault'>
                 Fiction
             </label>
         </div>
     </Col>
     <Col md={3}>
-        <div class='form-check'>
-            <input class='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
-            <label class='form-check-label' for='flexCheckDefault'>
+        <div className='form-check'>
+            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <label className='form-check-label' htmlFor='flexCheckDefault'>
                 General Nonfiction
             </label>
         </div>
     </Col>
 
     <Col md={3}>
-        <div class='form-check'>
-            <input class='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
-            <label class='form-check-label' for='flexCheckDefault'>
+        <div className='form-check'>
+            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <label className='form-check-label' htmlFor='flexCheckDefault'>
                 Children’s
             </label>
         </div>
     </Col>
     <Col md={3}>
-    <div class='form-check'>
-            <input class='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
-            <label class='form-check-label' for='flexCheckDefault'>
+    <div className='form-check'>
+            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <label className='form-check-label' htmlFor='flexCheckDefault'>
                 Others
             </label>
         </div>

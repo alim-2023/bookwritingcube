@@ -11,11 +11,11 @@ const Ourcaptivatingauthor = (props) => {
             <Container>
                 <Row>
                     <Col md={12}>
-                    <h2 class="fw900 font48 color-blue font-f t-center">
+                    <h2 className="fw900 font48 color-blue font-f t-center">
                {props.title}
             </h2>
 
-            <h4 class="font18 fw500 font-f t-center">
+            <h4 className="font18 fw500 font-f t-center">
                {props.text}
             </h4>
                     </Col>

@@ -38,7 +38,7 @@ const Header = () => {
         <Navbar expand="lg">
           <Container>
             
-          <Link  href="/">    <Image src={logo} alt='logo'  ></Image> </Link>
+          <Link  href="/">    <Image src={logo} priority alt='logo'  ></Image> </Link>
         
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className={styles.navalign}>

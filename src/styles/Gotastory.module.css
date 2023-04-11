@@ -11,3 +11,13 @@
     margin-right: auto;
     display: flex;
 }
+
+@media (max-width:480px)  { 
+
+
+    .bgVideo{
+        width: 100%;
+    }
+    
+
+}

@@ -110,6 +110,15 @@
   }
 
   @media (max-width:480px)  {
+    
+
+    .label2 label {
+        font-size: 18px;
+    }
+
+    .numpost {
+        font-size: 17px;
+    }
 
     .general{
        

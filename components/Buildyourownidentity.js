@@ -13,7 +13,7 @@ const Buildyourownidentity = () => {
 <Container>
     <Row className='mb-3'>
         <Col> 
-        <h2 class="fw900 font48 color-blue font-f mb-2 t-center">Build Your Own Identity</h2>
+        <h2 className="fw900 font48 color-blue font-f mb-2 t-center">Build Your Own Identity</h2>
         <p className='font15 fw500 font-f t-center'>Marketing requires tactics and subtlety – it isn’t everyone’s cup of tea. There is a bit of creative effort and pitching that is needed. Marketing is a multifaceted job that cannot be done as a standalone task; developing an idea, a strategy for social media campaigns to create hype and launch with influencers are part and parcel of it. Public figures and influencers are great tools for marketing campaigns prior to brand launch. It increases your reach and potential customers, unlike any other form of marketing! Marketing also brings in bigger returns!</p>
         </Col>
     </Row>

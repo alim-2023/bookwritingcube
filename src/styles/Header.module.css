@@ -281,6 +281,16 @@ text-align: center;
 }
 
 @media (max-width:480px)  {
+    .border {
+        border-right: unset;
+    }
+
+    .menulinks{
+        font-size: 18px;
+    }
+    .megamenu ul li a {
+        font-size: 16px;
+    }
 
 .align_menu {
  

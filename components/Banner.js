@@ -4,13 +4,12 @@ import { Container, Row , Col } from 'react-bootstrap'
 import Link from 'next/link'
 import Image from 'next/image'
 import Slider from 'react-slick'
-import Modal from 'react-bootstrap/Modal';
+import Modal from 'react-bootstrap/Modal'
 import  { useState } from 'react';
 import { BsFillPlayFill } from 'react-icons/bs'
 import Button from 'react-bootstrap'
 
 // images
-
 import banslider1 from '../public/images/bannerimages/banslider1.png'
 import banslider2 from '../public/images/bannerimages/banslider2.png'
 import banslider3 from '../public/images/bannerimages/banslider3.png'
@@ -72,7 +71,6 @@ const Banner = (props) => {
 
 
   const [show, setShow] = useState(false);
-
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 

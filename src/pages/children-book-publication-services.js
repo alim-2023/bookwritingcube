@@ -182,7 +182,7 @@ image={yourhowwhat}
 <Row >
 <h2 className='font48 fw900 color-white t-center font-f mb-3'>Enticement, exposure, and expansion—acing the toughest gig!</h2>  
 
-<p class="font15 fw500 font-f t-center color-white  mb-5">Know this: not many authors secure any deal with the publishers.
+<p className="font15 fw500 font-f t-center color-white  mb-5">Know this: not many authors secure any deal with the publishers.
                         But at Book Writing Cube, we help you connect and collaborate with high-profile publishers and
                         Children's Book Publishing experts.
                     </p>
