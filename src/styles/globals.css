@@ -239,6 +239,12 @@ body{ font-family: 'Inter'; }
   border-color: transparent;
   opacity: 1;
   margin-top: 112%;
+  
+
+}
+.blogslide .slick-dots {
+  right: 0;
+  left: 0;
 
 }
 
