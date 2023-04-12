@@ -2,10 +2,14 @@ import React from 'react'
 import styles from '@/styles/Freequote.module.css'
 import Link from 'next/link'
 
+import axios from "axios"; 
+import { useState } from "react";
+
+
 const Freequote = (props) => {
 
 
-
+  const [score, setScore] = useState('SUBMIT');
 
     const handleSubmit = async (event) => {
       
@@ -23,29 +27,26 @@ const Freequote = (props) => {
 
         const JSONdata = JSON.stringify(data)
 
-        alert(JSONdata);
+        setScore('Wating For Send Data');
+
+        try {
+            // make axios post request
+            const response = await axios({
+              method: "post",
+              url: "https://httpbin.org/post",
+              data: JSONdata,
+            });
+           
+            setScore('Thank You');
+            window.location = "/thank-you"
+  
+          } 
+          catch(error) {
+            console.log(error)
+          }
+
     
 
-        // const endpoint = '/api/form'
-    
-  
-        // const options = {
-        
-        //   method: 'POST',
-  
-        //   headers: {
-        //     'Content-Type': 'application/json',
-        //   },
-  
-        //   body: JSONdata,
-        // }
-    
-    
-        // const response = await fetch(endpoint, options)
-    
-
-        // const result = await response.json()
-        // alert(`Is this your full name: ${result.data}`)
     
 
  }
@@ -60,17 +61,17 @@ const Freequote = (props) => {
 
                     <form className={styles.formalign}  onSubmit={handleSubmit}>
                         <label className={styles.label}>Full Name*</label>
-                        <input type="text" className={styles.formfree}  name="first" placeholder="Your name..." />
+                        <input type="text" className={styles.formfree} required  name="first" placeholder="Your name..." />
 
                         <label className={styles.label}>Email Address*</label>
-                        <input type="text" className={styles.formfree} name="last" placeholder="Type Email Address" />
+                        <input type="text" className={styles.formfree} required name="last" placeholder="Type Email Address" />
 
                         <label className={styles.label}>Phone *</label>
-                        <input type="tel" className={styles.formfree} name="phone" placeholder="123-456-7890" /> 
+                        <input type="tel" className={styles.formfree} required name="phone" placeholder="123-456-7890" /> 
 
                         <label className={styles.label}>Message *</label>
-                        <textarea className={styles.formfree} name="message"  rows="2" placeholder="Type Your Message Here"></textarea>
-                        <button className={styles.freebtn} type="submit">Submit</button>
+                        <textarea className={styles.formfree} required name="message"  rows="2" placeholder="Type Your Message Here"></textarea>
+                        <button className={styles.freebtn} type="submit">{score} </button>
                     </form>
 
                     

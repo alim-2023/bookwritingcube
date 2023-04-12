@@ -4,7 +4,12 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 import Head from 'next/head'
 
+import axios from "axios"; 
+import { useState } from "react";
+
 const Contact = () => {
+
+    const [score, setScore] = useState('Submit Form');
 
     const handleSubmit = async (event) => {
       
@@ -40,29 +45,23 @@ const Contact = () => {
 
         const JSONdata = JSON.stringify(data)
 
-        alert(JSONdata);
-    
+        setScore('Wating For Send Data');
 
-        // const endpoint = '/api/form'
-    
+        try {
+            // make axios post request
+            const response = await axios({
+              method: "post",
+              url: "https://httpbin.org/post",
+              data: JSONdata,
+            });
+           
+            setScore('Thank You');
+            window.location = "/thank-you"
   
-        // const options = {
-        
-        //   method: 'POST',
-  
-        //   headers: {
-        //     'Content-Type': 'application/json',
-        //   },
-  
-        //   body: JSONdata,
-        // }
-    
-    
-        // const response = await fetch(endpoint, options)
-    
-
-        // const result = await response.json()
-        // alert(`Is this your full name: ${result.data}`)
+          } 
+          catch(error) {
+            console.log(error)
+          }
     
 
  }
@@ -353,7 +352,7 @@ const Contact = () => {
     
     </Col>
 
-                        <button className={styles.submitform} type='submit'>Submit Form</button>
+                        <button className={styles.submitform} type='submit'>{score}</button>
 
                     </form>
 

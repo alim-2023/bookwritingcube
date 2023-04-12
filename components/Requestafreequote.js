@@ -5,7 +5,8 @@ import { Container ,Row, Col } from 'react-bootstrap'
 import { Form } from 'react-bootstrap'
 import Button from 'react-bootstrap/Button';
 import Link from 'next/link'
-
+import axios from "axios"; 
+import { useState } from "react";
 // footer icons
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
@@ -13,10 +14,14 @@ import { MdEmail } from 'react-icons/md';
 
 const Requestafreequote = () => {
 
+   
+    const [score, setScore] = useState('Get a Quote');
+
     const handleSubmit = async (event) => {
       
         event.preventDefault()
-    
+
+      
         
         const data = {
           first: event.target.first.value,
@@ -27,29 +32,29 @@ const Requestafreequote = () => {
 
         const JSONdata = JSON.stringify(data)
 
-        alert(JSONdata);
-    
+      
 
-        // const endpoint = '/api/form'
-    
-  
-        // const options = {
-        
-        //   method: 'POST',
-  
-        //   headers: {
-        //     'Content-Type': 'application/json',
-        //   },
-  
-        //   body: JSONdata,
-        // }
-    
-    
-        // const response = await fetch(endpoint, options)
-    
+     
+        setScore('Wating For Send Data');
 
-        // const result = await response.json()
-        // alert(`Is this your full name: ${result.data}`)
+        try {
+            // make axios post request
+            const response = await axios({
+              method: "post",
+              url: "https://httpbin.org/post",
+              data: JSONdata,
+            });
+           
+            setScore('Thank You');
+            window.location = "/thank-you"
+  
+          } 
+          catch(error) {
+            console.log(error)
+          }
+
+      
+       
     
 
  }
@@ -64,11 +69,11 @@ const Requestafreequote = () => {
 
         <form className={styles.formalign} onSubmit={handleSubmit}>
                 <Row>
-                    <Col md={4}> <input type="text" className={styles.formfree}  name="first" placeholder='Name' /></Col>
-                    <Col md={4}>  <input type="text" className={styles.formfree} name="last" placeholder='Email' /></Col>
-                    <Col md={4}>   <input type="tel" className={styles.formfree} name="phone" placeholder='Phone' /> </Col>
+                    <Col md={4}> <input type="text" className={styles.formfree} required  name="first" placeholder='Name' /></Col>
+                    <Col md={4}>  <input type="text" className={styles.formfree} required name="last" placeholder='Email' /></Col>
+                    <Col md={4}>   <input type="tel" className={styles.formfree} required name="phone" placeholder='Phone' /> </Col>
                 </Row>
-                <button className={styles.freebtn} type="submit">Get a Quote</button>
+                <button className={styles.freebtn} type="submit"> {score}  </button>
         </form>
 
         <Row className={styles.leftemail}>
