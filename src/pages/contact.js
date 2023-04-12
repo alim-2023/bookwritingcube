@@ -176,13 +176,13 @@ const Contact = () => {
                     <form className={styles.label2} onSubmit={handleSubmit}>
 
                         <Row className='gy-3'>
-                            <Col md={6}><input className={styles.inputfilet} id='name' type='text'  name='first' placeholder='Name'  /></Col>             
-                            <Col md={6}><input className={styles.inputfilet} id='email'  type='text' name='last' placeholder='Email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"   /></Col> 
+                            <Col md={6}><input className={styles.inputfilet} required id='name' type='text'  name='first' placeholder='Name'  /></Col>             
+                            <Col md={6}><input className={styles.inputfilet} required  id='email'  type='text' name='last' placeholder='Email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"   /></Col> 
                         </Row>
 
                         <Row className='mt-3 mb-3 gy-3'>
-                            <Col md={6}> <input className={styles.inputfilet} id='phone'  type='tel' name='phone' placeholder='Phone'   /> </Col>  
-                            <Col md={6}> <input className={styles.inputfilet} id='tel'  type='tel' name='zip' placeholder='Location/Zip Code'   /></Col>  
+                            <Col md={6}> <input className={styles.inputfilet} required id='phone'  type='number' name='phone' placeholder='Phone'   /> </Col>  
+                            <Col md={6}> <input className={styles.inputfilet} required id='tel'  type='number' name='zip' placeholder='Location/Zip Code'   /></Col>  
                         </Row>
 
 

@@ -70,8 +70,8 @@ const Requestafreequote = () => {
         <form className={styles.formalign} onSubmit={handleSubmit}>
                 <Row>
                     <Col md={4}> <input type="text" className={styles.formfree} required  name="first" placeholder='Name' /></Col>
-                    <Col md={4}>  <input type="text" className={styles.formfree} required name="last" placeholder='Email' /></Col>
-                    <Col md={4}>   <input type="tel" className={styles.formfree} required name="phone" placeholder='Phone' /> </Col>
+                    <Col md={4}>  <input type="text" className={styles.formfree} required name="last" placeholder='Email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" /></Col>
+                    <Col md={4}>   <input type="number" className={styles.formfree} required name="phone" placeholder='Phone' pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" /> </Col>
                 </Row>
                 <button className={styles.freebtn} type="submit"> {score}  </button>
         </form>
