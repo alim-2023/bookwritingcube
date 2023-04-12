@@ -11,3 +11,16 @@
 .whychooseimge{
     text-align: center;
 }
+
+
+@media (max-width:480px)  { 
+
+    .choosebook{
+        padding-top: 30px;
+       padding-bottom: 50px;
+    }
+    .choosebook p {
+        padding-bottom: 30px;
+    }
+
+}

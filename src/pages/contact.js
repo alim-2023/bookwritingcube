@@ -5,6 +5,69 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 const Contact = () => {
+
+    const handleSubmit = async (event) => {
+      
+        event.preventDefault()
+
+
+        // const name = document.querySelector('#name').value
+        // const email = document.querySelector('#email').value
+       
+
+        // if (!name) {
+        //   alert('Please Enter Your Name.')
+        //   return false
+        // }
+        // if (!email) {
+        //   alert('Please Enter Your Email.')
+        //   return false
+        // }
+    
+      
+        const data = {
+          first: event.target.first.value,
+          email: event.target.last.value,
+          phone: event.target.phone.value,
+          zip: event.target.zip.value,
+
+         
+
+          checknow: event.target.checknow.value,
+          message: event.target.message.value,
+        }
+    
+
+        const JSONdata = JSON.stringify(data)
+
+        alert(JSONdata);
+    
+
+        // const endpoint = '/api/form'
+    
+  
+        // const options = {
+        
+        //   method: 'POST',
+  
+        //   headers: {
+        //     'Content-Type': 'application/json',
+        //   },
+  
+        //   body: JSONdata,
+        // }
+    
+    
+        // const response = await fetch(endpoint, options)
+    
+
+        // const result = await response.json()
+        // alert(`Is this your full name: ${result.data}`)
+    
+
+ }
+
+
   return (
     <>
 
@@ -111,16 +174,16 @@ const Contact = () => {
 
 
 
-                    <form className={styles.label2}>
+                    <form className={styles.label2} onSubmit={handleSubmit}>
 
                         <Row className='gy-3'>
-                            <Col md={6}><input className={styles.inputfilet} type='text'  name='first' placeholder='Name' /></Col>             
-                            <Col md={6}><input className={styles.inputfilet} type='text' name='last' placeholder='Email' /></Col> 
+                            <Col md={6}><input className={styles.inputfilet} id='name' type='text'  name='first' placeholder='Name'  /></Col>             
+                            <Col md={6}><input className={styles.inputfilet} id='email'  type='text' name='last' placeholder='Email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"   /></Col> 
                         </Row>
 
                         <Row className='mt-3 mb-3 gy-3'>
-                            <Col md={6}> <input className={styles.inputfilet} type='tel' name='last' placeholder='Phone' /> </Col>  
-                            <Col md={6}> <input className={styles.inputfilet} type='tel' name='zip' placeholder='Location/Zip Code' /></Col>  
+                            <Col md={6}> <input className={styles.inputfilet} id='phone'  type='tel' name='phone' placeholder='Phone'   /> </Col>  
+                            <Col md={6}> <input className={styles.inputfilet} id='tel'  type='tel' name='zip' placeholder='Location/Zip Code'   /></Col>  
                         </Row>
 
 
@@ -132,7 +195,7 @@ const Contact = () => {
 <Row className='gy-3'>
     <Col md={3}>
         <div className='form-check'>
-            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <input className='form-check-input' type='checkbox' name='checknow' value='Ghostwriting--I want to hire a professional to write or rewrite my book' id='flexCheckDefault' />
             <label className='form-check-label' htmlFor='flexCheckDefault'>
             Ghostwriting--I want to hire a professional to write or rewrite my book
             </label>
@@ -140,7 +203,7 @@ const Contact = () => {
     </Col>
     <Col  md={3}>
         <div className='form-check'>
-            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <input className='form-check-input' type='checkbox' name='checknow' value='Editing--I have written a manuscript and would like a professional to review and/or edit it' id='flexCheckDefault' />
             <label className='form-check-label' htmlFor='flexCheckDefault'>
             Editing--I have written a manuscript and would like a professional to review and/or edit it
             </label>
@@ -149,7 +212,7 @@ const Contact = () => {
 
     <Col  md={3}>
         <div className='form-check'>
-            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <input className='form-check-input' type='checkbox' name='checknow' value='Book Coaching--I want to write my book on my own, but with the help of a professional to guide me' id='flexCheckDefault' />
             <label className='form-check-label' htmlFor='flexCheckDefault'>
             Book Coaching--I want to write my book on my own, but with the help of a professional to guide me
             </label>
@@ -157,7 +220,7 @@ const Contact = () => {
     </Col>
     <Col  md={3}>
         <div className='form-check'>
-            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <input className='form-check-input' type='checkbox' name='checknow' value='Cultural Accuracy Reading--I would like a professional to review my manuscript and ensure it isn’t offensive, inaccurate, or perpetuating harmful stereotypes' id='flexCheckDefault' />
             <label className='form-check-label' htmlFor='flexCheckDefault'>
             Cultural Accuracy Reading--I would like a professional to review my manuscript and ensure it isn’t offensive, inaccurate, or perpetuating harmful stereotypes
             </label>
@@ -169,7 +232,7 @@ const Contact = () => {
 <Row className='gy-3'>
     <Col  md={3}>
         <div className='form-check'>
-            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <input className='form-check-input' type='checkbox' name='checknow' value='Book Proposal' id='flexCheckDefault' />
             <label className='form-check-label' htmlFor='flexCheckDefault'>
             Book Proposal
             </label>
@@ -177,7 +240,7 @@ const Contact = () => {
     </Col>
     <Col  md={3}>
         <div className='form-check'>
-            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <input className='form-check-input' type='checkbox' name='checknow' value='Beta Reader Services' id='flexCheckDefault' />
             <label className='form-check-label' htmlFor='flexCheckDefault'>
             Beta Reader Services
             </label>
@@ -186,7 +249,7 @@ const Contact = () => {
 
     <Col  md={3}>
         <div className='form-check'>
-            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <input className='form-check-input' type='checkbox' name='checknow' value='Other' id='flexCheckDefault' />
             <label className='form-check-label' htmlFor='flexCheckDefault'>
             Other
             </label>
@@ -204,7 +267,7 @@ const Contact = () => {
 <Row className='gy-3'>
     <Col  md={3}>
         <div className='form-check'>
-            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <input className='form-check-input' type='checkbox' name='checknow' value='Business' id='flexCheckDefault' />
             <label className='form-check-label' htmlFor='flexCheckDefault'>
             Business
             </label>
@@ -212,7 +275,7 @@ const Contact = () => {
     </Col>
     <Col  md={3}>
         <div className='form-check'>
-            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <input className='form-check-input' type='checkbox' name='checknow' value='Memoir/Biography' id='flexCheckDefault' />
             <label className='form-check-label' htmlFor='flexCheckDefault'>
             Memoir/Biography
             </label>
@@ -221,7 +284,7 @@ const Contact = () => {
 
     <Col  md={3}>
         <div className='form-check'>
-            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <input className='form-check-input' type='checkbox' name='checknow' value='Health' id='flexCheckDefault' />
             <label className='form-check-label' htmlFor='flexCheckDefault'>
             Health
             </label>
@@ -229,7 +292,7 @@ const Contact = () => {
     </Col>
     <Col  md={3}>
     <div className='form-check'>
-            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <input className='form-check-input' type='checkbox' name='checknow' value='Self-Help/Personal Development' id='flexCheckDefault' />
             <label className='form-check-label' htmlFor='flexCheckDefault'>
             Self-Help/Personal Development
             </label>
@@ -241,7 +304,7 @@ const Contact = () => {
 <Row className='gy-3'>
     <Col md={3}>
         <div className='form-check'>
-            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <input className='form-check-input' type='checkbox' name='checknow' value='Fiction' id='flexCheckDefault' />
             <label className='form-check-label' htmlFor='flexCheckDefault'>
                 Fiction
             </label>
@@ -249,7 +312,7 @@ const Contact = () => {
     </Col>
     <Col md={3}>
         <div className='form-check'>
-            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <input className='form-check-input' type='checkbox' name='checknow' value='General Nonfiction' id='flexCheckDefault' />
             <label className='form-check-label' htmlFor='flexCheckDefault'>
                 General Nonfiction
             </label>
@@ -258,7 +321,7 @@ const Contact = () => {
 
     <Col md={3}>
         <div className='form-check'>
-            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <input className='form-check-input' type='checkbox' name='checknow' value='Children’s' id='flexCheckDefault' />
             <label className='form-check-label' htmlFor='flexCheckDefault'>
                 Children’s
             </label>
@@ -266,7 +329,7 @@ const Contact = () => {
     </Col>
     <Col md={3}>
     <div className='form-check'>
-            <input className='form-check-input' type='checkbox' value='' id='flexCheckDefault' />
+            <input className='form-check-input' type='checkbox' name='checknow' value='Others' id='flexCheckDefault' />
             <label className='form-check-label' htmlFor='flexCheckDefault'>
                 Others
             </label>

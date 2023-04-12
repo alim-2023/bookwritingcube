@@ -12,6 +12,48 @@ import { MdEmail } from 'react-icons/md';
 
 
 const Requestafreequote = () => {
+
+    const handleSubmit = async (event) => {
+      
+        event.preventDefault()
+    
+        
+        const data = {
+          first: event.target.first.value,
+          email: event.target.last.value,
+          phone: event.target.phone.value,
+        }
+    
+
+        const JSONdata = JSON.stringify(data)
+
+        alert(JSONdata);
+    
+
+        // const endpoint = '/api/form'
+    
+  
+        // const options = {
+        
+        //   method: 'POST',
+  
+        //   headers: {
+        //     'Content-Type': 'application/json',
+        //   },
+  
+        //   body: JSONdata,
+        // }
+    
+    
+        // const response = await fetch(endpoint, options)
+    
+
+        // const result = await response.json()
+        // alert(`Is this your full name: ${result.data}`)
+    
+
+ }
+
   return (
    <>
     <div className={styles.freequote}>
@@ -20,11 +62,11 @@ const Requestafreequote = () => {
 
         <h2 className="fw900 font48 color-blue font-f t-center">Request A Free Quote</h2>
 
-        <form className={styles.formalign}>
+        <form className={styles.formalign} onSubmit={handleSubmit}>
                 <Row>
                     <Col md={4}> <input type="text" className={styles.formfree}  name="first" placeholder='Name' /></Col>
                     <Col md={4}>  <input type="text" className={styles.formfree} name="last" placeholder='Email' /></Col>
-                    <Col md={4}>   <input type="tel" className={styles.formfree} name="last" placeholder='Phone' /> </Col>
+                    <Col md={4}>   <input type="tel" className={styles.formfree} name="phone" placeholder='Phone' /> </Col>
                 </Row>
                 <button className={styles.freebtn} type="submit">Get a Quote</button>
         </form>
